@@ -8,73 +8,62 @@
       
         
         
-          Gran Duca
           Cosimo I de' Medici
-            Grand Duke of Tuscany
-          
+          Gran Duca
+          Grand Duke of Tuscany
           59259382
         
         
           Caterina de' Medici
           Reina
-            Queen Mother of France
-          
+          Queen Mother of France
           4936327
         
         
           Ferdinando de' Medici
-            Grand Duke of Tuscany
-          
+          Grand Duke of Tuscany
           100212180
         
 
         
         
-          Don Alfonso da Este
-            Duke of Ferrara
-          
+          Alfonso d'Este
+          Duke of Ferrara
         
         
-          Cardinal da Este
-            Cardinal
-          
+          Cardinal d'Este
+          Cardinal
         
 
         
         
-          Savoia
-          Emanuele Filiberto
-            Duke of Savoy
-          
+          Emanuele Filiberto di Savoia
+          Duke of Savoy
           100170223
         
         
-          di Susa
           Honorat de Savoie
-            Marquis of Susa
-          
+          di Susa
+          Marquis of Susa
         
 
         
         
-          Re
           Charles IX
-            King of France
-          
+          Re
+          King of France
           59215242
         
         
           Henri III
-            King of France
-          
+          King of France
           7398374
         
 
         
         
           Henri de Bourbon
-            King of Navarre
-          
+          King of Navarre
           Future Henri IV of France
           266965539
         
@@ -83,20 +72,17 @@
         
           Charles de Lorraine
           Lorena
-            Cardinal of Lorraine
-          
+          Cardinal of Lorraine
         
         
           Charles de Lorraine
-          D. d'Aumalla
-            Duke of Aumale
-          
+          D. d'Aumale
+          Duke of Aumale
           120178357
         
         
           Christine de Lorraine
-            Princess of Lorraine
-          
+          Princess of Lorraine
           4230910
         
 
@@ -109,18 +95,18 @@
         
         
           Gaspard de Coligny
-            Admiral of France
-          
+          Admiral of France
           79105346
         
         
-          Alfonso corso
+          Alfonso Corso
           Military commander
         
 
         
         
           Bartolomeo Concini
+          Bartolomeo Concino
           First Secretary of Cosimo I de' Medici
         
         
@@ -128,8 +114,8 @@
           Medici Secretary
         
         
-          Alamanni
           Vincenzo Alamanni
+          Alamanni
           Diplomat and intermediary
         
 
@@ -146,106 +132,95 @@
         
         
           Jean-Louis de Nogaret de La Valette
-            Duke of Épernon
-          
+          Duke of Épernon
           51679355
         
         
           Elizabeth Tudor
-            Queen of England
-          
+          Queen of England
           73876780
         
         
           Juan de Austria
-            Don Juan de Austria
-          
+          Don Juan de Austria
           96139668
         
 
         
         
           Friedrich III von der Pfalz
-            Elector Palatine
-          
+          Elector Palatine
           47559178
         
         
           Johann Casimir von der Pfalz
           Duca di Duponte
-            Count Palatine
-          
+          Count Palatine
           52484350
         
         
-          Duca di sassonia Agos
           August von Sachsen
-            Elector of Saxony
-          
+          Duca di Sassonia Agost
+          Elector of Saxony
           37714053
         
         
-          Guglielmo duca di saxonia
           Wilhelm von Sachsen
-            Duke of Saxony
-          
+          Guglielmo duca di Sassonia
+          Duke of Saxony
         
 
         
         
-          Guisa
           Henri de Guise
-            Duke of Guise
-          
+          Guisa
+          Duca di Ghisa
+          Duke of Guise
           34454133
         
         
-          Mamoransi
-          Montmoransy
           François de Montmorency
-            Marshal of France
-          
+          Montmoransy
+          Mamoransi
+          Marshal of France
           67259075
         
         
           Anne de Joyeuse
           Gioiosa
-            Duke of Joyeuse
-          
+          Duke of Joyeuse
           45097317
         
         
           Jacques de Savoie
-            Duke of Nemours
-          
-          67259117
+          Duke of Nemours
         
         
           Honorat de Savoie
-            Count of Tende
-          
+          Count of Tende
         
         
-          Nevers
           Luigi Gonzaga
-            Duke of Nevers
-          
+          Nevers
+          Duke of Nevers
           66529198
+        
+
+        
+          Guglielmo Gonzaga
+          Duke of Mantua
         
 
         
         
           Willem van Oranje
           Principe di Orange
-            Prince of Orange
-          
+          Prince of Orange
           49260512
         
         
           Ludwig von Nassau
-            Count of Nassau
-          
-          67259117
+          Count of Nassau
         
         
           Pomponne de Bellièvre
@@ -255,24 +230,21 @@
 
         
         
-          Monsig.
           Antonio Maria Salviati
-            Papal Nuncio
-          
+          Monsig. Salviati
+          Papal Nuncio
         
         
-          Pontefice
           Gregory XIII
-            Pope
-          
+          Pontefice
+          Pope
           316407579
         
 
         
         
           Petrucci
-            Commendatore
-          
+          Commendatore
           Associated with Order of Santo Stefano investitures
         
         
@@ -284,7 +256,7 @@
           Secretary
         
         
-          Mons.re d'Ossonville
+          Monsignore d'Ossonville
           French noble
         
         
@@ -293,6 +265,10 @@
         
         
           Traiano
+          Further identification needed
+        
+        
+          crotto
           Further identification needed
         
       
