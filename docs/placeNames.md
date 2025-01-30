@@ -1,3 +1,10 @@
+---
+title: "Centralized Place Authority File"
+author: ""
+date: 
+place: ""
+original_lang: Italian
+---
 
 
 
