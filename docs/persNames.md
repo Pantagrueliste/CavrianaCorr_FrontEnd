@@ -6,6 +6,7 @@
 
     
       
+
         
         
           Cosimo I de' Medici
@@ -205,7 +206,6 @@
           Duke of Nevers
           66529198
         
-
         
           Guglielmo Gonzaga
           Duke of Mantua
@@ -271,6 +271,7 @@
           crotto
           Further identification needed
         
+
       
     
   
