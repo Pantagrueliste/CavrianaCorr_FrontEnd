@@ -35,7 +35,7 @@ const config = {
           // Points to the folder containing your .md files
           path: 'docs',
           // If you want the docs at the root URL, set routeBasePath to '/'
-          routeBasePath: '/',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
         },
