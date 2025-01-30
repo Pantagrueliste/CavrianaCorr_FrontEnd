@@ -95,6 +95,14 @@
           Physician and diplomat
         
         
+          Honoré Castellan
+          Premier médecin to Catherine de' Medici
+        
+
+
+        
+
+        
           Gaspard de Coligny
           Admiral of France
           79105346
