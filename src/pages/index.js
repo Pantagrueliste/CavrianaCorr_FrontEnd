@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { Timeline } from 'lucide-react';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -12,7 +11,6 @@ export default function Home() {
       title={siteConfig.title}
       description="Digital edition of Filippo Cavriana's correspondence from the State Archives of Florence, Mantua, and the BnF">
       
-      {/* Hero Section */}
       <header className="bg-emerald-100 py-16">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
@@ -38,11 +36,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="py-16">
         <div className="container mx-auto px-6">
-          
-          {/* Project Overview */}
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="text-2xl font-bold mb-6 text-gray-900">Project Overview</h2>
             <p className="text-gray-700 mb-4">
@@ -50,7 +45,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="font-bold mb-2">Complete Edition</h3>
@@ -66,12 +60,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Timeline Section */}
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 mb-4">
-              <Timeline className="w-5 h-5 text-emerald-700" />
-              <h2 className="text-2xl font-bold text-gray-900">Project Timeline</h2>
-            </div>
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Project Timeline</h2>
             <p className="text-gray-600 mb-8">
               Development and content publication spanning from late 2024 through early 2026
             </p>
@@ -81,11 +71,9 @@ export default function Home() {
               View Release Schedule →
             </Link>
           </div>
-
         </div>
       </main>
 
-      {/* Citation Section */}
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
