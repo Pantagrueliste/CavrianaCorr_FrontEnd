@@ -28,7 +28,7 @@ export default function Home() {
               </Link>
               <Link
                 className="bg-gray-700 text-white px-6 py-3 rounded-md hover:bg-gray-800 font-medium"
-                to="/docs/about">
+                to="/docs/intro">
                 About the Project
               </Link>
             </div>
@@ -58,18 +58,6 @@ export default function Home() {
               <h3 className="font-bold mb-2">Open Access</h3>
               <p className="text-gray-600">Licensed under Creative Commons BY 4.0 for research and teaching</p>
             </div>
-          </div>
-
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Project Timeline</h2>
-            <p className="text-gray-600 mb-8">
-              Development and content publication spanning from late 2024 through early 2026
-            </p>
-            <Link
-              className="text-emerald-700 hover:text-emerald-800 font-medium"
-              to="/docs/about#release-schedule">
-              View Release Schedule →
-            </Link>
           </div>
         </div>
       </main>
