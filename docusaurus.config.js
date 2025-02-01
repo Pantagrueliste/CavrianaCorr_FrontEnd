@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Filippo Cavriana: The Secret Correspondence',
-  tagline: 'A digital edition of manuscript letters found in the archives of Florence, Mantua, and the BnF',
+  tagline: 'A digital edition of manuscript letters found in the archives of Florence, Mantua, and the Bibliothèque nationale de France',
   favicon: 'img/favicon.ico',
   url: 'https://pantagrueliste.github.io',
   baseUrl: '/CavrianaCorr_FrontEnd/',
