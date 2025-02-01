@@ -80,7 +80,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Filippo Cavriana: The Secret Correspondence.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Clément Godbarge.`,
     },
     prism: {
       theme: prismThemes.github,
