@@ -1,43 +1,33 @@
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-image: url('/img/banner.webp');
-  background-size: cover;
-  background-position: center;
-  min-height: 60vh;
+/* Add these rules to your existing custom.css */
+
+.hero__title {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.heroContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 60vh;
-  background-color: rgba(0, 0, 0, 0.6);
+.hero__subtitle {
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.heroText {
-  padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
-  margin: 0 1rem;
-  max-width: 800px;
+.button.button--primary {
+  background-color: #059669;
+  border: none;
+  color: white;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+.button.button--primary:hover {
+  background-color: #047857;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-  
-  .buttons {
-    flex-direction: column;
-  }
+.button.button--secondary {
+  background-color: #374151;
+  border: none;
+  color: white;
+}
+
+.button.button--secondary:hover {
+  background-color: #1f2937;
 }
