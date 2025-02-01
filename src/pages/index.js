@@ -18,7 +18,7 @@ export default function Home() {
         className="relative bg-cover bg-center bg-no-repeat py-16 flex items-center"
         style={{
           backgroundImage: `url(${bannerUrl})`,
-          minHeight: '50vh',
+          minHeight: '35vh',
         }}
       >
         {/* Dark overlay for readability */}
