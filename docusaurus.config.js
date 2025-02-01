@@ -40,7 +40,7 @@ const config = {
     navbar: {
       title: 'Filippo Cavriana: The Secret Correspondence',
       items: [
-        {to: '/docs/intro', label: 'Browse the Letters', position: 'left'},
+        {to: '/docs/intro', label: 'Letters', position: 'left'},
         {to: '/docs/intro', label: 'About', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
