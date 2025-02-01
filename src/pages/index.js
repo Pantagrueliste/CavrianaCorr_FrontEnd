@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
       <header
         className="relative bg-cover bg-center bg-no-repeat py-16 flex items-center"
         style={{
-          backgroundImage: "url(${useBaseUrl('img/banner.webp')})",
-          minHeight: '50vh'
+          backgroundImage: `url(${useBaseUrl('img/banner.webp')})`,
+          minHeight: '50vh',
         }}
       >
         {/* Dark overlay for readability */}
@@ -32,13 +33,13 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button
-              onClick={() => window.location.href='/docs/intro'}
+              onClick={() => window.location.href = '/docs/intro'}
               className="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-colors text-lg font-medium"
             >
               Browse the Letters
             </button>
             <button
-              onClick={() => window.location.href='/docs/intro'}
+              onClick={() => window.location.href = '/docs/intro'}
               className="bg-gray-700 text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors text-lg font-medium"
             >
               About the Project
@@ -84,7 +85,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold mb-6 text-white">How to Cite</h2>
             <div className="bg-[#242526] p-6 rounded-lg mb-4 font-mono text-sm text-gray-300">
-              Godbarge, Clément. 2025. "Filippo Cavriana's Secret Correspondence (1563-1589)." 
+              Godbarge, Clément. 2025. "Filippo Cavriana's Secret Correspondence (1563-1589)."
               St Andrews: University of St Andrews. https://pantagrueliste.github.io/CavrianaCorr_FrontEnd/
             </div>
           </div>
