@@ -15,7 +15,7 @@ export default function Home() {
       <header
         className="relative bg-cover bg-center bg-no-repeat py-16 flex items-center"
         style={{
-          backgroundImage: "url('/img/manuscript-hero.jpg')",
+          backgroundImage: "url('banner.webp')",
           minHeight: '50vh'
         }}
       >
