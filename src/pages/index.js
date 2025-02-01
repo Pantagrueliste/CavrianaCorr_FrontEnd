@@ -15,34 +15,34 @@ export default function Home() {
     >
       {/* Hero Banner */}
       <header
-        className="relative bg-cover bg-center bg-no-repeat py-16 flex items-center"
+        className="relative bg-cover bg-center bg-no-repeat py-24 flex items-center"
         style={{
           backgroundImage: `url(${bannerUrl})`,
-          minHeight: '35vh',
+          minHeight: '45vh',
         }}
       >
-        {/* Full header dark overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+        {/* Full-width dark overlay with increased opacity */}
+        <div className="absolute inset-0 bg-black bg-opacity-75"></div>
 
-        {/* Hero Text Container with semi-transparent background */}
+        {/* Hero Text Container */}
         <div className="relative container mx-auto px-6 text-center">
-          <div className="bg-black bg-opacity-50 p-6 rounded-md inline-block">
-            <h1 className="text-4xl font-bold mb-4 text-white">
+          <div className="max-w-3xl mx-auto bg-black bg-opacity-60 p-8 rounded-xl backdrop-blur-sm">
+            <h1 className="text-5xl font-bold mb-6 text-white">
               Filippo Cavriana: The Secret Correspondence
             </h1>
-            <p className="text-xl mb-12 text-gray-300">
+            <p className="text-2xl mb-12 text-gray-100 leading-relaxed">
               The first comprehensive digital edition of manuscript letters from a physician-spy at the heart of 16th-century European politics
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <div className="flex flex-col sm:flex-row justify-center gap-6">
               <button
                 onClick={() => window.location.href = '/docs/intro'}
-                className="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-colors text-lg font-medium"
+                className="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-colors text-lg font-medium shadow-lg"
               >
                 Browse the Letters
               </button>
               <button
                 onClick={() => window.location.href = '/docs/intro'}
-                className="bg-gray-700 text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors text-lg font-medium"
+                className="bg-gray-700 text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors text-lg font-medium shadow-lg"
               >
                 About the Project
               </button>
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Added top margin for spacing between banner and overview */}
-      <main className="py-16 bg-[#242526] text-gray-200 mt-8">
+      {/* Project Overview section with increased top margin */}
+      <main className="py-16 bg-[#242526] text-gray-200 mt-16">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="text-2xl font-bold mb-6 text-white">Project Overview</h2>
@@ -62,19 +62,19 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="bg-[#1c1e21] p-8 rounded-lg">
+            <div className="bg-[#1c1e21] p-8 rounded-lg shadow-lg">
               <h3 className="font-bold mb-3 text-white text-lg">Complete Edition</h3>
               <p className="text-gray-300">
                 Full TEI-XML encoding with semantic markup and named entity recognition
               </p>
             </div>
-            <div className="bg-[#1c1e21] p-8 rounded-lg">
+            <div className="bg-[#1c1e21] p-8 rounded-lg shadow-lg">
               <h3 className="font-bold mb-3 text-white text-lg">Phased Release</h3>
               <p className="text-gray-300">
                 Regular content updates from 2024-2026, with ongoing peer review
               </p>
             </div>
-            <div className="bg-[#1c1e21] p-8 rounded-lg">
+            <div className="bg-[#1c1e21] p-8 rounded-lg shadow-lg">
               <h3 className="font-bold mb-3 text-white text-lg">Open Access</h3>
               <p className="text-gray-300">
                 Licensed under Creative Commons BY 4.0 for research and teaching
