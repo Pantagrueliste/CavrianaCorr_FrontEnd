@@ -20,11 +20,6 @@ export default function Home() {
               to="/docs/intro">
               Browse the Letters
             </Link>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/intro">
-              About the Project
-            </Link>
           </div>
         </div>
       </header>
