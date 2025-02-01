@@ -44,8 +44,8 @@ const config = {
         {to: '/docs/intro', label: 'About', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Pantagrueliste/CavrianaCorr_BackEnd',  // Changed to backend repo
-          label: 'Encoded Text',  // Changed label
+          href: 'https://github.com/Pantagrueliste/CavrianaCorr',  
+          label: 'Encoded Text', 
           position: 'right',
         },
       ],
