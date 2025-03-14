@@ -78,3 +78,14 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* ==================================== */
+/* Added rule for unclear words (wavy underline) */
+/* ==================================== */
+.unclear {
+  text-decoration: underline wavy red;
+}
+
+[data-theme='dark'] .unclear {
+  text-decoration-color: #ff6b6b; /* or any colour you prefer */
+}
