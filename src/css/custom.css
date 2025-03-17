@@ -87,5 +87,16 @@
 }
 
 [data-theme='dark'] .unclear {
-  text-decoration-color: #ff6b6b; /* or any colour you prefer */
+  text-decoration-color: #ff6b6b;
+}
+
+/* ==================================== */
+/* Added rule for minimalist line-break markers */
+/* ==================================== */
+.lb-marker::after {
+  content: " •";
+  color: var(--ifm-color-secondary-light, #bbb);
+  font-size: 0.7em;
+  padding: 0 2px;
+  user-select: none;
 }
