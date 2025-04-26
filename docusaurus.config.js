@@ -11,6 +11,22 @@ const config = {
   projectName: 'CavrianaCorr_FrontEnd',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  
+  // Add these script and stylesheet references
+  scripts: [
+    {
+      src: 'https://d3js.org/d3.v6.min.js',
+    },
+    {
+      src: 'https://unpkg.com/cal-heatmap@3.6.2/cal-heatmap.min.js',
+    }
+  ],
+  stylesheets: [
+    {
+      href: 'https://unpkg.com/cal-heatmap@3.6.2/cal-heatmap.css',
+    }
+  ],
+  
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -36,6 +52,7 @@ const config = {
     ],
   ],
   themeConfig: {
+    // Rest of your existing themeConfig...
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Filippo Cavriana: The Secret Correspondence',
@@ -70,8 +87,8 @@ const config = {
           title: 'Project',
           items: [
             {
-              label: 'Encoded Text',  // Also update footer link
-              href: 'https://github.com/Pantagrueliste/CavrianaCorr_BackEnd',  // Update footer link
+              label: 'Encoded Text',
+              href: 'https://github.com/Pantagrueliste/CavrianaCorr_BackEnd',
             },
             {
               label: 'Blog',
