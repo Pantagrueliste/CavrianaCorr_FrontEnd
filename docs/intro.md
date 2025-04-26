@@ -4,6 +4,7 @@ title: Introduction
 ---
 
 import CavrianaHeatmap from '@site/src/components/CavrianaHeatmap';
+import HeatmapDebug from '@site/src/components/HeatmapDebug';
 
 # Introduction to the Digital Edition
 
@@ -12,6 +13,8 @@ This digital edition presents the correspondence of Filippo Cavriana, a physicia
 ## Letter-Writing Activity
 
 The visualization below shows Cavriana's letter-writing activity over time, with color intensity representing the volume of text (word count) written on each day.
+
+<HeatmapDebug />
 
 <CavrianaHeatmap />
 
