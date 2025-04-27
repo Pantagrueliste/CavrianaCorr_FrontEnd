@@ -3,7 +3,6 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -16,7 +15,6 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
@@ -28,7 +26,6 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
 /* Hero banner styles */
 .hero {
   background-image: url('/img/banner.webp');
@@ -40,7 +37,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .hero::before {
   content: '';
   position: absolute;
@@ -50,7 +46,6 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
 }
-
 .hero__title,
 .hero__subtitle {
   position: relative;
@@ -58,19 +53,16 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-
 .hero__title {
   font-size: 3rem;
   margin-bottom: 1rem;
   padding: 0 1rem;
 }
-
 .hero__subtitle {
   font-size: 1.5rem;
   margin-bottom: 2rem;
   padding: 0 1rem;
 }
-
 .container.container--fluid.margin-vert--lg {
   background: rgba(0, 0, 0, 0.7);
   padding: 2rem;
@@ -85,7 +77,6 @@
 .unclear {
   text-decoration: underline wavy red;
 }
-
 [data-theme='dark'] .unclear {
   text-decoration-color: #ff6b6b;
 }
@@ -99,4 +90,34 @@
   font-size: 0.7em;
   padding: 0 2px;
   user-select: none;
+}
+
+/* ==================================== */
+/* CSS for the year selector in Cavriana Heatmap */
+/* ==================================== */
+.cavriana-heatmap .year-selector {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.cavriana-heatmap .year-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--ifm-color-secondary);
+  border: 1px solid var(--ifm-color-secondary-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.cavriana-heatmap .year-button.active {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.cavriana-heatmap .year-button:hover {
+  background-color: var(--ifm-color-primary-light);
+  color: white;
 }
