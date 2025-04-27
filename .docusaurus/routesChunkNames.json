@@ -1,352 +1,309 @@
 {
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug-e75": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    }
-  },
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug/config-d87": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    }
-  },
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug/content-577": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    },
-    "__props": "__props---cavriana-corr-front-end-docusaurus-debug-contentcea-eb6"
-  },
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug/globalData-826": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    }
-  },
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug/metadata-ced": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    }
-  },
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug/registry-61d": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    }
-  },
-  "/CavrianaCorr_FrontEnd/__docusaurus/debug/routes-6cb": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
-    }
-  },
   "/CavrianaCorr_FrontEnd/blog-281": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cavriana-corr-front-end-blog-766-af3"
+        "content": "7661071f"
       },
       {
-        "content": "content---cavriana-corr-front-end-blogf-4-f-12b"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---cavriana-corr-front-end-blog-871-f45"
+        "content": "8717b14a"
       },
       {
-        "content": "content---cavriana-corr-front-end-blog-925-ff2"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---cavriana-corr-front-end-blog-9-f-1-adc"
+    "__props": "9f194290"
   },
   "/CavrianaCorr_FrontEnd/blog/archive-576": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "__props": "__props---cavriana-corr-front-end-blog-archivecc-2-4db"
+    "__props": "cc2a7624"
   },
   "/CavrianaCorr_FrontEnd/blog/authors-18a": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
-    "__props": "__props---cavriana-corr-front-end-blog-authors-5-a-0-600"
+    "sidebar": "814f3328",
+    "__props": "5a009b28"
   },
   "/CavrianaCorr_FrontEnd/blog/first-blog-post-4f6": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
-    "content": "content---cavriana-corr-front-end-blog-first-blog-poste-27-1cc"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/CavrianaCorr_FrontEnd/blog/long-blog-post-414": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
-    "content": "content---cavriana-corr-front-end-blog-long-blog-post-736-2a9"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/CavrianaCorr_FrontEnd/blog/mdx-blog-post-ef9": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
-    "content": "content---cavriana-corr-front-end-blog-mdx-blog-post-593-3e2"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/CavrianaCorr_FrontEnd/blog/tags-715": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
-    "__props": "__props---cavriana-corr-front-end-blog-tags-82-a-629"
+    "sidebar": "814f3328",
+    "__props": "82acde52"
   },
   "/CavrianaCorr_FrontEnd/blog/tags/docusaurus-cf0": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cavriana-corr-front-end-blog-766-af3"
+        "content": "7661071f"
       },
       {
-        "content": "content---cavriana-corr-front-end-blogf-4-f-12b"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---cavriana-corr-front-end-blog-871-f45"
+        "content": "8717b14a"
       },
       {
-        "content": "content---cavriana-corr-front-end-blog-925-ff2"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---cavriana-corr-front-end-blog-tags-docusaurus-031-c7e"
+    "__props": "031a4d03"
   },
   "/CavrianaCorr_FrontEnd/blog/tags/facebook-8cc": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cavriana-corr-front-end-blog-766-af3"
+        "content": "7661071f"
       }
     ],
-    "__props": "__props---cavriana-corr-front-end-blog-tags-facebook-2-f-8-7dd"
+    "__props": "2f8c70b5"
   },
   "/CavrianaCorr_FrontEnd/blog/tags/hello-eb5": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cavriana-corr-front-end-blog-766-af3"
+        "content": "7661071f"
       },
       {
-        "content": "content---cavriana-corr-front-end-blog-871-f45"
+        "content": "8717b14a"
       }
     ],
-    "__props": "__props---cavriana-corr-front-end-blog-tags-hello-012-ac9"
+    "__props": "012afd4b"
   },
   "/CavrianaCorr_FrontEnd/blog/tags/hola-4fc": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cavriana-corr-front-end-blog-925-ff2"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---cavriana-corr-front-end-blog-tags-hola-28-c-8d9"
+    "__props": "28ce2915"
   },
   "/CavrianaCorr_FrontEnd/blog/welcome-135": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
-    "content": "content---cavriana-corr-front-end-blog-welcomed-9-f-f62"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/CavrianaCorr_FrontEnd/markdown-page-a68": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-markdown-pagea-74-4b5"
+      "plugin": "a7456010"
     },
-    "content": "content---cavriana-corr-front-end-markdown-page-393-b85"
+    "content": "393be207"
   },
   "/CavrianaCorr_FrontEnd/docs-a35": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-docsaba-4d3"
+      "plugin": "aba21aa0"
     }
   },
   "/CavrianaCorr_FrontEnd/docs-09c": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---cavriana-corr-front-end-docs-896-b22"
+    "__comp": "a7bd4aaa",
+    "__props": "8964e238"
   },
   "/CavrianaCorr_FrontEnd/docs-3de": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-04-06-ab8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-04-06-e-28-18d"
+    "__comp": "17896441",
+    "content": "e28841f6"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-04-28-9c4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-04-28-df-7-b9f"
+    "__comp": "17896441",
+    "content": "df7536bc"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-05-04-1ce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-05-048-b-4-a1a"
+    "__comp": "17896441",
+    "content": "8b449e35"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-05-05-aeb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-05-0561-a-359"
+    "__comp": "17896441",
+    "content": "61a9966b"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-05-28-a0d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-05-28689-5c2"
+    "__comp": "17896441",
+    "content": "68977bf3"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-06-09-9cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-06-09-f-7-e-59e"
+    "__comp": "17896441",
+    "content": "f7ecbf07"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-07-03-781": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-07-034-eb-729"
+    "__comp": "17896441",
+    "content": "4eb1923c"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-07-24-a77": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-07-24200-36e"
+    "__comp": "17896441",
+    "content": "200e8c35"
   },
   "/CavrianaCorr_FrontEnd/docs/1568/1568-09-07-d93": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1568-1568-09-072-a-6-342"
+    "__comp": "17896441",
+    "content": "2a6cd867"
   },
   "/CavrianaCorr_FrontEnd/docs/1569/1569-01-03-b2d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1569-1569-01-03-ac-0-5a3"
+    "__comp": "17896441",
+    "content": "ac0505b5"
   },
   "/CavrianaCorr_FrontEnd/docs/1569/1569-11-29-27a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1569-1569-11-2910-e-33b"
+    "__comp": "17896441",
+    "content": "10e1237e"
   },
   "/CavrianaCorr_FrontEnd/docs/1569/1569-12-21-776": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1569-1569-12-21-abf-214"
+    "__comp": "17896441",
+    "content": "abf14e99"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-05-20-047": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-05-20-bed-79d"
+    "__comp": "17896441",
+    "content": "bed198b8"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-07-15-ec4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-07-15-e-1-b-b47"
+    "__comp": "17896441",
+    "content": "e1be8e0f"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-e93": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-07-293-c-3-603"
+    "__comp": "17896441",
+    "content": "3c3c6c83"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-b-d14": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-07-29-bf-0-d-589"
+    "__comp": "17896441",
+    "content": "f0d45dd9"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-08-17-ecd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-08-174-b-2-27f"
+    "__comp": "17896441",
+    "content": "4b2c93b2"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-09-01-fbd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-09-01933-cfc"
+    "__comp": "17896441",
+    "content": "9334b272"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-09-11-918": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-09-114-e-0-b73"
+    "__comp": "17896441",
+    "content": "4e00e495"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-09-14-ec2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-09-14-e-3-f-7bf"
+    "__comp": "17896441",
+    "content": "e3fd6ede"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-10-03-ba9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-10-03-c-7-a-e4d"
+    "__comp": "17896441",
+    "content": "c7acac1c"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-10-11-a17": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-10-11598-cb3"
+    "__comp": "17896441",
+    "content": "598d75b1"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-658": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-0235-a-c50"
+    "__comp": "17896441",
+    "content": "35aae7f6"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-a-c61": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-02-a-267-0b1"
+    "__comp": "17896441",
+    "content": "267f205f"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-b-a64": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-02-b-86-f-5c2"
+    "__comp": "17896441",
+    "content": "86fda6cd"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-c-cf1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-02-cf-88-bba"
+    "__comp": "17896441",
+    "content": "f88290f9"
   },
   "/CavrianaCorr_FrontEnd/docs/1570/1570-11-09-eb8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-09-e-4-b-543"
+    "__comp": "17896441",
+    "content": "e4b43861"
   },
   "/CavrianaCorr_FrontEnd/docs/1571/1571-01-14-4f9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1571-1571-01-14-c-6-f-d2e"
+    "__comp": "17896441",
+    "content": "c6ff0ddd"
   },
   "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18-ee3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1571-1571-04-18-e-40-727"
+    "__comp": "17896441",
+    "content": "e40236da"
   },
   "/CavrianaCorr_FrontEnd/docs/1571/1571-07-15-d9c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-1571-1571-07-15851-887"
+    "__comp": "17896441",
+    "content": "8511035e"
   },
   "/CavrianaCorr_FrontEnd/docs/intro-c4d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cavriana-corr-front-end-docs-intro-0-e-3-058"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/CavrianaCorr_FrontEnd/-260": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---cavriana-corr-front-end-markdown-pagea-74-4b5"
+      "plugin": "a7456010"
     },
-    "config": "config---cavriana-corr-front-end-5-e-9-0b4"
+    "config": "5e9f5e1a"
   }
 }

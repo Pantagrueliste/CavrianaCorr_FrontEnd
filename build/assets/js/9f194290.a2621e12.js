@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcavriana_correspondence=self.webpackChunkcavriana_correspondence||[]).push([[2997],{3769:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/CavrianaCorr_FrontEnd/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

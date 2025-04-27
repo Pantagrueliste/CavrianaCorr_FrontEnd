@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcavriana_correspondence=self.webpackChunkcavriana_correspondence||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/CavrianaCorr_FrontEnd/blog","blogTitle":"Blog","authorsListPath":"/CavrianaCorr_FrontEnd/blog/authors"}')}}]);

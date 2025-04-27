@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug', 'e75'),
-    exact: true
-  },
-  {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug/config',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug/config', 'd87'),
-    exact: true
-  },
-  {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug/content',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug/content', '577'),
-    exact: true
-  },
-  {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug/globalData',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug/globalData', '826'),
-    exact: true
-  },
-  {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug/metadata',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug/metadata', 'ced'),
-    exact: true
-  },
-  {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug/registry',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug/registry', '61d'),
-    exact: true
-  },
-  {
-    path: '/CavrianaCorr_FrontEnd/__docusaurus/debug/routes',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/__docusaurus/debug/routes', '6cb'),
-    exact: true
-  },
-  {
     path: '/CavrianaCorr_FrontEnd/blog',
     component: ComponentCreator('/CavrianaCorr_FrontEnd/blog', '281'),
     exact: true
