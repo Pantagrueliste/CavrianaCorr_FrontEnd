@@ -1,0 +1,31 @@
+{
+  "id": "1569/1569-11-29",
+  "title": "Jacopo Dani (1569-11-29)",
+  "description": "[fol. 436r]",
+  "source": "@site/docs/1569/1569-11-29.md",
+  "sourceDirName": "1569",
+  "slug": "/1569/1569-11-29",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1569/1569-11-29",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1569/1569-11-29.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Jacopo Dani (1569-11-29)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Jacopo Dani",
+    "date": "1569-11-29",
+    "placeOfOrigin": "Ancona",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 1317, fols. 436r-436v"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bartolomeo Concino (1569-01-03)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1569/1569-01-03"
+  },
+  "next": {
+    "title": "Bartolomeo Concino (1569-12-21)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1569/1569-12-21"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Introduction",
+  "description": "This digital edition presents the correspondence of Filippo Cavriana, a physician, diplomat, and scholar active in the late 16th century.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Guglielmo Gonzaga (1568-04-06)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-04-06"
+  }
+}

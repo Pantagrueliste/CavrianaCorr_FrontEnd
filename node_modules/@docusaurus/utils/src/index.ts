@@ -44,6 +44,9 @@ export {
   isValidPathname,
   resolvePathname,
   parseURLPath,
+  parseLocalURLPath,
+  parseURLOrPath,
+  toURLPath,
   serializeURLPath,
   hasSSHProtocol,
   buildHttpsUrl,
@@ -52,10 +55,13 @@ export {
 export type {URLPath} from './urlUtils';
 export {
   type Tag,
+  type TagsFile,
+  type TagsFileInput,
+  type TagMetadata,
   type TagsListItem,
   type TagModule,
   type FrontMatterTag,
-  normalizeFrontMatterTags,
+  type TagsPluginOptions,
   groupTaggedItems,
   getTagVisibility,
 } from './tags';
@@ -73,8 +79,8 @@ export {
 } from './markdownUtils';
 export {
   type ContentPaths,
-  type BrokenMarkdownLink,
-  replaceMarkdownLinks,
+  type SourceToPermalink,
+  resolveMarkdownLinkPathname,
 } from './markdownLinks';
 export {type SluggerOptions, type Slugger, createSlugger} from './slugger';
 export {
@@ -91,6 +97,8 @@ export {md5Hash, simpleHash, docuHash} from './hashUtils';
 export {
   Globby,
   GlobExcludeDefault,
+  safeGlobby,
+  globTranslatableSourceFiles,
   createMatcher,
   createAbsoluteFilePathMatcher,
 } from './globUtils';
@@ -103,7 +111,7 @@ export {escapeShellArg} from './shellUtils';
 export {loadFreshModule} from './moduleUtils';
 export {
   getDataFilePath,
-  getDataFileData,
+  readDataFile,
   getContentPathList,
   findFolderContainingFile,
   getFolderContainingFile,
@@ -121,3 +129,5 @@ export {
   type LastUpdateData,
   type FrontMatterLastUpdate,
 } from './lastUpdateUtils';
+
+export {normalizeTags, reportInlineTags} from './tags';

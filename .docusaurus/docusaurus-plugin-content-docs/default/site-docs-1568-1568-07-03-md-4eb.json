@@ -1,0 +1,31 @@
+{
+  "id": "1568/1568-07-03",
+  "title": "Guglielmo Gonzaga (1568-07-03)",
+  "description": "[fol. 924r]",
+  "source": "@site/docs/1568/1568-07-03.md",
+  "sourceDirName": "1568",
+  "slug": "/1568/1568-07-03",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-07-03",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1568/1568-07-03.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Guglielmo Gonzaga (1568-07-03)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Guglielmo Gonzaga",
+    "date": "1568-07-03",
+    "placeOfOrigin": "Nevers",
+    "archiveRef": "Mantua Archivio di Stato di Mantova, Archivio Gonzaga, b654, fols. 924r-924v"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guglielmo Gonzaga (1568-06-09)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-06-09"
+  },
+  "next": {
+    "title": "Guglielmo Gonzaga (1568-07-24)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-07-24"
+  }
+}

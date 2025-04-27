@@ -1,0 +1,31 @@
+{
+  "id": "1570/1570-07-15",
+  "title": "Bartolomeo Concino (1570-07-15)",
+  "description": "[fol. 219r]",
+  "source": "@site/docs/1570/1570-07-15.md",
+  "sourceDirName": "1570",
+  "slug": "/1570/1570-07-15",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-15",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1570/1570-07-15.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bartolomeo Concino (1570-07-15)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Bartolomeo Concino",
+    "date": "1570-07-15",
+    "placeOfOrigin": "San Germano",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 551, fols. 219r-220v"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bartolomeo Concino (1570-05-20)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-05-20"
+  },
+  "next": {
+    "title": "Cosimo I de' Medici (1570-07-29)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-b"
+  }
+}

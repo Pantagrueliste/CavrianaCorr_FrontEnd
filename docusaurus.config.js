@@ -1,9 +1,11 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Filippo Cavriana: The Secret Correspondence',
-  tagline: 'A digital edition of manuscript letters found in the archives of Florence, Mantua, and the Bibliothèque nationale de France',
+  tagline:
+    'A digital edition of manuscript letters found in the archives of Florence, Mantua, and the Bibliothèque nationale de France',
   favicon: 'img/favicon.ico',
   url: 'https://pantagrueliste.github.io',
   baseUrl: '/CavrianaCorr_FrontEnd/',
@@ -11,26 +13,26 @@ const config = {
   projectName: 'CavrianaCorr_FrontEnd',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  
-  // Add these script and stylesheet references
+
+  // External libraries
   scripts: [
+    {src: 'https://d3js.org/d3.v7.min.js', async: true},
     {
-      src: 'https://d3js.org/d3.v6.min.js',
+      src: 'https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.min.js',
+      async: true,
     },
-    {
-      src: 'https://unpkg.com/cal-heatmap@3.6.2/cal-heatmap.min.js',
-    }
   ],
   stylesheets: [
     {
-      href: 'https://unpkg.com/cal-heatmap@3.6.2/cal-heatmap.css',
-    }
+      href: 'https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.css',
+    },
   ],
-  
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
   presets: [
     [
       'classic',
@@ -39,11 +41,13 @@ const config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
+          editUrl:
+            'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
+          editUrl:
+            'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -51,8 +55,8 @@ const config = {
       },
     ],
   ],
+
   themeConfig: {
-    // Rest of your existing themeConfig...
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Filippo Cavriana: The Secret Correspondence',
@@ -61,8 +65,8 @@ const config = {
         {to: '/docs/intro', label: 'About', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Pantagrueliste/CavrianaCorr',  
-          label: 'Encoded Text', 
+          href: 'https://github.com/Pantagrueliste/CavrianaCorr',
+          label: 'Encoded Text',
           position: 'right',
         },
       ],
@@ -73,14 +77,8 @@ const config = {
         {
           title: 'Content',
           items: [
-            {
-              label: 'Letters',
-              to: '/docs/intro',
-            },
-            {
-              label: 'About',
-              to: '/docs/intro',
-            },
+            {label: 'Letters', to: '/docs/intro'},
+            {label: 'About', to: '/docs/intro'},
           ],
         },
         {
@@ -90,10 +88,7 @@ const config = {
               label: 'Encoded Text',
               href: 'https://github.com/Pantagrueliste/CavrianaCorr_BackEnd',
             },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            {label: 'Blog', to: '/blog'},
           ],
         },
       ],
@@ -105,4 +100,5 @@ const config = {
     },
   },
 };
+
 export default config;

@@ -1,0 +1,31 @@
+{
+  "id": "1569/1569-12-21",
+  "title": "Bartolomeo Concino (1569-12-21)",
+  "description": "[fol. 57r]",
+  "source": "@site/docs/1569/1569-12-21.md",
+  "sourceDirName": "1569",
+  "slug": "/1569/1569-12-21",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1569/1569-12-21",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1569/1569-12-21.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bartolomeo Concino (1569-12-21)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Bartolomeo Concino",
+    "date": "1569-12-21",
+    "placeOfOrigin": "Mantova",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 1317, fols. -"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Jacopo Dani (1569-11-29)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1569/1569-11-29"
+  },
+  "next": {
+    "title": "Bartolomeo Concino (1570-05-20)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-05-20"
+  }
+}

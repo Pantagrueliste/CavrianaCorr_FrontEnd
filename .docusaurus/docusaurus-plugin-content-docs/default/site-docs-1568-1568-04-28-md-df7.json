@@ -1,0 +1,31 @@
+{
+  "id": "1568/1568-04-28",
+  "title": "Aurelio Zibramonti (1568-04-28)",
+  "description": "[fol. 288r]",
+  "source": "@site/docs/1568/1568-04-28.md",
+  "sourceDirName": "1568",
+  "slug": "/1568/1568-04-28",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-04-28",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1568/1568-04-28.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Aurelio Zibramonti (1568-04-28)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Aurelio Zibramonti",
+    "date": "1568-04-28",
+    "placeOfOrigin": "Nevers",
+    "archiveRef": "Mantua Archivio di Stato di Mantova, Archivio Gonzaga, b654, fols. 288r-289r"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guglielmo Gonzaga (1568-04-06)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-04-06"
+  },
+  "next": {
+    "title": "Guglielmo Gonzaga (1568-05-04)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-05-04"
+  }
+}

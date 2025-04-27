@@ -5,7 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import {isValidPathname, DEFAULT_PLUGIN_ID, type Tag} from '@docusaurus/utils';
+import {
+  isValidPathname,
+  DEFAULT_PLUGIN_ID,
+  type FrontMatterTag,
+} from '@docusaurus/utils';
 import {addLeadingSlash} from '@docusaurus/utils-common';
 import Joi from './Joi';
 import {JoiFrontMatter} from './JoiFrontMatter';
@@ -32,6 +36,7 @@ const MarkdownPluginsSchema = Joi.array()
 
 export const RemarkPluginsSchema = MarkdownPluginsSchema;
 export const RehypePluginsSchema = MarkdownPluginsSchema;
+export const RecmaPluginsSchema = MarkdownPluginsSchema;
 
 export const AdmonitionsSchema = JoiFrontMatter.alternatives()
   .try(
@@ -113,7 +118,9 @@ export const RouteBasePathSchema = Joi
 const FrontMatterTagSchema = JoiFrontMatter.alternatives()
   .try(
     JoiFrontMatter.string().required(),
-    JoiFrontMatter.object<Tag>({
+    // TODO Docusaurus v4 remove this legacy front matter tag object form
+    //  users should use tags.yml instead
+    JoiFrontMatter.object<FrontMatterTag>({
       label: JoiFrontMatter.string().required(),
       permalink: JoiFrontMatter.string().required(),
     }).required(),

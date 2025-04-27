@@ -1,0 +1,31 @@
+{
+  "id": "1570/1570-08-17",
+  "title": "Bartolomeo Concino (1570-08-17)",
+  "description": "[fol. 1r]",
+  "source": "@site/docs/1570/1570-08-17.md",
+  "sourceDirName": "1570",
+  "slug": "/1570/1570-08-17",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-08-17",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1570/1570-08-17.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bartolomeo Concino (1570-08-17)",
+    "expeditor": "Vincenzo da Castello",
+    "addressee": "Bartolomeo Concino",
+    "date": "1570-08-17",
+    "placeOfOrigin": "Parigi",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 4726a, fols. -"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unknown recipient (1570-07-29)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29"
+  },
+  "next": {
+    "title": "Bartolomeo Concino (1570-09-01)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-09-01"
+  }
+}

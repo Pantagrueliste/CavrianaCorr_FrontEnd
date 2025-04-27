@@ -1,0 +1,31 @@
+{
+  "id": "1571/1571-01-14",
+  "title": "Bartolomeo Concino (1571-01-14)",
+  "description": "[fol. 7r]",
+  "source": "@site/docs/1571/1571-01-14.md",
+  "sourceDirName": "1571",
+  "slug": "/1571/1571-01-14",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-01-14",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1571/1571-01-14.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bartolomeo Concino (1571-01-14)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Bartolomeo Concino",
+    "date": "1571-01-14",
+    "placeOfOrigin": "Parigi",
+    "archiveRef": "Firenze Archivio di Stato di Firenze, Mediceo del Principato, 4726a, fols. 7r-10v"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bartolomeo Concino (1570-11-09)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-09"
+  },
+  "next": {
+    "title": "Cosimo I de' Medici (1571-04-18)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18"
+  }
+}

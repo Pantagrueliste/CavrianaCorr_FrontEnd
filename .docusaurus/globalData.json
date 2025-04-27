@@ -1,0 +1,183 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/CavrianaCorr_FrontEnd/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/CavrianaCorr_FrontEnd/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "1568/1568-04-06",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-04-06",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-04-28",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-04-28",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-05-04",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-05-04",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-05-05",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-05-05",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-05-28",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-05-28",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-06-09",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-06-09",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-07-03",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-07-03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-07-24",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-07-24",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1568/1568-09-07",
+              "path": "/CavrianaCorr_FrontEnd/docs/1568/1568-09-07",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1569/1569-01-03",
+              "path": "/CavrianaCorr_FrontEnd/docs/1569/1569-01-03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1569/1569-11-29",
+              "path": "/CavrianaCorr_FrontEnd/docs/1569/1569-11-29",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1569/1569-12-21",
+              "path": "/CavrianaCorr_FrontEnd/docs/1569/1569-12-21",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-05-20",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-05-20",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-07-15",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-15",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-07-29",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-07-29-b",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-b",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-08-17",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-08-17",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-09-01",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-09-01",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-09-11",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-09-11",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-09-14",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-09-14",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-10-03",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-10-03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-10-11",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-10-11",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-11-02",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-11-02-a",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-a",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-11-02-b",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-b",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-11-02-c",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-c",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1570/1570-11-09",
+              "path": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-09",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1571/1571-01-14",
+              "path": "/CavrianaCorr_FrontEnd/docs/1571/1571-01-14",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1571/1571-04-18",
+              "path": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "1571/1571-07-15",
+              "path": "/CavrianaCorr_FrontEnd/docs/1571/1571-07-15",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/CavrianaCorr_FrontEnd/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/CavrianaCorr_FrontEnd/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

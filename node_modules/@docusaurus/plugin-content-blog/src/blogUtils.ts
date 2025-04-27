@@ -17,9 +17,7 @@ import {
   getEditUrl,
   getFolderContainingFile,
   posixPath,
-  replaceMarkdownLinks,
   Globby,
-  normalizeFrontMatterTags,
   groupTaggedItems,
   getTagVisibility,
   getFileCommitDate,
@@ -27,29 +25,49 @@ import {
   isUnlisted,
   isDraft,
   readLastUpdateData,
+  normalizeTags,
+  aliasedSitePathToRelativePath,
 } from '@docusaurus/utils';
+import {getTagsFile} from '@docusaurus/utils-validation';
 import {validateBlogPostFrontMatter} from './frontMatter';
-import {type AuthorsMap, getAuthorsMap, getBlogPostAuthors} from './authors';
+import {getBlogPostAuthors} from './authors';
+import {reportAuthorsProblems} from './authorsProblems';
+import type {TagsFile} from '@docusaurus/utils';
 import type {LoadContext, ParseFrontMatter} from '@docusaurus/types';
 import type {
+  AuthorsMap,
   PluginOptions,
   ReadingTimeFunction,
   BlogPost,
   BlogTags,
   BlogPaginated,
 } from '@docusaurus/plugin-content-blog';
-import type {BlogContentPaths, BlogMarkdownLoaderOptions} from './types';
+import type {BlogContentPaths} from './types';
 
 export function truncate(fileString: string, truncateMarker: RegExp): string {
   return fileString.split(truncateMarker, 1).shift()!;
 }
 
-export function getSourceToPermalink(blogPosts: BlogPost[]): {
-  [aliasedPath: string]: string;
-} {
-  return Object.fromEntries(
-    blogPosts.map(({metadata: {source, permalink}}) => [source, permalink]),
+export function reportUntruncatedBlogPosts({
+  blogPosts,
+  onUntruncatedBlogPosts,
+}: {
+  blogPosts: BlogPost[];
+  onUntruncatedBlogPosts: PluginOptions['onUntruncatedBlogPosts'];
+}): void {
+  const untruncatedBlogPosts = blogPosts.filter(
+    (p) => !p.metadata.hasTruncateMarker,
   );
+  if (onUntruncatedBlogPosts !== 'ignore' && untruncatedBlogPosts.length > 0) {
+    const message = logger.interpolate`Docusaurus found blog posts without truncation markers:
+- ${untruncatedBlogPosts
+      .map((p) => logger.path(aliasedSitePathToRelativePath(p.metadata.source)))
+      .join('\n- ')}
+
+We recommend using truncation markers (code=${`<!-- truncate -->`} or code=${`{/* truncate */}`}) in blog posts to create shorter previews on blog paginated lists.
+Tip: turn this security off with the code=${`onUntruncatedBlogPosts: 'ignore'`} blog plugin option.`;
+    logger.report(onUntruncatedBlogPosts)(message);
+  }
 }
 
 export function paginateBlogPosts({
@@ -70,7 +88,7 @@ export function paginateBlogPosts({
   const totalCount = blogPosts.length;
   const postsPerPage =
     postsPerPageOption === 'ALL' ? totalCount : postsPerPageOption;
-  const numberOfPages = Math.ceil(totalCount / postsPerPage);
+  const numberOfPages = Math.max(1, Math.ceil(totalCount / postsPerPage));
 
   const pages: BlogPaginated[] = [];
 
@@ -126,9 +144,11 @@ export function getBlogTags({
       isUnlisted: (item) => item.metadata.unlisted,
     });
     return {
+      inline: tag.inline,
       label: tag.label,
-      items: tagVisibility.listedItems.map((item) => item.id),
       permalink: tag.permalink,
+      description: tag.description,
+      items: tagVisibility.listedItems.map((item) => item.id),
       pages: paginateBlogPosts({
         blogPosts: tagVisibility.listedItems,
         basePageUrl: tag.permalink,
@@ -198,6 +218,7 @@ async function processBlogSourceFile(
   contentPaths: BlogContentPaths,
   context: LoadContext,
   options: PluginOptions,
+  tagsFile: TagsFile | null,
   authorsMap?: AuthorsMap,
 ): Promise<BlogPost | undefined> {
   const {
@@ -316,12 +337,26 @@ async function processBlogSourceFile(
     return undefined;
   }
 
-  const tagsBasePath = normalizeUrl([
+  const tagsBaseRoutePath = normalizeUrl([
     baseUrl,
     routeBasePath,
     tagsRouteBasePath,
   ]);
+
   const authors = getBlogPostAuthors({authorsMap, frontMatter, baseUrl});
+  reportAuthorsProblems({
+    authors,
+    blogSourceRelative,
+    options,
+  });
+
+  const tags = normalizeTags({
+    options,
+    source: blogSourceRelative,
+    frontMatterTags: frontMatter.tags,
+    tagsBaseRoutePath,
+    tagsFile,
+  });
 
   return {
     id: slug,
@@ -332,7 +367,7 @@ async function processBlogSourceFile(
       title,
       description,
       date,
-      tags: normalizeFrontMatterTags(tagsBasePath, frontMatter.tags),
+      tags,
       readingTime: showReadingTime
         ? options.readingTime({
             content,
@@ -355,6 +390,7 @@ export async function generateBlogPosts(
   contentPaths: BlogContentPaths,
   context: LoadContext,
   options: PluginOptions,
+  authorsMap?: AuthorsMap,
 ): Promise<BlogPost[]> {
   const {include, exclude} = options;
 
@@ -367,10 +403,7 @@ export async function generateBlogPosts(
     ignore: exclude,
   });
 
-  const authorsMap = await getAuthorsMap({
-    contentPaths,
-    authorsMapPath: options.authorsMapPath,
-  });
+  const tagsFile = await getTagsFile({contentPaths, tags: options.tags});
 
   async function doProcessBlogSourceFile(blogSourceFile: string) {
     try {
@@ -379,6 +412,7 @@ export async function generateBlogPosts(
         contentPaths,
         context,
         options,
+        tagsFile,
         authorsMap,
       );
     } catch (err) {
@@ -401,35 +435,6 @@ export async function generateBlogPosts(
     return blogPosts.reverse();
   }
   return blogPosts;
-}
-
-export type LinkifyParams = {
-  filePath: string;
-  fileString: string;
-} & Pick<
-  BlogMarkdownLoaderOptions,
-  'sourceToPermalink' | 'siteDir' | 'contentPaths' | 'onBrokenMarkdownLink'
->;
-
-export function linkify({
-  filePath,
-  contentPaths,
-  fileString,
-  siteDir,
-  sourceToPermalink,
-  onBrokenMarkdownLink,
-}: LinkifyParams): string {
-  const {newContent, brokenMarkdownLinks} = replaceMarkdownLinks({
-    siteDir,
-    fileString,
-    filePath,
-    contentPaths,
-    sourceToPermalink,
-  });
-
-  brokenMarkdownLinks.forEach((l) => onBrokenMarkdownLink(l));
-
-  return newContent;
 }
 
 export async function applyProcessBlogPosts({

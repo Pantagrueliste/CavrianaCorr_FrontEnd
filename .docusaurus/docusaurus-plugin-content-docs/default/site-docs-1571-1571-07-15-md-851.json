@@ -1,0 +1,27 @@
+{
+  "id": "1571/1571-07-15",
+  "title": "Duke of Mantua (1571-07-15)",
+  "description": "[fol. 336r]",
+  "source": "@site/docs/1571/1571-07-15.md",
+  "sourceDirName": "1571",
+  "slug": "/1571/1571-07-15",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-07-15",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1571/1571-07-15.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Duke of Mantua (1571-07-15)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Duke of Mantua",
+    "date": "1571-07-15",
+    "placeOfOrigin": "Bagni di Lucca",
+    "archiveRef": "Mantova Archivio di Stato di Mantova, Archivio Gonzaga, b654, fols. -"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cosimo I de' Medici (1571-04-18)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18"
+  }
+}

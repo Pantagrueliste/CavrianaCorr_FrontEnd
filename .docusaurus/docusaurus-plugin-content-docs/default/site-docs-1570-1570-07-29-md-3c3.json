@@ -1,0 +1,31 @@
+{
+  "id": "1570/1570-07-29",
+  "title": "Unknown recipient (1570-07-29)",
+  "description": "[fol. 217r]",
+  "source": "@site/docs/1570/1570-07-29.md",
+  "sourceDirName": "1570",
+  "slug": "/1570/1570-07-29",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1570/1570-07-29.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Unknown recipient (1570-07-29)",
+    "expeditor": "Chi ella sà",
+    "addressee": "Unknown recipient",
+    "date": "1570-07-29",
+    "placeOfOrigin": "San Germano",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 551, fols. -"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cosimo I de' Medici (1570-07-29)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-b"
+  },
+  "next": {
+    "title": "Bartolomeo Concino (1570-08-17)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-08-17"
+  }
+}

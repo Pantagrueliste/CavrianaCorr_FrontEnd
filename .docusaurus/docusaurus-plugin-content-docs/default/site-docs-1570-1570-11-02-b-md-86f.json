@@ -1,0 +1,31 @@
+{
+  "id": "1570/1570-11-02-b",
+  "title": "Bartolomeo Concino (1570-11-02)",
+  "description": "[fol. 336r]",
+  "source": "@site/docs/1570/1570-11-02-b.md",
+  "sourceDirName": "1570",
+  "slug": "/1570/1570-11-02-b",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-b",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1570/1570-11-02-b.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bartolomeo Concino (1570-11-02)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Bartolomeo Concino",
+    "date": "1570-11-02",
+    "placeOfOrigin": "Saint-Germain-des-Prés",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 555bis, fols. 336r-336v"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cosimo I de' Medici (1570-11-02)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-a"
+  },
+  "next": {
+    "title": "Cosimo I de' Medici (1570-11-02)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-c"
+  }
+}

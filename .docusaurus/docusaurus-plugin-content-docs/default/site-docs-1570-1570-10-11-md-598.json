@@ -1,0 +1,31 @@
+{
+  "id": "1570/1570-10-11",
+  "title": "Cosimo I de' Medici (1570-10-11)",
+  "description": "[fol. 3r]",
+  "source": "@site/docs/1570/1570-10-11.md",
+  "sourceDirName": "1570",
+  "slug": "/1570/1570-10-11",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-10-11",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1570/1570-10-11.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Cosimo I de' Medici (1570-10-11)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Cosimo I de' Medici",
+    "date": "1570-10-11",
+    "placeOfOrigin": "Parigi",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 562, fols. -"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bartolomeo Concino (1570-10-03)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-10-03"
+  },
+  "next": {
+    "title": "Cosimo I de' Medici (1570-11-02)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-a"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1568/1568-07-24",
+  "title": "Guglielmo Gonzaga (1568-07-24)",
+  "description": "Illustrissimo Signor  mio.",
+  "source": "@site/docs/1568/1568-07-24.md",
+  "sourceDirName": "1568",
+  "slug": "/1568/1568-07-24",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-07-24",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1568/1568-07-24.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Guglielmo Gonzaga (1568-07-24)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Guglielmo Gonzaga",
+    "date": "1568-07-24",
+    "placeOfOrigin": "Nevers",
+    "archiveRef": "Mantua Archivio di Stato di Mantova, Davari Collection,, fols. -"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guglielmo Gonzaga (1568-07-03)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-07-03"
+  },
+  "next": {
+    "title": "Guglielmo Gonzaga (1568-09-07)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1568/1568-09-07"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1570/1570-09-01",
+  "title": "Bartolomeo Concino (1570-09-01)",
+  "description": "[fol. 236r]",
+  "source": "@site/docs/1570/1570-09-01.md",
+  "sourceDirName": "1570",
+  "slug": "/1570/1570-09-01",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-09-01",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1570/1570-09-01.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bartolomeo Concino (1570-09-01)",
+    "expeditor": "Vincenzo da Castello",
+    "addressee": "Bartolomeo Concino",
+    "date": "1570-09-01",
+    "placeOfOrigin": "Parigi",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 551, fols. 236r-239r"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bartolomeo Concino (1570-08-17)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-08-17"
+  },
+  "next": {
+    "title": "Cosimo I de' Medici (1570-09-11)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1570/1570-09-11"
+  }
+}

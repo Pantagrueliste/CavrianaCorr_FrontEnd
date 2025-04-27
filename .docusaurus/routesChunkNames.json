@@ -1,0 +1,352 @@
+{
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug-e75": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug/config-d87": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug/content-577": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    },
+    "__props": "__props---cavriana-corr-front-end-docusaurus-debug-contentcea-eb6"
+  },
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug/globalData-826": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug/metadata-ced": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug/registry-61d": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/__docusaurus/debug/routes-6cb": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docusaurus-debugb-38-611"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/blog-281": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "items": [
+      {
+        "content": "content---cavriana-corr-front-end-blog-766-af3"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blogf-4-f-12b"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blog-871-f45"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blog-925-ff2"
+      }
+    ],
+    "__props": "__props---cavriana-corr-front-end-blog-9-f-1-adc"
+  },
+  "/CavrianaCorr_FrontEnd/blog/archive-576": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "__props": "__props---cavriana-corr-front-end-blog-archivecc-2-4db"
+  },
+  "/CavrianaCorr_FrontEnd/blog/authors-18a": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+      },
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "__props": "__props---cavriana-corr-front-end-blog-authors-5-a-0-600"
+  },
+  "/CavrianaCorr_FrontEnd/blog/first-blog-post-4f6": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+      },
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "content": "content---cavriana-corr-front-end-blog-first-blog-poste-27-1cc"
+  },
+  "/CavrianaCorr_FrontEnd/blog/long-blog-post-414": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+      },
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "content": "content---cavriana-corr-front-end-blog-long-blog-post-736-2a9"
+  },
+  "/CavrianaCorr_FrontEnd/blog/mdx-blog-post-ef9": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+      },
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "content": "content---cavriana-corr-front-end-blog-mdx-blog-post-593-3e2"
+  },
+  "/CavrianaCorr_FrontEnd/blog/tags-715": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "__props": "__props---cavriana-corr-front-end-blog-tags-82-a-629"
+  },
+  "/CavrianaCorr_FrontEnd/blog/tags/docusaurus-cf0": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "items": [
+      {
+        "content": "content---cavriana-corr-front-end-blog-766-af3"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blogf-4-f-12b"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blog-871-f45"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blog-925-ff2"
+      }
+    ],
+    "__props": "__props---cavriana-corr-front-end-blog-tags-docusaurus-031-c7e"
+  },
+  "/CavrianaCorr_FrontEnd/blog/tags/facebook-8cc": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "items": [
+      {
+        "content": "content---cavriana-corr-front-end-blog-766-af3"
+      }
+    ],
+    "__props": "__props---cavriana-corr-front-end-blog-tags-facebook-2-f-8-7dd"
+  },
+  "/CavrianaCorr_FrontEnd/blog/tags/hello-eb5": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "items": [
+      {
+        "content": "content---cavriana-corr-front-end-blog-766-af3"
+      },
+      {
+        "content": "content---cavriana-corr-front-end-blog-871-f45"
+      }
+    ],
+    "__props": "__props---cavriana-corr-front-end-blog-tags-hello-012-ac9"
+  },
+  "/CavrianaCorr_FrontEnd/blog/tags/hola-4fc": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "items": [
+      {
+        "content": "content---cavriana-corr-front-end-blog-925-ff2"
+      }
+    ],
+    "__props": "__props---cavriana-corr-front-end-blog-tags-hola-28-c-8d9"
+  },
+  "/CavrianaCorr_FrontEnd/blog/welcome-135": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---cavriana-corr-front-end-blog-authorsace-02e"
+      },
+      "plugin": "plugin---cavriana-corr-front-end-blog-369-002"
+    },
+    "sidebar": "sidebar---cavriana-corr-front-end-blog-814-a4d",
+    "content": "content---cavriana-corr-front-end-blog-welcomed-9-f-f62"
+  },
+  "/CavrianaCorr_FrontEnd/markdown-page-a68": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-markdown-pagea-74-4b5"
+    },
+    "content": "content---cavriana-corr-front-end-markdown-page-393-b85"
+  },
+  "/CavrianaCorr_FrontEnd/docs-a35": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-docsaba-4d3"
+    }
+  },
+  "/CavrianaCorr_FrontEnd/docs-09c": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---cavriana-corr-front-end-docs-896-b22"
+  },
+  "/CavrianaCorr_FrontEnd/docs-3de": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-04-06-ab8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-04-06-e-28-18d"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-04-28-9c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-04-28-df-7-b9f"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-05-04-1ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-05-048-b-4-a1a"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-05-05-aeb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-05-0561-a-359"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-05-28-a0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-05-28689-5c2"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-06-09-9cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-06-09-f-7-e-59e"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-07-03-781": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-07-034-eb-729"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-07-24-a77": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-07-24200-36e"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1568/1568-09-07-d93": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1568-1568-09-072-a-6-342"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1569/1569-01-03-b2d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1569-1569-01-03-ac-0-5a3"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1569/1569-11-29-27a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1569-1569-11-2910-e-33b"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1569/1569-12-21-776": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1569-1569-12-21-abf-214"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-05-20-047": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-05-20-bed-79d"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-07-15-ec4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-07-15-e-1-b-b47"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-e93": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-07-293-c-3-603"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-07-29-b-d14": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-07-29-bf-0-d-589"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-08-17-ecd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-08-174-b-2-27f"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-09-01-fbd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-09-01933-cfc"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-09-11-918": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-09-114-e-0-b73"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-09-14-ec2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-09-14-e-3-f-7bf"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-10-03-ba9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-10-03-c-7-a-e4d"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-10-11-a17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-10-11598-cb3"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-658": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-0235-a-c50"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-a-c61": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-02-a-267-0b1"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-b-a64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-02-b-86-f-5c2"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-11-02-c-cf1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-02-cf-88-bba"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1570/1570-11-09-eb8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1570-1570-11-09-e-4-b-543"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1571/1571-01-14-4f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1571-1571-01-14-c-6-f-d2e"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18-ee3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1571-1571-04-18-e-40-727"
+  },
+  "/CavrianaCorr_FrontEnd/docs/1571/1571-07-15-d9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-1571-1571-07-15851-887"
+  },
+  "/CavrianaCorr_FrontEnd/docs/intro-c4d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cavriana-corr-front-end-docs-intro-0-e-3-058"
+  },
+  "/CavrianaCorr_FrontEnd/-260": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---cavriana-corr-front-end-markdown-pagea-74-4b5"
+    },
+    "config": "config---cavriana-corr-front-end-5-e-9-0b4"
+  }
+}
