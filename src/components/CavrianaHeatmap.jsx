@@ -8,7 +8,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import CalHeatmap  from 'cal-heatmap';
-import Legend      from 'cal-heatmap/plugins/Legend';
+import LegendLite  from 'cal-heatmap/plugins/LegendLite';
 import Tooltip     from 'cal-heatmap/plugins/Tooltip';
 import 'cal-heatmap/cal-heatmap.css';
 
@@ -161,51 +161,70 @@ const HeatmapOneYear = () => {
     calRef.current?.destroy();
     calRef.current = new CalHeatmap();
 
-    /* register plugins ----------------------------------------------------- */
+    /* --- plugins --------------------------------------------------------- */
     const PLUGINS = [
-      [Legend , { itemSelector: '#cav-legend', position: 'bottom' }],
-      [Tooltip, {}],
+      [
+        LegendLite,
+        {
+          itemSelector: '#cav-legend',
+          width       : 170,   // px – tune to taste
+        },
+      ],
+      [
+        Tooltip,
+        {
+          text: (ts, val, dayjsDate) =>
+            val
+              ? `${dayjsDate.format('D MMMM YYYY')}: ${val} words`
+              : 'No letters on this day',
+        },
+      ],
     ];
 
+    /* --- data for the current year -------------------------------------- */
     const currentYear = YEARS[yearIx];
-
-    /* keep rows of this year and turn ISO date → epoch-seconds -------------- */
     const yearRows = rows
       .filter(r => r.date.startsWith(currentYear))
       .map(r => ({ date: Date.parse(r.date) / 1000, value: r.value }));
 
-    const maxValue = yearRows.length ? Math.max(...yearRows.map(r => r.value)) : 1;
+    const maxValue = yearRows.length
+      ? Math.max(...yearRows.map(r => r.value))
+      : 1;
 
+    /* --- render ---------------------------------------------------------- */
     calRef.current
-      .paint({
-        itemSelector: '#cav-calendar',
+      .paint(
+        {
+          itemSelector: '#cav-calendar',
 
-        date : { start: new Date(currentYear, 0, 1), timezone: 'utc' },
-        range: 1,
+          date : { start: new Date(currentYear, 0, 1), timezone: 'utc' },
+          range: 1,
 
-        domain: {
-          type  : 'year',
-          gutter: 10,
-          label : { text: ts => new Date(ts).getUTCFullYear() },
-        },
-        subDomain: {
-          type  : 'day',
-          width : 11,
-          height: 11,
-          gutter: 2,
-          radius: 2,
-        },
+          domain: {
+            type  : 'year',
+            gutter: 10,
+            label : { text: ts => new Date(ts).getUTCFullYear() },
+          },
+          subDomain: {
+            type  : 'day',
+            width : 11,
+            height: 11,
+            gutter: 2,
+            radius: 2,
+          },
 
-        data : { source: yearRows, x: 'date', y: 'value', type: 'json' },
+          data: { source: yearRows, x: 'date', y: 'value', type: 'json' },
 
-        scale: {
-          color: {
-            type  : 'quantize',
-            scheme: 'Spectral',
-            domain: [0, maxValue],
+          scale: {
+            color: {
+              type  : 'quantize',
+              scheme: 'Spectral',
+              domain: [0, maxValue],
+            },
           },
         },
-      }, PLUGINS)                   // ← plugin array passed here
+        PLUGINS,             // ← second argument
+      )
       .then(() => setBusy(false))
       .catch(e => { setErr(e.message); setBusy(false); });
 
@@ -221,7 +240,7 @@ const HeatmapOneYear = () => {
     );
   }
 
-  /* navigation ------------------------------------------------------------- */
+  /* navigation ----------------------------------------------------------- */
   const prev   = () => yearIx > 0 && setYearIx(yearIx - 1);
   const next   = () => yearIx < YEARS.length - 1 && setYearIx(yearIx + 1);
   const jumpTo = i => setYearIx(i);
