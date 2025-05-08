@@ -15,7 +15,8 @@
 
 /* Cal-heatmap specific styling */
 .cavriana-heatmap .cal-heatmap {
-  margin: 2rem 0;
+/*   margin: 2rem 0; */
+  margin: 0.5rem 0; 
 }
 
 .cavriana-heatmap .cal-heatmap .ch-domain-text {
