@@ -244,7 +244,7 @@ const HeatmapOneYear = () => {
       </div>
 
       {busy && <p>Loading…</p>}
-      <div id="cav-calendar" style={{minHeight:150}} />
+      <div id="cav-calendar" style={{minHeight:250}} />
       <div id="cav-legend"   style={{marginTop:6}} />
 
       <div style={{marginTop:8, textAlign:'center'}}>
