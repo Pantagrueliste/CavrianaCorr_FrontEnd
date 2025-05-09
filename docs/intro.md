@@ -13,7 +13,7 @@ This digital edition presents the correspondence of Filippo Cavriana, a physicia
 
 The visualization below shows Cavriana's letter-writing activity over time, with color intensity representing the volume of text (word count) written on each day.
 
-<CavrianaHeatmap />
+<CustomHeatmap />
 
 ## Exploring the Collection
 
