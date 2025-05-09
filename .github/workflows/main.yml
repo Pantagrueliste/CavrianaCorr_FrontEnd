@@ -23,9 +23,8 @@ jobs:
           cache: 'npm'
       
       - name: Install
-        run: | 
+        run: |
           npm ci
-          npm install cal-heatmap
 
       - name: Update Browserslist
         run: npx update-browserslist-db@latest
@@ -34,6 +33,12 @@ jobs:
         run: npm run build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Debug: Check Current Directory
+        run: pwd
+        
+      - name: Debug: List Components Directory
+        run: ls -l src/components
       
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
