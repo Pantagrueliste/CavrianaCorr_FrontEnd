@@ -2,7 +2,6 @@ name: Build & Deploy Docusaurus
 on:
   push:
     branches: ["main"]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          
+      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -23,10 +22,8 @@ jobs:
           cache: 'npm'
       
       - name: Install
-        run: | 
-          npm ci
-          npm install cal-heatmap
-
+        run: npm ci
+      
       - name: Update Browserslist
         run: npx update-browserslist-db@latest
       
@@ -39,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
-
+          
   deploy:
     needs: build
     runs-on: ubuntu-latest
