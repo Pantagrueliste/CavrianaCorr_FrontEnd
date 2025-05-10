@@ -2,7 +2,6 @@ name: Build & Deploy Docusaurus
 on:
   push:
     branches: ["main"]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,9 +22,8 @@ jobs:
           cache: 'npm'
       
       - name: Install
-        run: |
-          npm ci
-
+        run: npm ci
+          
       - name: Update Browserslist
         run: npx update-browserslist-db@latest
       
@@ -33,7 +31,7 @@ jobs:
         run: npm run build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          
       - name: Debug: Check Current Directory
         run: pwd
         
@@ -44,7 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
-
+          
   deploy:
     needs: build
     runs-on: ubuntu-latest
