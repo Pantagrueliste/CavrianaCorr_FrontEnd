@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Introduction
 ---
 
-import CavrianaHeatmap from '@site/src/components/CustomHeatmap';
+import CustomHeatmap from '@site/src/components/CustomHeatmap';
 
 # Introduction to the Digital Edition
 

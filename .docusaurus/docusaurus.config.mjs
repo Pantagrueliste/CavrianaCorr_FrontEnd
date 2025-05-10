@@ -43,7 +43,7 @@ export default {
         "docs": {
           "path": "docs",
           "routeBasePath": "docs",
-          "sidebarPath": "/Users/clementgodbarge/CavrianaCorr_FrontEnd/sidebars.js",
+          "sidebarPath": "/Users/clementgodbarge/Cavriana/CavrianaCorr_FrontEnd/sidebars.js",
           "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/"
         },
         "blog": {
@@ -51,7 +51,7 @@ export default {
           "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/clementgodbarge/CavrianaCorr_FrontEnd/src/css/custom.css"
+          "customCss": "/Users/clementgodbarge/Cavriana/CavrianaCorr_FrontEnd/src/css/custom.css"
         }
       }
     ]

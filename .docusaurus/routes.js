@@ -69,15 +69,15 @@ export default [
   },
   {
     path: '/CavrianaCorr_FrontEnd/docs',
-    component: ComponentCreator('/CavrianaCorr_FrontEnd/docs', 'a35'),
+    component: ComponentCreator('/CavrianaCorr_FrontEnd/docs', 'a49'),
     routes: [
       {
         path: '/CavrianaCorr_FrontEnd/docs',
-        component: ComponentCreator('/CavrianaCorr_FrontEnd/docs', '09c'),
+        component: ComponentCreator('/CavrianaCorr_FrontEnd/docs', '8ed'),
         routes: [
           {
             path: '/CavrianaCorr_FrontEnd/docs',
-            component: ComponentCreator('/CavrianaCorr_FrontEnd/docs', '3de'),
+            component: ComponentCreator('/CavrianaCorr_FrontEnd/docs', '751'),
             routes: [
               {
                 path: '/CavrianaCorr_FrontEnd/docs/1568/1568-04-06',
@@ -236,6 +236,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/CavrianaCorr_FrontEnd/docs/1570/1570-11-04',
+                component: ComponentCreator('/CavrianaCorr_FrontEnd/docs/1570/1570-11-04', '739'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/CavrianaCorr_FrontEnd/docs/1570/1570-11-09',
                 component: ComponentCreator('/CavrianaCorr_FrontEnd/docs/1570/1570-11-09', 'eb8'),
                 exact: true,
@@ -250,6 +256,12 @@ export default [
               {
                 path: '/CavrianaCorr_FrontEnd/docs/1571/1571-04-18',
                 component: ComponentCreator('/CavrianaCorr_FrontEnd/docs/1571/1571-04-18', 'ee3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/CavrianaCorr_FrontEnd/docs/1571/1571-04-19',
+                component: ComponentCreator('/CavrianaCorr_FrontEnd/docs/1571/1571-04-19', 'f44'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

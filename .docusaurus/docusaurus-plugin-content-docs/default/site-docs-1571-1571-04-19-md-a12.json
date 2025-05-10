@@ -1,0 +1,31 @@
+{
+  "id": "1571/1571-04-19",
+  "title": "Marco da Empoli (1571-04-19)",
+  "description": "[fol. 402r]",
+  "source": "@site/docs/1571/1571-04-19.md",
+  "sourceDirName": "1571",
+  "slug": "/1571/1571-04-19",
+  "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-19",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/docs/1571/1571-04-19.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Marco da Empoli (1571-04-19)",
+    "expeditor": "Filippo Cavriana",
+    "addressee": "Marco da Empoli",
+    "date": "1571-04-19",
+    "placeOfOrigin": "Parigi",
+    "archiveRef": "Florence Archivio di Stato di Firenze, Mediceo del Principato, 559, fols. 402r-402v"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cosimo I de' Medici (1571-04-18)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18"
+  },
+  "next": {
+    "title": "Guglielmo Gonzaga (1571-07-15)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-07-15"
+  }
+}

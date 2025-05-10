@@ -1,6 +1,6 @@
 {
   "id": "1571/1571-07-15",
-  "title": "Duke of Mantua (1571-07-15)",
+  "title": "Guglielmo Gonzaga (1571-07-15)",
   "description": "[fol. 336r]",
   "source": "@site/docs/1571/1571-07-15.md",
   "sourceDirName": "1571",
@@ -12,16 +12,16 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "Duke of Mantua (1571-07-15)",
+    "title": "Guglielmo Gonzaga (1571-07-15)",
     "expeditor": "Filippo Cavriana",
-    "addressee": "Duke of Mantua",
+    "addressee": "Guglielmo Gonzaga",
     "date": "1571-07-15",
     "placeOfOrigin": "Bagni di Lucca",
     "archiveRef": "Mantova Archivio di Stato di Mantova, Archivio Gonzaga, b654, fols. -"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Cosimo I de' Medici (1571-04-18)",
-    "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-18"
+    "title": "Marco da Empoli (1571-04-19)",
+    "permalink": "/CavrianaCorr_FrontEnd/docs/1571/1571-04-19"
   }
 }
