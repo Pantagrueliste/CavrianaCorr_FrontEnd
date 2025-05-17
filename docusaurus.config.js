@@ -41,13 +41,17 @@ const config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
+          editUrl: ({docPath}) =>
+            `https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/issues/new?title=${encodeURIComponent(
+              docPath,
+            )}&labels=error`,
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/tree/main/',
+          editUrl: ({blogPath}) =>
+            `https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/issues/new?title=${encodeURIComponent(
+              blogPath,
+            )}&labels=error`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
