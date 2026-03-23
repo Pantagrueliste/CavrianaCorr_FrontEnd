@@ -82,15 +82,8 @@
 }
 
 /* ==================================== */
-/* Added rule for minimalist line-break markers */
+/* Line-break styling (deprecated lb-marker, now using <br/>) */
 /* ==================================== */
-.lb-marker::after {
-  content: " •";
-  color: var(--ifm-color-secondary-light, #bbb);
-  font-size: 0.7em;
-  padding: 0 2px;
-  user-select: none;
-}
 
 /* ==================================== */
 /* CSS for the year selector in Cavriana Heatmap */
