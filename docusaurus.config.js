@@ -47,7 +47,7 @@ const config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/banner.webp',
     navbar: {
       title: 'Filippo Cavriana: The Secret Correspondence',
       items: [
