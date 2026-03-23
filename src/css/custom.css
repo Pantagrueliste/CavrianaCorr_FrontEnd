@@ -82,8 +82,20 @@
 }
 
 /* ==================================== */
-/* Line-break styling (deprecated lb-marker, now using <br/>) */
+/* Letter metadata block                */
 /* ==================================== */
+.letter-metadata {
+  margin-bottom: 1.5rem;
+  font-size: 0.92rem;
+}
+.letter-metadata table {
+  width: 100%;
+}
+.letter-metadata td:first-child {
+  white-space: nowrap;
+  width: 1%;
+  padding-right: 1rem;
+}
 
 /* ==================================== */
 /* CSS for the year selector in Cavriana Heatmap */
