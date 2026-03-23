@@ -14,20 +14,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // External libraries
-  scripts: [
-    {src: 'https://d3js.org/d3.v7.min.js', async: true},
-    {
-      src: 'https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.min.js',
-      async: true,
-    },
-  ],
-  stylesheets: [
-    {
-      href: 'https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.css',
-    },
-  ],
-
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -90,7 +76,7 @@ const config = {
           items: [
             {
               label: 'Encoded Text',
-              href: 'https://github.com/Pantagrueliste/CavrianaCorr_BackEnd',
+              href: 'https://github.com/Pantagrueliste/CavrianaCorr',
             },
             {label: 'Blog', to: '/blog'},
           ],
