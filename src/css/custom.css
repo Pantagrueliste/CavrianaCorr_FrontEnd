@@ -98,6 +98,13 @@
 }
 
 /* ==================================== */
+/* Beta notice                          */
+/* ==================================== */
+.beta-notice {
+  margin-bottom: 1.5rem;
+}
+
+/* ==================================== */
 /* CSS for the year selector in Cavriana Heatmap */
 /* ==================================== */
 .cavriana-heatmap .year-selector {
