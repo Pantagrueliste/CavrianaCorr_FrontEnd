@@ -13,3 +13,6 @@ build/
 # Environment
 .env
 .env.local
+
+# Auto-generated sidebar category files
+docs/**/_category_.json

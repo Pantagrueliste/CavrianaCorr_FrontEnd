@@ -19,6 +19,8 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [require.resolve('./plugins/letter-count-sidebar')],
+
   presets: [
     [
       'classic',
