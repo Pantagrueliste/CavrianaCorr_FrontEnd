@@ -90,8 +90,9 @@
   color: var(--ifm-color-emphasis-600);
 }
 
-.jump {
-  margin-left: 0.35rem;
+/* The dot is a link to its entry in the index below. */
+.point {
+  cursor: pointer;
 }
 
 /* The polity under the cursor names itself, whatever else is on the map. */

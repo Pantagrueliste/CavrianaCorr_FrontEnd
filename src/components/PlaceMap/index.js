@@ -1,5 +1,4 @@
 import React, {useMemo, useState} from 'react';
-import Link from '@docusaurus/Link';
 import authorities from '@site/src/data/authorities.json';
 import europe from '@site/src/data/europe.json';
 import styles from './styles.module.css';
@@ -184,13 +183,27 @@ export default function PlaceMap() {
 
         <g>
           {onMap.map((p) => (
-            <g
+            <a
               key={p.id}
+              href={`#${p.id}`}
               className={`${styles.point} ${active === p.id ? styles.pointActive : ''}`}
               onMouseEnter={() => setActive(p.id)}
-              onMouseLeave={() => setActive(null)}>
+              onMouseLeave={() => setActive(null)}
+              onClick={(event) => {
+                // Navigate explicitly: an <a> inside SVG does not reliably do
+                // it on its own. The hash lights the entry via :target, and the
+                // href still serves keyboard and middle-click.
+                event.preventDefault();
+                window.location.hash = p.id;
+                requestAnimationFrame(() => {
+                  document
+                    .getElementById(p.id)
+                    ?.scrollIntoView({behavior: 'smooth', block: 'start'});
+                });
+              }}
+              aria-label={`${p.name}, ${p.total} ${p.total === 1 ? 'mention' : 'mentions'}`}>
               <circle cx={p.x} cy={p.y} r={p.r} />
-            </g>
+            </a>
           ))}
         </g>
 
@@ -225,12 +238,7 @@ export default function PlaceMap() {
         {onMap.length} places, sized by how often the letters name them, on the Europe of
         1570. Hover to identify. Frontiers are indicative; dotted lines divide the Empire into
         its ten Imperial Circles. After HistoGIS and IEG-Maps.
-        {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}{' '}
-        {active && (
-          <Link to={`#${active}`} className={styles.jump}>
-            Go to {entities[active].name}
-          </Link>
-        )}
+        {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}
       </figcaption>
     </figure>
   );
