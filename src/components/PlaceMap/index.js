@@ -40,6 +40,7 @@ const COMPOSITE = new Set(['Holy Roman Empire', 'Swiss Confederation']);
 export default function PlaceMap() {
   const [active, setActive] = useState(null);
   const [hoveredPolity, setHoveredPolity] = useState(null);
+  const [hoveredCircle, setHoveredCircle] = useState(null);
 
   const landPaths = useMemo(() => europe.land.map(ringPath), []);
   const linePath = (line) =>
@@ -50,6 +51,11 @@ export default function PlaceMap() {
       })
       .join('');
   const coastPaths = useMemo(() => (europe.coast ?? []).map(linePath), []);
+  const circleLinePaths = useMemo(() => (europe.circleLines ?? []).map(linePath), []);
+  const circles = useMemo(
+    () => (europe.circles ?? []).map((c) => ({...c, paths: c.p.map(ringPath), anchor: project(c.c[0], c.c[1])})),
+    [],
+  );
   const borderPaths = useMemo(() => (europe.borders ?? []).map(linePath), []);
   const lakePaths = useMemo(() => (europe.lakes ?? []).map(ringPath), []);
   const polities = useMemo(
@@ -90,6 +96,7 @@ export default function PlaceMap() {
 
   const hoveredPlace = onMap.find((p) => p.id === active);
   const hovered = polities.find((p) => p.n === hoveredPolity);
+  const hoveredCircleRec = circles.find((c) => c.n === hoveredCircle);
 
   return (
     <figure className={styles.figure}>
@@ -128,10 +135,26 @@ export default function PlaceMap() {
           ))}
         </g>
 
-        {/* Composite territory is stippled, not subdivided. */}
+        {/* The Empire is one crown over many states; its Imperial Circles are
+            drawn inside it, quieter than a frontier. The Confederation keeps
+            the stipple: its cantons are not mapped here. */}
+        <g className={styles.circleFills}>
+          {circles.map((c) => (
+            <g
+              key={c.n}
+              className={hoveredCircle === c.n ? styles.circleActive : undefined}
+              onMouseEnter={() => setHoveredCircle(c.n)}
+              onMouseLeave={() => setHoveredCircle(null)}>
+              {c.paths.map((d, i) => (
+                <path key={i} d={d} />
+              ))}
+            </g>
+          ))}
+        </g>
+
         <g className={styles.stipple}>
           {polities
-            .filter((p) => COMPOSITE.has(p.n))
+            .filter((p) => COMPOSITE.has(p.n) && p.n !== 'Holy Roman Empire')
             .flatMap((p) => p.paths.map((d, i) => <path key={`${p.n}-${i}`} d={d} fillRule="evenodd" />))}
         </g>
 
@@ -143,6 +166,11 @@ export default function PlaceMap() {
 
         {/* Inland frontiers are drawn lighter than the shoreline: the coast is
             the shape of the world, a border is a claim upon it. */}
+        <g className={styles.circleLines}>
+          {circleLinePaths.map((d, i) => (
+            <path key={`cl-${i}`} d={d} />
+          ))}
+        </g>
         <g className={styles.borders}>
           {borderPaths.map((d, i) => (
             <path key={`b-${i}`} d={d} />
@@ -175,6 +203,12 @@ export default function PlaceMap() {
               <tspan className={styles.hoverCount}>
                 {`  ${hoveredPlace.total} ${hoveredPlace.total === 1 ? 'mention' : 'mentions'}`}
               </tspan>
+            </text>
+          </g>
+        ) : hoveredCircleRec ? (
+          <g className={styles.hoverLabel}>
+            <text x={hoveredCircleRec.anchor[0]} y={hoveredCircleRec.anchor[1]} textAnchor="middle">
+              {hoveredCircleRec.n}
             </text>
           </g>
         ) : (
