@@ -26,7 +26,7 @@ module.exports = function letterCountSidebarPlugin(context) {
         const categoryPath = path.join(docsDir, year, '_category_.json');
         const categoryData = {
           label: `${year} (${count})`,
-          position: parseInt(year, 10) - 1567, // chronological order
+          position: parseInt(year, 10), // chronological order (absolute year keeps positions positive for any year)
         };
         fs.writeFileSync(categoryPath, JSON.stringify(categoryData, null, 2) + '\n');
       }

@@ -82,6 +82,19 @@
 }
 
 /* ==================================== */
+/* Scribal deletions (struck through)   */
+/* and additions in another hand        */
+/* ==================================== */
+.del {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.add {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+/* ==================================== */
 /* Letter metadata block                */
 /* ==================================== */
 .letter-metadata {
@@ -105,31 +118,11 @@
 }
 
 /* ==================================== */
-/* CSS for the year selector in Cavriana Heatmap */
+/* Contemporary decipherments written   */
+/* above cipher passages                */
 /* ==================================== */
-.cavriana-heatmap .year-selector {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem 0;
-}
-
-.cavriana-heatmap .year-button {
-  padding: 0.5rem 1rem;
-  background-color: var(--ifm-color-secondary);
-  border: 1px solid var(--ifm-color-secondary-dark);
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.2s;
-}
-
-.cavriana-heatmap .year-button.active {
-  background-color: var(--ifm-color-primary);
-  color: white;
-}
-
-.cavriana-heatmap .year-button:hover {
-  background-color: var(--ifm-color-primary-light);
-  color: white;
+.decipher {
+  font-style: italic;
+  border-bottom: 1px dashed var(--ifm-color-emphasis-500);
+  cursor: help;
 }
