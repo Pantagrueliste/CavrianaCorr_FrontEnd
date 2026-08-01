@@ -13,8 +13,14 @@
 .land path {
   fill: var(--ifm-color-emphasis-200);
   stroke: var(--ifm-color-emphasis-400);
-  stroke-width: 0.5;
+  stroke-width: 0.6;
   stroke-linejoin: round;
+}
+
+.water path {
+  fill: var(--ifm-background-surface-color);
+  stroke: var(--ifm-color-emphasis-400);
+  stroke-width: 0.4;
 }
 
 .point circle {

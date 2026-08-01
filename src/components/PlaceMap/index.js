@@ -26,22 +26,16 @@ const project = (lon, lat) => [
 export default function PlaceMap() {
   const [active, setActive] = useState(null);
 
-  const landPaths = useMemo(
-    () =>
-      europe.countries.flatMap((country, ci) =>
-        country.p.map((ring, ri) => ({
-          key: `${ci}-${ri}`,
-          d:
-            ring
-              .map(([lon, lat], i) => {
-                const [x, y] = project(lon, lat);
-                return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`;
-              })
-              .join('') + 'Z',
-        })),
-      ),
-    [],
-  );
+  const toPath = (ring) =>
+    ring
+      .map(([lon, lat], i) => {
+        const [x, y] = project(lon, lat);
+        return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`;
+      })
+      .join('') + 'Z';
+
+  const landPaths = useMemo(() => europe.land.map(toPath), []);
+  const lakePaths = useMemo(() => (europe.lakes ?? []).map(toPath), []);
 
   const points = useMemo(() => {
     const located = Object.entries(entities)
@@ -99,8 +93,13 @@ export default function PlaceMap() {
         role="img"
         aria-label={`Map of ${onMap.length} places named in the correspondence`}>
         <g className={styles.land}>
-          {landPaths.map((p) => (
-            <path key={p.key} d={p.d} />
+          {landPaths.map((d, i) => (
+            <path key={`land-${i}`} d={d} />
+          ))}
+        </g>
+        <g className={styles.water}>
+          {lakePaths.map((d, i) => (
+            <path key={`lake-${i}`} d={d} />
           ))}
         </g>
         <g>
@@ -126,8 +125,10 @@ export default function PlaceMap() {
         </g>
       </svg>
       <figcaption className={styles.caption}>
-        {onMap.length} located places, sized by how often each is named.
-        {offMap.length > 0 && ` ${offMap.length} lie beyond this frame.`}{' '}
+        {onMap.length} located places, sized by how often each is named. Coastline only —
+        the frontiers of Cavriana&rsquo;s Europe are not drawn, and modern ones would be
+        three centuries out of date.
+        {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}{' '}
         {active && (
           <Link to={`#${active}`} className={styles.jump}>
             Go to {entities[active].name}
