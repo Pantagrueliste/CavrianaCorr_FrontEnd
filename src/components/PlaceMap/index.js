@@ -42,6 +42,15 @@ export default function PlaceMap() {
   const [hoveredPolity, setHoveredPolity] = useState(null);
 
   const landPaths = useMemo(() => europe.land.map(ringPath), []);
+  const linePath = (line) =>
+    line
+      .map(([lon, lat], i) => {
+        const [x, y] = project(lon, lat);
+        return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`;
+      })
+      .join('');
+  const coastPaths = useMemo(() => (europe.coast ?? []).map(linePath), []);
+  const borderPaths = useMemo(() => (europe.borders ?? []).map(linePath), []);
   const lakePaths = useMemo(() => (europe.lakes ?? []).map(ringPath), []);
   const polities = useMemo(
     () =>
@@ -105,7 +114,7 @@ export default function PlaceMap() {
           ))}
         </g>
 
-        <g className={styles.polities}>
+        <g className={styles.polityFills}>
           {polities.map((p) => (
             <g
               key={p.n}
@@ -129,6 +138,19 @@ export default function PlaceMap() {
         <g className={styles.water}>
           {lakePaths.map((d, i) => (
             <path key={`lake-${i}`} d={d} />
+          ))}
+        </g>
+
+        {/* Inland frontiers are drawn lighter than the shoreline: the coast is
+            the shape of the world, a border is a claim upon it. */}
+        <g className={styles.borders}>
+          {borderPaths.map((d, i) => (
+            <path key={`b-${i}`} d={d} />
+          ))}
+        </g>
+        <g className={styles.coast}>
+          {coastPaths.map((d, i) => (
+            <path key={`c-${i}`} d={d} />
           ))}
         </g>
 
