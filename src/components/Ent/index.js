@@ -36,7 +36,9 @@ export default function Ent({ k, id, children }) {
       ]
         .filter(Boolean)
         .join(" · ")
-    : rec.tgn && `Getty TGN ${rec.tgn}`;
+    : [rec.wikidata && `Wikidata ${rec.wikidata}`, rec.tgn && `Getty TGN ${rec.tgn}`]
+        .filter(Boolean)
+        .join(' · ');
 
   return (
     <span className={styles.ent}>

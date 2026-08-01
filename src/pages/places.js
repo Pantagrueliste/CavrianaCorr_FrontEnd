@@ -11,11 +11,29 @@ function detail(rec) {
     <>
       {facts && <p className={styles.detail}>{facts}</p>}
       {rec.note && <p className={styles.detail}>{rec.note}</p>}
-      {rec.tgn && (
+      {(rec.wikidata || rec.tgn || rec.geonames) && (
         <p className={styles.authority}>
-          <a href={`http://vocab.getty.edu/tgn/${rec.tgn}`} rel="noopener noreferrer">
-            Getty TGN {rec.tgn}
-          </a>
+          {rec.wikidata && (
+            <a href={`https://www.wikidata.org/wiki/${rec.wikidata}`} rel="noopener noreferrer">
+              Wikidata {rec.wikidata}
+            </a>
+          )}
+          {rec.tgn && (
+            <>
+              {rec.wikidata && ' · '}
+              <a href={`https://vocab.getty.edu/page/tgn/${rec.tgn}`} rel="noopener noreferrer">
+                Getty TGN {rec.tgn}
+              </a>
+            </>
+          )}
+          {rec.geonames && (
+            <>
+              {(rec.wikidata || rec.tgn) && ' · '}
+              <a href={`https://www.geonames.org/${rec.geonames}`} rel="noopener noreferrer">
+                GeoNames {rec.geonames}
+              </a>
+            </>
+          )}
         </p>
       )}
     </>

@@ -69,7 +69,8 @@ export default function PlaceMap() {
 
   const points = useMemo(() => {
     const located = Object.entries(entities)
-      .filter(([, r]) => r.kind === 'place' && r.lat && r.lon && r.total > 0)
+      // A country or continent is not a point on a map of towns.
+      .filter(([, r]) => r.kind === 'place' && !r.scope && r.lat && r.lon && r.total > 0)
       .map(([id, r]) => ({id, name: r.name, lat: Number(r.lat), lon: Number(r.lon), total: r.total}))
       .filter((p) => Number.isFinite(p.lat) && Number.isFinite(p.lon));
     if (located.length === 0) {
