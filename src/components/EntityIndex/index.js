@@ -6,6 +6,12 @@ import styles from './styles.module.css';
 
 const {entities} = authorities;
 
+function splitSortName(rec) {
+  const s = rec.sortName ?? rec.name;
+  const i = s.indexOf(',');
+  return i === -1 ? [s, ''] : [s.slice(0, i), s.slice(i + 1).trim()];
+}
+
 function letterHref({slug, date}) {
   const year = (date || slug).slice(0, 4);
   return `/docs/${year}/${slug}`;
@@ -15,7 +21,7 @@ function Entry({id, rec, children}) {
   return (
     <li className={styles.entry} id={id}>
       <div className={styles.head}>
-        <h2 className={styles.name}>{rec.name}</h2>
+        <h2 className={styles.name}>{rec.sortName ?? rec.name}</h2>
         <span className={styles.count}>
           {rec.total} {rec.total === 1 ? 'mention' : 'mentions'}
           {rec.letters.length > 0 &&
@@ -41,13 +47,23 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
 
   const records = useMemo(() => {
     const all = Object.entries(entities).filter(([, rec]) => rec.kind === kind);
-    all.sort((a, b) => a[1].name.localeCompare(b[1].name, 'it'));
+    // File on the surname first, then the forename, so "Bourbon, Henri"
+    // precedes "Bourbon-Vendôme" — comparing the whole string would let the
+    // hyphen outrank the comma and invert them.
+    all.sort((a, b) => {
+      const [aSur, aFore] = splitSortName(a[1]);
+      const [bSur, bFore] = splitSortName(b[1]);
+      return (
+        aSur.localeCompare(bSur, 'it', {sensitivity: 'base'}) ||
+        aFore.localeCompare(bFore, 'it', {sensitivity: 'base'})
+      );
+    });
     const q = query.trim().toLowerCase();
     if (!q) {
       return all;
     }
     return all.filter(([id, rec]) =>
-      [rec.name, id, rec.role, rec.country, ...(rec.aliases ?? []), ...(rec.historical ?? [])]
+      [rec.name, rec.sortName, id, rec.role, rec.country, ...(rec.aliases ?? []), ...(rec.historical ?? [])]
         .filter(Boolean)
         .some((v) => v.toLowerCase().includes(q)),
     );
