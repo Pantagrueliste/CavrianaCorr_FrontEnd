@@ -1,0 +1,41 @@
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.1rem;
+  margin: 0 0 1.75rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.legend {
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-800);
+  cursor: pointer;
+}
+
+.item input {
+  margin: 0;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: var(--ifm-font-color-base);
+}
+
+@media print {
+  .bar {
+    display: none;
+  }
+}

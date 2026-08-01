@@ -21,6 +21,7 @@ const config = {
 
   plugins: [
     require.resolve('./plugins/letter-count-sidebar'),
+    require.resolve('./plugins/edition-view'),
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -86,6 +87,8 @@ const config = {
       title: 'Filippo Cavriana: The Secret Correspondence',
       items: [
         {to: '/docs/intro', label: 'Letters', position: 'left'},
+        {to: '/people', label: 'People', position: 'left'},
+        {to: '/places', label: 'Places', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Pantagrueliste/CavrianaCorr',
@@ -101,6 +104,8 @@ const config = {
           title: 'Content',
           items: [
             {label: 'Letters', to: '/docs/intro'},
+            {label: 'People', to: '/people'},
+            {label: 'Places', to: '/places'},
           ],
         },
         {

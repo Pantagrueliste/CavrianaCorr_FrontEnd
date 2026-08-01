@@ -111,10 +111,25 @@
 }
 
 /* ==================================== */
-/* Beta notice                          */
+/* Editorial notice                     */
 /* ==================================== */
-.beta-notice {
-  margin-bottom: 1.5rem;
+/* A standing statement about the edition, set as a colophon rather than an
+   alert box: this is not a warning, and it should not shout at the reader
+   on every letter. */
+.editorial-notice {
+  margin: 0 0 2rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-600);
+}
+.editorial-notice > span {
+  display: inline-block;
+  margin-right: 0.6rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 /* ==================================== */
@@ -151,4 +166,66 @@
 }
 [data-theme='dark'] .supplied {
   color: #e0866f;
+}
+
+/* ==================================== */
+/* Reader view settings                 */
+/* ==================================== */
+/* Both readings of an abbreviation are in the HTML; exactly one is shown, so
+   selections and screen readers get a single clean text. */
+.abbr { display: none; }
+html[data-cav-view='diplomatic'] .abbr { display: inline; }
+html[data-cav-view='diplomatic'] .expan { display: none; }
+html[data-cav-view='diplomatic'] .expan-mark { border-bottom: none; }
+
+/* In the reading text, an expanded abbreviation is marked discreetly. */
+html:not([data-cav-view='diplomatic']) .expan {
+  border-bottom: 1px dotted var(--ifm-color-emphasis-400);
+}
+
+html[data-cav-cipher='hidden'] .cipher { display: none; }
+
+/* ==================================== */
+/* Epistolary frame                     */
+/* ==================================== */
+.letter-opener,
+.letter-closer,
+.letter-postscript {
+  margin: 1.5rem 0;
+}
+.letter-closer {
+  margin-left: auto;
+  max-width: 26rem;
+  text-align: right;
+}
+.letter-postscript {
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.94em;
+}
+.dateline {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+}
+.signed {
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+}
+.salute {
+  display: inline-block;
+}
+
+/* ==================================== */
+/* Summary as prose, not a table cell   */
+/* ==================================== */
+.letter-summary {
+  margin: 0 0 1.75rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+.letter-summary p:last-child {
+  margin-bottom: 0;
 }
