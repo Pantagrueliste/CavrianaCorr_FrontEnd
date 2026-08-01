@@ -1,64 +1,94 @@
 import React, {useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
 import authorities from '@site/src/data/authorities.json';
+import europe from '@site/src/data/europe.json';
 import styles from './styles.module.css';
 
 const {entities} = authorities;
 
-const WIDTH = 720;
-const HEIGHT = 460;
-const PAD = 34;
+const WIDTH = 760;
+const HEIGHT = 520;
+
+// The extent the vendored coastline was cut to.
+const [MIN_LON, MIN_LAT, MAX_LON, MAX_LAT] = europe.bbox;
+
+const project = (lon, lat) => [
+  ((lon - MIN_LON) / (MAX_LON - MIN_LON)) * WIDTH,
+  // Latitude increases northward, y increases downward.
+  ((MAX_LAT - lat) / (MAX_LAT - MIN_LAT)) * HEIGHT,
+];
 
 /**
- * Where the correspondence reaches. Plotted from the coordinates in the
- * place authority file — an equirectangular projection over the extent of
- * the data, with a graticule for orientation. No basemap: the point is the
- * shape of Cavriana's network, not cartographic detail.
+ * Where the correspondence reaches. Places are plotted from the coordinates
+ * in the place authority file over a simplified coastline held in the repo —
+ * no tiles, no external requests, and it prints.
  */
 export default function PlaceMap() {
   const [active, setActive] = useState(null);
 
-  const {points, bounds} = useMemo(() => {
+  const landPaths = useMemo(
+    () =>
+      europe.countries.flatMap((country, ci) =>
+        country.p.map((ring, ri) => ({
+          key: `${ci}-${ri}`,
+          d:
+            ring
+              .map(([lon, lat], i) => {
+                const [x, y] = project(lon, lat);
+                return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`;
+              })
+              .join('') + 'Z',
+        })),
+      ),
+    [],
+  );
+
+  const points = useMemo(() => {
     const located = Object.entries(entities)
       .filter(([, r]) => r.kind === 'place' && r.lat && r.lon && r.total > 0)
       .map(([id, r]) => ({id, name: r.name, lat: Number(r.lat), lon: Number(r.lon), total: r.total}))
       .filter((p) => Number.isFinite(p.lat) && Number.isFinite(p.lon));
-
     if (located.length === 0) {
-      return {points: [], bounds: null};
+      return [];
     }
-    const lats = located.map((p) => p.lat);
-    const lons = located.map((p) => p.lon);
-    const b = {
-      minLat: Math.min(...lats), maxLat: Math.max(...lats),
-      minLon: Math.min(...lons), maxLon: Math.max(...lons),
-    };
-    const spanLat = b.maxLat - b.minLat || 1;
-    const spanLon = b.maxLon - b.minLon || 1;
     const max = Math.max(...located.map((p) => p.total));
-
-    const pts = located.map((p) => ({
-      ...p,
-      x: PAD + ((p.lon - b.minLon) / spanLon) * (WIDTH - PAD * 2),
-      // Latitude increases northward, y increases downward.
-      y: PAD + ((b.maxLat - p.lat) / spanLat) * (HEIGHT - PAD * 2),
-      r: 3 + Math.sqrt(p.total / max) * 11,
-    }));
-    return {points: pts, bounds: b};
+    return located
+      .sort((a, b) => b.total - a.total)
+      .map((p) => {
+        const [x, y] = project(p.lon, p.lat);
+        return {...p, x, y, r: 2.5 + Math.sqrt(p.total / max) * 10};
+      });
   }, []);
 
   if (points.length === 0) {
     return null;
   }
 
-  const graticule = [];
-  for (let lat = Math.ceil(bounds.minLat / 5) * 5; lat <= bounds.maxLat; lat += 5) {
-    const y = PAD + ((bounds.maxLat - lat) / (bounds.maxLat - bounds.minLat)) * (HEIGHT - PAD * 2);
-    graticule.push({key: `lat${lat}`, x1: PAD, x2: WIDTH - PAD, y1: y, y2: y, label: `${lat}°N`, lx: 4, ly: y - 3});
-  }
-  for (let lon = Math.ceil(bounds.minLon / 5) * 5; lon <= bounds.maxLon; lon += 5) {
-    const x = PAD + ((lon - bounds.minLon) / (bounds.maxLon - bounds.minLon)) * (WIDTH - PAD * 2);
-    graticule.push({key: `lon${lon}`, x1: x, x2: x, y1: PAD, y2: HEIGHT - PAD, label: `${lon}°E`, lx: x + 3, ly: HEIGHT - PAD + 12});
+  const offMap = points.filter(
+    (p) => p.lon < MIN_LON || p.lon > MAX_LON || p.lat < MIN_LAT || p.lat > MAX_LAT,
+  );
+  const onMap = points.filter((p) => !offMap.includes(p));
+
+  // Label the most-cited places first, skipping any whose label would sit on
+  // one already placed — otherwise the Paris cluster buries its own busiest
+  // name under its neighbours'.
+  const labelled = new Set();
+  const boxes = [];
+  for (const p of onMap.slice(0, 16)) {
+    const box = {
+      x1: p.x + p.r + 2,
+      y1: p.y - 5,
+      x2: p.x + p.r + 2 + p.name.length * 5.6,
+      y2: p.y + 6,
+    };
+    const clash = boxes.some((b) => !(box.x2 < b.x1 || box.x1 > b.x2 || box.y2 < b.y1 || box.y1 > b.y2));
+    if (!clash) {
+      boxes.push(box);
+      labelled.add(p.id);
+    }
+    if (labelled.size >= 10) {
+      break;
+    }
   }
 
   return (
@@ -67,35 +97,37 @@ export default function PlaceMap() {
         className={styles.map}
         viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
         role="img"
-        aria-label={`Map of ${points.length} places named in the correspondence`}>
-        <g className={styles.graticule}>
-          {graticule.map((g) => (
-            <g key={g.key}>
-              <line x1={g.x1} y1={g.y1} x2={g.x2} y2={g.y2} />
-              <text x={g.lx} y={g.ly} className={styles.gridLabel}>{g.label}</text>
+        aria-label={`Map of ${onMap.length} places named in the correspondence`}>
+        <g className={styles.land}>
+          {landPaths.map((p) => (
+            <path key={p.key} d={p.d} />
+          ))}
+        </g>
+        <g>
+          {onMap.map((p) => (
+            <g
+              key={p.id}
+              className={`${styles.point} ${active === p.id ? styles.pointActive : ''}`}
+              onMouseEnter={() => setActive(p.id)}
+              onMouseLeave={() => setActive(null)}>
+              <circle cx={p.x} cy={p.y} r={p.r} />
+              <title>{`${p.name} — ${p.total} ${p.total === 1 ? 'mention' : 'mentions'}`}</title>
             </g>
           ))}
         </g>
-        {points.map((p) => (
-          <g
-            key={p.id}
-            className={`${styles.point} ${active === p.id ? styles.pointActive : ''}`}
-            onMouseEnter={() => setActive(p.id)}
-            onMouseLeave={() => setActive(null)}>
-            <circle cx={p.x} cy={p.y} r={p.r} />
-            <title>{`${p.name} — ${p.total} ${p.total === 1 ? 'mention' : 'mentions'}`}</title>
-          </g>
-        ))}
-        {points
-          .filter((p) => p.total >= 8 || active === p.id)
-          .map((p) => (
-            <text key={`l-${p.id}`} x={p.x + p.r + 3} y={p.y + 3} className={styles.pointLabel}>
-              {p.name}
-            </text>
-          ))}
+        <g className={styles.labels}>
+          {onMap
+            .filter((p) => labelled.has(p.id) || active === p.id)
+            .map((p) => (
+              <text key={`l-${p.id}`} x={p.x + p.r + 3} y={p.y + 3.5}>
+                {p.name}
+              </text>
+            ))}
+        </g>
       </svg>
       <figcaption className={styles.caption}>
-        {points.length} located places, sized by how often each is named.{' '}
+        {onMap.length} located places, sized by how often each is named.
+        {offMap.length > 0 && ` ${offMap.length} lie beyond this frame.`}{' '}
         {active && (
           <Link to={`#${active}`} className={styles.jump}>
             Go to {entities[active].name}
