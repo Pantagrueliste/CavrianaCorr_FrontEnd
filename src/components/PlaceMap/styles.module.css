@@ -12,9 +12,7 @@
 
 .land path {
   fill: var(--ifm-color-emphasis-100);
-  stroke: var(--ifm-color-emphasis-400);
-  stroke-width: 0.6;
-  stroke-linejoin: round;
+  stroke: none;
 }
 
 /* Sovereign frontiers of 1570. Kept quiet: this is the ground the letters
@@ -51,18 +49,6 @@
   stroke-width: 0.4;
 }
 
-.polityLabels text {
-  fill: var(--ifm-color-emphasis-700);
-  font-size: 8.5px;
-  font-family: var(--ifm-font-family-base);
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  paint-order: stroke;
-  stroke: var(--ifm-color-emphasis-100);
-  stroke-width: 2.5px;
-  stroke-linejoin: round;
-  pointer-events: none;
-}
 
 .point circle {
   fill: var(--ifm-color-primary);
@@ -78,16 +64,6 @@
   fill-opacity: 0.9;
 }
 
-.labels text {
-  fill: var(--ifm-font-color-base);
-  font-size: 10.5px;
-  font-family: var(--ifm-font-family-base);
-  paint-order: stroke;
-  stroke: var(--ifm-background-surface-color);
-  stroke-width: 3.5px;
-  stroke-linejoin: round;
-  pointer-events: none;
-}
 
 .caption {
   margin-top: 0.6rem;
@@ -111,4 +87,9 @@
   stroke-width: 4px;
   stroke-linejoin: round;
   pointer-events: none;
+}
+
+.hoverCount {
+  fill: var(--ifm-color-emphasis-600);
+  font-size: 9px;
 }

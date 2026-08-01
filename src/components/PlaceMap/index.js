@@ -26,8 +26,6 @@ const ringPath = (ring) =>
     })
     .join('') + 'Z';
 
-const toPath = (ring) => ringPath(ring);
-
 // A polity polygon is an exterior ring followed by its holes; drawn as one
 // path with the even-odd rule so an enclave stays a hole rather than being
 // filled over by the state around it.
@@ -39,35 +37,12 @@ const polyPath = (rings) => rings.map(ringPath).join('');
 // subdivisions would be three centuries wrong.
 const COMPOSITE = new Set(['Holy Roman Empire', 'Swiss Confederation']);
 
-// Only the polities this correspondence actually moves through are named on the
-// map; the rest are drawn and left to the hover.
-const LABEL_ALWAYS = new Set([
-  'Kingdom of France',
-  'Spain',
-  'Holy Roman Empire',
-  'Habsburg Netherlands',
-  'Duchy of Savoy',
-  'Papal States',
-  'Republic of Venice',
-  'Grand Duchy of Tuscany',
-  'Duchy of Milan',
-  'Kingdom of Naples',
-  'England and Wales',
-  'Portugal',
-]);
-
-const shortLabel = (name) =>
-  name
-    .replace(/^(Kingdom|Duchy|Republic|Grand Duchy) of /, '')
-    .replace('Habsburg Netherlands', 'Netherlands')
-    .replace('England and Wales', 'England');
-
 export default function PlaceMap() {
   const [active, setActive] = useState(null);
   const [hoveredPolity, setHoveredPolity] = useState(null);
 
-  const landPaths = useMemo(() => europe.land.map(toPath), []);
-  const lakePaths = useMemo(() => (europe.lakes ?? []).map(toPath), []);
+  const landPaths = useMemo(() => europe.land.map(ringPath), []);
+  const lakePaths = useMemo(() => (europe.lakes ?? []).map(ringPath), []);
   const polities = useMemo(
     () =>
       (europe.polities ?? []).map((p) => ({
@@ -104,50 +79,7 @@ export default function PlaceMap() {
   );
   const onMap = points.filter((p) => !offMap.includes(p));
 
-  // Label the most-cited places first, skipping any whose label would sit on
-  // one already placed — otherwise the Île-de-France cluster buries Paris.
-  const labelled = new Set();
-  const boxes = [];
-  for (const p of onMap.slice(0, 16)) {
-    const box = {
-      x1: p.x + p.r + 2,
-      y1: p.y - 5,
-      x2: p.x + p.r + 2 + p.name.length * 5.6,
-      y2: p.y + 6,
-    };
-    const clash = boxes.some((b) => !(box.x2 < b.x1 || box.x1 > b.x2 || box.y2 < b.y1 || box.y1 > b.y2));
-    if (!clash) {
-      boxes.push(box);
-      labelled.add(p.id);
-    }
-    if (labelled.size >= 10) {
-      break;
-    }
-  }
-
-  // Place names win: a polity label is dropped if it would sit on one, or on
-  // a polity label already placed.
-  const polityLabels = [];
-  for (const p of polities) {
-    if (!LABEL_ALWAYS.has(p.n) || p.n === hoveredPolity) {
-      continue;
-    }
-    const w = shortLabel(p.n).length * 5.2;
-    const box = {
-      x1: p.anchor[0] - w / 2,
-      y1: p.anchor[1] - 5,
-      x2: p.anchor[0] + w / 2,
-      y2: p.anchor[1] + 5,
-    };
-    const clash = boxes.some(
-      (b) => !(box.x2 < b.x1 || box.x1 > b.x2 || box.y2 < b.y1 || box.y1 > b.y2),
-    );
-    if (!clash) {
-      boxes.push(box);
-      polityLabels.push(p);
-    }
-  }
-
+  const hoveredPlace = onMap.find((p) => p.id === active);
   const hovered = polities.find((p) => p.n === hoveredPolity);
 
   return (
@@ -164,6 +96,9 @@ export default function PlaceMap() {
           </pattern>
         </defs>
 
+        {/* Land is a fill only. The coast is stroked once, by the polity that
+            holds it — stroking it here too would double the shoreline, the two
+            lines simplified to different tolerances and visibly apart. */}
         <g className={styles.land}>
           {landPaths.map((d, i) => (
             <path key={`land-${i}`} d={d} />
@@ -180,7 +115,6 @@ export default function PlaceMap() {
               {p.paths.map((d, i) => (
                 <path key={i} d={d} fillRule="evenodd" />
               ))}
-              <title>{p.n}</title>
             </g>
           ))}
         </g>
@@ -198,14 +132,6 @@ export default function PlaceMap() {
           ))}
         </g>
 
-        <g className={styles.polityLabels}>
-          {polityLabels.map((p) => (
-            <text key={`pl-${p.n}`} x={p.anchor[0]} y={p.anchor[1]} textAnchor="middle">
-              {shortLabel(p.n)}
-            </text>
-          ))}
-        </g>
-
         <g>
           {onMap.map((p) => (
             <g
@@ -214,34 +140,37 @@ export default function PlaceMap() {
               onMouseEnter={() => setActive(p.id)}
               onMouseLeave={() => setActive(null)}>
               <circle cx={p.x} cy={p.y} r={p.r} />
-              <title>{`${p.name} — ${p.total} ${p.total === 1 ? 'mention' : 'mentions'}`}</title>
             </g>
           ))}
         </g>
 
-        <g className={styles.labels}>
-          {onMap
-            .filter((p) => labelled.has(p.id) || active === p.id)
-            .map((p) => (
-              <text key={`l-${p.id}`} x={p.x + p.r + 3} y={p.y + 3.5}>
-                {p.name}
-              </text>
-            ))}
-        </g>
-        {hovered && (
-          <g className={styles.hoverLabel} aria-hidden="true">
-            <text x={hovered.anchor[0]} y={hovered.anchor[1]} textAnchor="middle">
-              {hovered.n}
+        {/* Nothing is named until the reader asks. A place under the cursor
+            wins over the territory beneath it. */}
+        {hoveredPlace ? (
+          <g className={styles.hoverLabel}>
+            <text x={hoveredPlace.x + hoveredPlace.r + 4} y={hoveredPlace.y + 3.5}>
+              {hoveredPlace.name}
+              <tspan className={styles.hoverCount}>
+                {`  ${hoveredPlace.total} ${hoveredPlace.total === 1 ? 'mention' : 'mentions'}`}
+              </tspan>
             </text>
           </g>
+        ) : (
+          hovered && (
+            <g className={styles.hoverLabel}>
+              <text x={hovered.anchor[0]} y={hovered.anchor[1]} textAnchor="middle">
+                {hovered.n}
+              </text>
+            </g>
+          )
         )}
       </svg>
       <figcaption className={styles.caption}>
         {onMap.length} located places, sized by how often each is named, over the political
-        divisions of 1570. Frontiers are indicative: composed from modern administrative
-        units, they cannot show enclaves or a border that followed a river bank. Stippling
-        marks composite territory — the Empire counted hundreds of principalities, not drawn
-        separately.
+        divisions of 1570. Hover a place or a territory to name it. Frontiers are indicative:
+        composed from modern administrative units, they cannot show a border that followed a
+        river bank. Stippling marks composite territory — the Empire counted hundreds of
+        principalities, not drawn separately.
         {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}{' '}
         {active && (
           <Link to={`#${active}`} className={styles.jump}>
