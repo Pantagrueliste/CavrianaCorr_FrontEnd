@@ -81,7 +81,7 @@ export default function People() {
     <EntityIndex
       kind="person"
       title="People"
-      description="Everyone named in the correspondence, with the letters that mention them. Cavriana wrote to Medicean secretaries and the Duke of Mantua, and reported on the French court under two pseudonyms of his own."
+      description="Everyone named in the correspondence, with the letters that mention them. Cavriana himself is not listed: he wrote these letters and signs almost all of them, under his own name and under two pseudonyms."
       renderDetail={detail}
     />
   );

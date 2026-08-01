@@ -36,19 +36,31 @@ export default function Ent({ k, id, children }) {
       ]
         .filter(Boolean)
         .join(" · ")
-    : [rec.wikidata && `Wikidata ${rec.wikidata}`, rec.tgn && `Getty TGN ${rec.tgn}`]
+    : [
+        rec.wikidata && `Wikidata ${rec.wikidata}`,
+        rec.tgn && `Getty TGN ${rec.tgn}`,
+      ]
         .filter(Boolean)
-        .join(' · ');
+        .join(" · ");
+
+  const label = rec.author ? (
+    <span className={styles.author} title={[rec.name, ...detail].join(" · ")}>
+      {children}
+    </span>
+  ) : null;
 
   return (
     <span className={styles.ent}>
-      <Link
-        to={`${index}#${id}`}
-        className={isPerson ? styles.person : styles.place}
-        title={[rec.name, ...detail].join(" · ")}
-      >
-        {children}
-      </Link>
+      {label}
+      {!label && (
+        <Link
+          to={`${index}#${id}`}
+          className={isPerson ? styles.person : styles.place}
+          title={[rec.name, ...detail].join(" · ")}
+        >
+          {children}
+        </Link>
+      )}
       <span className={styles.card} role="note">
         {rec.image && (
           <img

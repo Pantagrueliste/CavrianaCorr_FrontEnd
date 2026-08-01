@@ -97,3 +97,8 @@
     border-bottom: none;
   }
 }
+
+/* The author's own name and pseudonyms: identified, but with nowhere to go. */
+.author {
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}

@@ -46,7 +46,9 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
   const [query, setQuery] = useState('');
 
   const records = useMemo(() => {
-    const all = Object.entries(entities).filter(([, rec]) => rec.kind === kind);
+    // Cavriana signs nearly every letter, so an entry counting his own
+    // signatures would say nothing. He keeps his authority record.
+    const all = Object.entries(entities).filter(([, rec]) => rec.kind === kind && !rec.author);
     // File on the surname first, then the forename, so "Bourbon, Henri"
     // precedes "Bourbon-Vendôme" — comparing the whole string would let the
     // hyphen outrank the comma and invert them.
