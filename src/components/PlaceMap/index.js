@@ -222,12 +222,9 @@ export default function PlaceMap() {
         )}
       </svg>
       <figcaption className={styles.caption}>
-        {onMap.length} located places, sized by how often each is named, over the political
-        divisions of 1570. Hover a place or a territory to name it. Frontiers are indicative:
-        composed from modern administrative units, they cannot show a border that followed a
-        river bank. Within the Empire the ten Imperial Circles are drawn as dotted divisions;
-        each grouped many principalities, which are not mapped individually. Circle boundaries
-        after HistoGIS (ACDH-CH), from IEG-Maps.
+        {onMap.length} places, sized by how often the letters name them, on the Europe of
+        1570. Hover to identify. Frontiers are indicative; dotted lines divide the Empire into
+        its ten Imperial Circles. After HistoGIS and IEG-Maps.
         {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}{' '}
         {active && (
           <Link to={`#${active}`} className={styles.jump}>
