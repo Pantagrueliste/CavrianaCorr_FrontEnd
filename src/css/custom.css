@@ -126,3 +126,29 @@
   border-bottom: 1px dashed var(--ifm-color-emphasis-500);
   cursor: help;
 }
+
+/* ==================================== */
+/* Cipher apparatus                     */
+/* ==================================== */
+.cipher {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.85em;
+  color: var(--ifm-color-primary-dark);
+  background: var(--ifm-color-emphasis-100);
+  padding: 0.05em 0.35em;
+  border-radius: 3px;
+  word-break: break-all;
+}
+[data-theme='dark'] .cipher {
+  color: var(--ifm-color-primary-light);
+  background: var(--ifm-color-emphasis-200);
+}
+
+/* Text supplied by the editor, not present in the manuscript */
+.supplied {
+  color: #96331f;
+  cursor: help;
+}
+[data-theme='dark'] .supplied {
+  color: #e0866f;
+}
