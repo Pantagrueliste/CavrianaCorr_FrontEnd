@@ -36,8 +36,8 @@
   left: 0;
   z-index: 20;
   display: none;
-  min-width: 12rem;
-  max-width: 20rem;
+  min-width: 17rem;   /* room for a portrait beside the text */
+  max-width: 22rem;
   padding: 0.5rem 0.7rem;
   font-family: var(--ifm-font-family-base);
   font-size: 0.78rem;
@@ -50,7 +50,17 @@
 
 .ent:hover .card,
 .ent:focus-within .card {
-  display: block;
+  display: flow-root;   /* contains the portrait float */
+}
+
+/* Served from Wikimedia Commons; no image files live in this repository. */
+.cardPortrait {
+  float: right;
+  width: auto;
+  max-width: 3.4rem;
+  max-height: 4.4rem;
+  margin: 0 0 0.3rem 0.6rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
 }
 
 .cardName {

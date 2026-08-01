@@ -44,6 +44,7 @@
 }
 
 .entry {
+  display: flow-root;   /* contains the portrait float without clipping :target */
   padding: 1rem 0;
   border-top: 1px solid var(--ifm-color-emphasis-200);
   scroll-margin-top: 5rem;
@@ -119,4 +120,18 @@
   max-width: 40em;
   font-size: 0.87rem;
   color: var(--ifm-color-emphasis-600);
+}
+
+/* Portraits, served from Wikimedia Commons rather than copied here. */
+.portraitLink {
+  float: right;
+  margin: 0 0 0.5rem 1rem;
+  line-height: 0;
+}
+.portrait {
+  width: auto;
+  max-width: 80px;
+  max-height: 104px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-color-emphasis-100);
 }
