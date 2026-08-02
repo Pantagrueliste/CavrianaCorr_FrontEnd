@@ -142,3 +142,70 @@
   font-size: 0.82rem;
   color: var(--ifm-color-emphasis-600);
 }
+
+/* The person's presence in the Medici Archive beyond this correspondence. */
+.archive {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+}
+
+.archive a {
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--ifm-color-emphasis-400);
+}
+
+.archive a:hover {
+  color: var(--ifm-color-primary);
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+/* Narrow the index by the Medici Archive's classification of a person's offices. */
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.7rem;
+}
+
+.role,
+.roleOn {
+  font: inherit;
+  font-size: 0.76rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+}
+
+.role:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.roleOn {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.roleCount {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.65;
+}
+
+.roleNote {
+  margin: 0.5rem 0 0;
+  max-width: 40em;
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.dataNote {
+  margin: -0.5rem 0 1rem;
+  max-width: 40em;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+}

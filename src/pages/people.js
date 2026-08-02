@@ -5,6 +5,24 @@ import styles from "@site/src/components/EntityIndex/styles.module.css";
 const commons = (file, width) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
 
+const n = (x, one, many) => `${x} ${x === 1 ? one : many}`;
+
+/**
+ * How a person figures in the Medici Archive at large, which is often not how
+ * they figure here. Some of these people wrote and received; others are only
+ * ever written about, and saying so is more use than a bare total.
+ */
+function archiveLine(a) {
+  const wrote = a.sent + a.received;
+  const parts = [];
+  if (a.sent) parts.push(`${a.sent} sent`);
+  if (a.received) parts.push(`${a.received} received`);
+  const head = `${n(a.documents, "document", "documents")} in the Medici Archive`;
+  return wrote > 0
+    ? `${head} — ${parts.join(", ")}`
+    : `${head}, never as sender or recipient`;
+}
+
 function detail(rec) {
   const life = [rec.birth, rec.death].filter(Boolean).join("–");
   const facts = [rec.role, life].filter(Boolean).join(" · ");
@@ -43,6 +61,16 @@ function detail(rec) {
         </p>
       )}
       {rec.note && <p className={styles.detail}>{rec.note}</p>}
+      {rec.archive && (
+        <p className={styles.archive}>
+          <a
+            href={`https://mia.medici.org/Mia/index.html#/mia/people/${rec.map}`}
+            rel="noopener noreferrer"
+          >
+            {archiveLine(rec.archive)}
+          </a>
+        </p>
+      )}
       {(rec.wikidata || rec.map || rec.viaf) && (
         <p className={styles.authority}>
           {rec.wikidata && (

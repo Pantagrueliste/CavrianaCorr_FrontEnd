@@ -1,6 +1,7 @@
 import React, {useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import authorities from '@site/src/data/authorities.json';
 import styles from './styles.module.css';
 
@@ -44,6 +45,26 @@ function Entry({id, rec, children}) {
 
 export default function EntityIndex({kind, title, description, renderDetail, children}) {
   const [query, setQuery] = useState('');
+  const [role, setRole] = useState('');
+
+  // The Medici Archive's own classification of these people's offices, used
+  // here only to let a reader narrow the index to the churchmen or the soldiers.
+  const roles = useMemo(() => {
+    const count = new Map();
+    for (const rec of Object.values(entities)) {
+      if (rec.kind !== kind || rec.author) continue;
+      for (const c of rec.categories ?? []) count.set(c, (count.get(c) ?? 0) + 1);
+    }
+    return [...count.entries()].sort((a, b) => b[1] - a[1]);
+  }, [kind]);
+
+  const classified = useMemo(
+    () =>
+      Object.values(entities).filter(
+        (rec) => rec.kind === kind && !rec.author && (rec.categories ?? []).length > 0,
+      ).length,
+    [kind],
+  );
 
   const records = useMemo(() => {
     // Cavriana signs nearly every letter, so an entry counting his own
@@ -60,16 +81,19 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
         aFore.localeCompare(bFore, 'it', {sensitivity: 'base'})
       );
     });
+    const byRole = role
+      ? all.filter(([, rec]) => (rec.categories ?? []).includes(role))
+      : all;
     const q = query.trim().toLowerCase();
     if (!q) {
-      return all;
+      return byRole;
     }
-    return all.filter(([id, rec]) =>
+    return byRole.filter(([id, rec]) =>
       [rec.name, rec.sortName, id, rec.role, rec.country, ...(rec.aliases ?? []), ...(rec.historical ?? [])]
         .filter(Boolean)
         .some((v) => v.toLowerCase().includes(q)),
     );
-  }, [kind, query]);
+  }, [kind, query, role]);
 
   const cited = records.filter(([, r]) => r.total > 0);
   const uncited = records.filter(([, r]) => r.total === 0);
@@ -80,6 +104,14 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
         <header className={styles.masthead}>
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.description}>{description}</p>
+          <p className={styles.dataNote}>
+            Every identifier here was checked against the authority itself. The whole set is
+            available as a{' '}
+            <a href={useBaseUrl('/authorities.csv')} download>
+              plain table
+            </a>{' '}
+            for anyone who wants to reuse it.
+          </p>
           {children}
           <input
             type="search"
@@ -89,6 +121,32 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
             placeholder={kind === 'person' ? 'Search names, roles…' : 'Search places…'}
             aria-label={`Search ${title}`}
           />
+          {roles.length > 0 && (
+            <div className={styles.roles} role="group" aria-label="Narrow by calling">
+              <button
+                type="button"
+                className={role === '' ? styles.roleOn : styles.role}
+                onClick={() => setRole('')}>
+                everyone
+              </button>
+              {roles.map(([name, n]) => (
+                <button
+                  key={name}
+                  type="button"
+                  className={role === name ? styles.roleOn : styles.role}
+                  onClick={() => setRole(role === name ? '' : name)}>
+                  {name} <span className={styles.roleCount}>{n}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          {role && (
+            <p className={styles.roleNote}>
+              The Medici Archive classes {roles.find(([r]) => r === role)?.[1]} of these people
+              under {role.toLowerCase()}. Only the {classified} people matched to the archive
+              carry a calling at all, so this narrows the index rather than sorting all of it.
+            </p>
+          )}
         </header>
 
         <ol className={styles.list}>
