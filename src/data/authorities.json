@@ -63,10 +63,18 @@
    "aliases": [
     "Alamanni"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 112,
+    "named": 18,
+    "received": 51,
+    "sent": 43
+   },
    "author": false,
    "birth": "1537",
-   "categories": [],
+   "categories": [
+    "Nobility",
+    "State and court"
+   ],
    "death": "1591",
    "image": "",
    "kind": "person",
@@ -149,10 +157,17 @@
    "aliases": [
     "Reina di Navarra"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 12,
+    "named": 12,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1528-11-16",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1572-06-09",
    "image": "Jeanne-albret-navarre.jpg",
    "kind": "person",
@@ -235,10 +250,17 @@
   },
   "pers-bellievre-p": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 6,
+    "named": 6,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1529",
-   "categories": [],
+   "categories": [
+    "State and court"
+   ],
    "death": "1607",
    "image": "Desnos (née Robin) - Pomponne de Bellièvre, Chancelier de France (1529-1607).jpg",
    "kind": "person",
@@ -320,10 +342,18 @@
   },
   "pers-bobba-t": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 24,
+    "named": 16,
+    "received": 0,
+    "sent": 8
+   },
    "author": false,
    "birth": "",
-   "categories": [],
+   "categories": [
+    "Nobility",
+    "State and court"
+   ],
    "death": "1590",
    "image": "",
    "kind": "person",
@@ -380,10 +410,17 @@
   },
   "pers-bourbon-conde": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 95,
+    "named": 95,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1530",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1569",
    "image": "Louis Ier de Bourbon, 1er prince de Condé (1530-1569).jpg",
    "kind": "person",
@@ -423,10 +460,17 @@
     "Principe di Condé",
     "Condè"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 89,
+    "named": 89,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1552-12-29",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1588-03-05",
    "image": "Conde-henri.jpg",
    "kind": "person",
@@ -457,10 +501,18 @@
   },
   "pers-bourbon-h-nav": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 539,
+    "named": 533,
+    "received": 2,
+    "sent": 3
+   },
    "author": false,
    "birth": "1553-12-23",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1610-05-14",
    "image": "Henry IV of france by pourbous younger.jpg",
    "kind": "person",
@@ -562,7 +614,12 @@
    "aliases": [
     "Brichmod"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 1,
+    "named": 1,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "c. 1502",
    "categories": [],
@@ -969,7 +1026,12 @@
   },
   "pers-cleves-h": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 1,
+    "named": 1,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1542-10-31",
    "categories": [],
@@ -1008,10 +1070,19 @@
   },
   "pers-coligny-g": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 25,
+    "named": 25,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1519-02-26",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1572-09-03",
    "image": "François Clouet - Admiral Gaspard II de Coligny - 168-1925 - Saint Louis Art Museum.jpg",
    "kind": "person",
@@ -1144,10 +1215,18 @@
   },
   "pers-corso-a": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 6,
+    "named": 5,
+    "received": 1,
+    "sent": 0
+   },
    "author": false,
    "birth": "1548",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility"
+   ],
    "death": "1610",
    "image": "Alphonse Corse, dit d'Ornano (1548-1610).jpg",
    "kind": "person",
@@ -1278,10 +1357,18 @@
   },
   "pers-dani-j": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 18,
+    "named": 8,
+    "received": 2,
+    "sent": 8
+   },
    "author": false,
    "birth": "1530",
-   "categories": [],
+   "categories": [
+    "Corporate bodies",
+    "State and court"
+   ],
    "death": "1598",
    "image": "",
    "kind": "person",
@@ -1347,10 +1434,18 @@
   },
   "pers-deste-i": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 97,
+    "named": 81,
+    "received": 9,
+    "sent": 7
+   },
    "author": false,
    "birth": "1509-08-25",
-   "categories": [],
+   "categories": [
+    "Church",
+    "State and court"
+   ],
    "death": "1572-12-01",
    "image": "Ippolito II d'Este.jpg",
    "kind": "person",
@@ -1430,10 +1525,19 @@
   },
   "pers-epernon-jl": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 82,
+    "named": 82,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1554",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1642",
    "image": "Jean Louis de Nogaret de La Valette.jpg",
    "kind": "person",
@@ -1461,10 +1565,17 @@
    "aliases": [
     "Duca di Ferrara"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 259,
+    "named": 248,
+    "received": 11,
+    "sent": 0
+   },
    "author": false,
    "birth": "1533-12-02",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1597-10-27",
    "image": "Cesare Aretusi Retrato de Alfonso II de Este, duque de Ferrara.jpg",
    "kind": "person",
@@ -1513,10 +1624,18 @@
    "aliases": [
     "Cardinal d'Este"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 65,
+    "named": 64,
+    "received": 1,
+    "sent": 0
+   },
    "author": false,
    "birth": "1539-01-04",
-   "categories": [],
+   "categories": [
+    "Church",
+    "State and court"
+   ],
    "death": "1586-12-30",
    "image": "Cardinale Luigi d Este.jpg",
    "kind": "person",
@@ -1594,10 +1713,18 @@
   },
   "pers-farnese-a-card": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 314,
+    "named": 290,
+    "received": 15,
+    "sent": 9
+   },
    "author": false,
    "birth": "1520-10-07",
-   "categories": [],
+   "categories": [
+    "Church",
+    "State and court"
+   ],
    "death": "1589-03-02",
    "image": "Portrait of Cardinal Alessandro Farnese (by Titian)FXD.jpg",
    "kind": "person",
@@ -1623,7 +1750,12 @@
   },
   "pers-france-c": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 9,
+    "named": 9,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1547-11-12",
    "categories": [],
@@ -1659,10 +1791,17 @@
    "aliases": [
     "conte di Gaiazzo"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 2,
+    "named": 2,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1527",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1575",
    "image": "",
    "kind": "person",
@@ -1701,10 +1840,19 @@
    "aliases": [
     "Comte de Retz"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 31,
+    "named": 31,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1522-11-04",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1602-04-12",
    "image": "Albert-de-Gondi.jpg",
    "kind": "person",
@@ -1761,10 +1909,18 @@
   },
   "pers-gontaut-a": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 20,
+    "named": 20,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1524",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility"
+   ],
    "death": "1592",
    "image": "Armand de Gontaut, baron de Biron.jpg",
    "kind": "person",
@@ -1806,10 +1962,18 @@
   },
   "pers-gonzaga-gugl": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 235,
+    "named": 216,
+    "received": 7,
+    "sent": 12
+   },
    "author": false,
    "birth": "1538",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1587",
    "image": "Guglielmo I Gonzaga.jpg",
    "kind": "person",
@@ -1845,10 +2009,17 @@
   },
   "pers-gonzaga-isa": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 13,
+    "named": 13,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1537",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1579",
    "image": "Isabel Gonzaga by Carderera.jpg",
    "kind": "person",
@@ -1882,10 +2053,17 @@
    "aliases": [
     "Nevers"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 59,
+    "named": 59,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1539-09-28",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1595-10-23",
    "image": "Italian School, North Italian - Ludovico Gonzaga (1539-1595) with his Servant. - RCIN 406014 - Royal Collection.jpg",
    "kind": "person",
@@ -2079,10 +2257,18 @@
     "Guisa",
     "Duca di Ghisa"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 95,
+    "named": 95,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1551-01-10",
-   "categories": [],
+   "categories": [
+    "Nobility",
+    "State and court"
+   ],
    "death": "1588-12-23",
    "image": "Guise.jpg",
    "kind": "person",
@@ -2163,10 +2349,17 @@
   },
   "pers-habsburg-e": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 54,
+    "named": 53,
+    "received": 0,
+    "sent": 1
+   },
    "author": false,
    "birth": "1554-06-05",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1592-01-22",
    "image": "François Clouet - Elisabeth of Austria (ca. 1571) - Google Art Project.jpg",
    "kind": "person",
@@ -2222,10 +2415,18 @@
   },
   "pers-habsburg-f": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 1435,
+    "named": 1375,
+    "received": 41,
+    "sent": 13
+   },
    "author": false,
    "birth": "1527-05-21",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1598-09-13",
    "image": "Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg",
    "kind": "person",
@@ -2317,10 +2518,17 @@
    "aliases": [
     "Cesare"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 517,
+    "named": 502,
+    "received": 13,
+    "sent": 2
+   },
    "author": false,
    "birth": "1527-07-31",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1576-10-12",
    "image": "Nicolas Neufchâtel 002.jpg",
    "kind": "person",
@@ -2368,10 +2576,19 @@
    "aliases": [
     "Gioiosa"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 33,
+    "named": 33,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1560",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1587",
    "image": "Annejoyeuse.jpg",
    "kind": "person",
@@ -2465,10 +2682,17 @@
    "aliases": [
     "la Mola"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 1,
+    "named": 1,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1574-04-30",
    "image": "",
    "kind": "person",
@@ -2546,10 +2770,17 @@
   },
   "pers-lorraine-c": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 60,
+    "named": 60,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1543-02-18",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1608-05-14",
    "image": "Charles III, Duke of Lorraine, by studio of François Clouet.jpg",
    "kind": "person",
@@ -2619,10 +2850,17 @@
     "Lorena",
     "Loreno"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 77,
+    "named": 77,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1524-02-27",
-   "categories": [],
+   "categories": [
+    "Church"
+   ],
    "death": "1575-01-05",
    "image": "CharlesdeGuise.jpg",
    "kind": "person",
@@ -2693,10 +2931,17 @@
   },
   "pers-lorraine-chr": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 841,
+    "named": 514,
+    "received": 243,
+    "sent": 85
+   },
    "author": false,
    "birth": "1565-08-26",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1637-12-19",
    "image": "Pulzone, Scipione - Cristina di Lorena, granduchessa di Toscana - 1590.jpg",
    "kind": "person",
@@ -2745,10 +2990,17 @@
   },
   "pers-lorraine-h2": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 37,
+    "named": 34,
+    "received": 0,
+    "sent": 3
+   },
    "author": false,
    "birth": "1563-11-08",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1624-07-31",
    "image": "Henri II Lorraine.jpg",
    "kind": "person",
@@ -2838,10 +3090,18 @@
    "aliases": [
     "Reina"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 247,
+    "named": 237,
+    "received": 9,
+    "sent": 1
+   },
    "author": false,
    "birth": "1519",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1589",
    "image": "Catarina de' Medici Uffizi.jpg",
    "kind": "person",
@@ -2965,10 +3225,18 @@
    "aliases": [
     "Gran Duca"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 7540,
+    "named": 1914,
+    "received": 3302,
+    "sent": 2322
+   },
    "author": false,
    "birth": "1519",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1574",
    "image": "Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg",
    "kind": "person",
@@ -3090,10 +3358,19 @@
   },
   "pers-medici-fer": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 2567,
+    "named": 1180,
+    "received": 916,
+    "sent": 470
+   },
    "author": false,
    "birth": "1549-08-09",
-   "categories": [],
+   "categories": [
+    "Church",
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1609-02-17",
    "image": "Pulzone, Scipione - Ferdinando I de' Medici, granduca di Toscana - 1590.jpg",
    "kind": "person",
@@ -3147,10 +3424,17 @@
   },
   "pers-michiel-g": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 11,
+    "named": 11,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1516",
-   "categories": [],
+   "categories": [
+    "State and court"
+   ],
    "death": "1596",
    "image": "",
    "kind": "person",
@@ -3236,10 +3520,19 @@
     "Montmoransy",
     "Mamoransi"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 16,
+    "named": 16,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1530",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1579",
    "image": "Clouet-montmorencyfrançois.jpg",
    "kind": "person",
@@ -3374,10 +3667,18 @@
     "Méru",
     "Damville"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 23,
+    "named": 23,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1537-03-31",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility"
+   ],
    "death": "1612-05-05",
    "image": "Charles de Montmorency, duc de Damville by Massard.jpg",
    "kind": "person",
@@ -3637,10 +3938,19 @@
    "aliases": [
     "Cardinal Orsino"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 27,
+    "named": 26,
+    "received": 1,
+    "sent": 0
+   },
    "author": false,
    "birth": "1532",
-   "categories": [],
+   "categories": [
+    "Church",
+    "Scholars and writers",
+    "Nobility"
+   ],
    "death": "1581-05-16",
    "image": "",
    "kind": "person",
@@ -3687,10 +3997,17 @@
   },
   "pers-orsini-t": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 5,
+    "named": 4,
+    "received": 0,
+    "sent": 1
+   },
    "author": false,
    "birth": "1547",
-   "categories": [],
+   "categories": [
+    "State and court"
+   ],
    "death": "1577-12-02",
    "image": "",
    "kind": "person",
@@ -3923,10 +4240,17 @@
   },
   "pers-petrucci": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 2,
+    "named": 1,
+    "received": 0,
+    "sent": 1
+   },
    "author": false,
    "birth": "",
-   "categories": [],
+   "categories": [
+    "Church"
+   ],
    "death": "1628",
    "image": "",
    "kind": "person",
@@ -3997,10 +4321,17 @@
   },
   "pers-pfalz-fr-3": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 69,
+    "named": 68,
+    "received": 0,
+    "sent": 1
+   },
    "author": false,
    "birth": "1515-02-24",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1576-11-05",
    "image": "Friedrich der Fromme.jpg",
    "kind": "person",
@@ -4075,10 +4406,17 @@
     "Michele Ghislieri",
     "Papa"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 304,
+    "named": 292,
+    "received": 12,
+    "sent": 0
+   },
    "author": false,
    "birth": "1504-01-27",
-   "categories": [],
+   "categories": [
+    "Church"
+   ],
    "death": "1572-05-11",
    "image": "Bartolomeo Passarotti - Pius V.jpg",
    "kind": "person",
@@ -4145,10 +4483,18 @@
    "aliases": [
     "Ivan the Terrible"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 71,
+    "named": 71,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1530-08-25",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1584-03-18",
    "image": "Ivan grozny frame.jpg",
    "kind": "person",
@@ -4272,10 +4618,18 @@
    "aliases": [
     "Monsig. Salviati"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 10,
+    "named": 9,
+    "received": 0,
+    "sent": 1
+   },
    "author": false,
    "birth": "1537-01-31",
-   "categories": [],
+   "categories": [
+    "Church",
+    "State and court"
+   ],
    "death": "1602-04-26",
    "image": "Portrait-Of-Cardinal-Anton-Maria-Salviati.jpg",
    "kind": "person",
@@ -4361,10 +4715,19 @@
   },
   "pers-savoie-j-nem": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 43,
+    "named": 43,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1531",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1585",
    "image": "Jacques de Savoie duc de Nemours - François Clouet.jpg",
    "kind": "person",
@@ -4431,10 +4794,18 @@
   },
   "pers-savoy-em-fil": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 324,
+    "named": 312,
+    "received": 3,
+    "sent": 9
+   },
    "author": false,
    "birth": "1528",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1580",
    "image": "Ritratto di Emanuele Filiberto di Savoia.jpg",
    "kind": "person",
@@ -4532,10 +4903,17 @@
    "aliases": [
     "Striggi"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 9,
+    "named": 9,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1537",
-   "categories": [],
+   "categories": [
+    "State and court"
+   ],
    "death": "1592-02-29",
    "image": "",
    "kind": "person",
@@ -4579,10 +4957,18 @@
    "aliases": [
     "Strozzi"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 26,
+    "named": 26,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1541",
-   "categories": [],
+   "categories": [
+    "Military",
+    "Nobility"
+   ],
    "death": "1582",
    "image": "Strozzi-philippe.jpg",
    "kind": "person",
@@ -4663,7 +5049,12 @@
   },
   "pers-taxis-c": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 2,
+    "named": 2,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "",
    "categories": [],
@@ -4718,10 +5109,20 @@
     "Duca d'Alva",
     "Duca d'Alba"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 264,
+    "named": 256,
+    "received": 5,
+    "sent": 2
+   },
    "author": false,
    "birth": "1507-10-29",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Military",
+    "Nobility",
+    "State and court"
+   ],
    "death": "1582-12-11",
    "image": "Fernando Álvarez de Toledo, III Duque de Alba, retratado por Antonio Moro.jpg",
    "kind": "person",
@@ -4752,10 +5153,17 @@
   },
   "pers-tudor-e": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 340,
+    "named": 337,
+    "received": 2,
+    "sent": 1
+   },
    "author": false,
    "birth": "1533",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1603",
    "image": "Elizabeth1England.jpg",
    "kind": "person",
@@ -4817,10 +5225,18 @@
   },
   "pers-vaini-e": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 869,
+    "named": 83,
+    "received": 3,
+    "sent": 52
+   },
    "author": false,
    "birth": "1537",
-   "categories": [],
+   "categories": [
+    "Nobility",
+    "State and court"
+   ],
    "death": "1612",
    "image": "",
    "kind": "person",
@@ -4854,10 +5270,17 @@
    "aliases": [
     "Re"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 237,
+    "named": 223,
+    "received": 1,
+    "sent": 13
+   },
    "author": false,
    "birth": "1550",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1574",
    "image": "Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg",
    "kind": "person",
@@ -4977,10 +5400,17 @@
     "Duca d'Alansone",
     "Monseigneur le Duc"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 232,
+    "named": 230,
+    "received": 1,
+    "sent": 1
+   },
    "author": false,
    "birth": "1555-03-18",
-   "categories": [],
+   "categories": [
+    "Nobility"
+   ],
    "death": "1584-06-10",
    "image": "Jean Decourt - Portrait François-Hercule de Valois, duc d’Alençon c. 1576.png",
    "kind": "person",
@@ -5027,10 +5457,18 @@
   },
   "pers-valois-h-3": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 418,
+    "named": 408,
+    "received": 2,
+    "sent": 8
+   },
    "author": false,
    "birth": "1551",
-   "categories": [],
+   "categories": [
+    "Heads of state",
+    "Nobility"
+   ],
    "death": "1589",
    "image": "Quesnel Henry III of France in Polish hat.jpg",
    "kind": "person",
@@ -5092,10 +5530,17 @@
   },
   "pers-valois-m": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 28,
+    "named": 27,
+    "received": 0,
+    "sent": 1
+   },
    "author": false,
    "birth": "1553-05-14",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1615-03-27",
    "image": "Marguerite de Valois vers 1574.jpg",
    "kind": "person",
@@ -5126,10 +5571,18 @@
   },
   "pers-vigor-s": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 1,
+    "named": 1,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1515",
-   "categories": [],
+   "categories": [
+    "Church",
+    "Scholars and writers"
+   ],
    "death": "1575",
    "image": "",
    "kind": "person",
@@ -5173,10 +5626,17 @@
    "aliases": [
     "Ambasciatore Inglese"
    ],
-   "archive": null,
+   "archive": {
+    "documents": 3,
+    "named": 3,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1532",
-   "categories": [],
+   "categories": [
+    "State and court"
+   ],
    "death": "1590-04-06",
    "image": "Sir Francis Walsingham by John De Critz the Elder.jpg",
    "kind": "person",
@@ -5223,10 +5683,18 @@
   },
   "pers-zibramonti-a": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 3,
+    "named": 3,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "",
-   "categories": [],
+   "categories": [
+    "Church",
+    "State and court"
+   ],
    "death": "1589",
    "image": "Aurelio Zibramonti.png",
    "kind": "person",
@@ -5252,10 +5720,17 @@
   },
   "pers-zygmunt-z": {
    "aliases": [],
-   "archive": null,
+   "archive": {
+    "documents": 110,
+    "named": 110,
+    "received": 0,
+    "sent": 0
+   },
    "author": false,
    "birth": "1520-08-01",
-   "categories": [],
+   "categories": [
+    "Heads of state"
+   ],
    "death": "1572-07-07",
    "image": "Cranach the Younger Sigismund II Augustus.jpg",
    "kind": "person",
