@@ -89,6 +89,7 @@ const config = {
         {to: '/docs/intro', label: 'Letters', position: 'left'},
         {to: '/people', label: 'People', position: 'left'},
         {to: '/places', label: 'Places', position: 'left'},
+        {to: '/events', label: 'Events', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Pantagrueliste/CavrianaCorr',

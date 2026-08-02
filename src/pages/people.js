@@ -38,7 +38,9 @@ function detail(rec) {
         </p>
       )}
       {rec.offices?.length > 0 && (
-        <p className={styles.offices}>{rec.offices.join(" · ")}</p>
+        <p className={styles.offices}>
+          {rec.offices.map((o) => o.label).join(" · ")}
+        </p>
       )}
       {rec.note && <p className={styles.detail}>{rec.note}</p>}
       {(rec.wikidata || rec.map || rec.viaf) && (
