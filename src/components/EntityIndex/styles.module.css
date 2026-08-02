@@ -135,3 +135,10 @@
   border: 1px solid var(--ifm-color-emphasis-300);
   background: var(--ifm-color-emphasis-100);
 }
+
+/* Further offices, mostly from the Medici Archive's biographical records. */
+.offices {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-600);
+}
