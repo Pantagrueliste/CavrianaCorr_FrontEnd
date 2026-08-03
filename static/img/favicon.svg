@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img"
+     aria-label="Cavriana correspondence">
+  <!-- Cavriana's initial, cut in paper on ink. Deliberately plain: a tab icon
+       for a scholarly edition should identify the site and say nothing else.
+       The stroke is heavy and the counter wide open, because at sixteen pixels
+       a fine arc closes into a ring. -->
+  <rect width="512" height="512" rx="87" fill="#1f2427"/>
+  <path d="M 338.9 330.6 A 111.5 111.5 0 1 1 338.9 181.4"
+        fill="none" stroke="#e8e4dc" stroke-width="69"/>
+</svg>

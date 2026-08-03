@@ -6,7 +6,19 @@ const config = {
   title: 'Filippo Cavriana: The Secret Correspondence',
   tagline:
     'A digital edition of manuscript letters found in the archives of Florence, Mantua, and the Bibliothèque nationale de France',
+  // The .ico carries 16-256px for older browsers; the SVG is preferred where
+  // it is supported, so the mark stays crisp on high-density screens.
   favicon: 'img/favicon.ico',
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {rel: 'icon', type: 'image/svg+xml', href: '/CavrianaCorr_FrontEnd/img/favicon.svg'},
+    },
+    {
+      tagName: 'link',
+      attributes: {rel: 'apple-touch-icon', href: '/CavrianaCorr_FrontEnd/img/apple-touch-icon.png'},
+    },
+  ],
   url: 'https://pantagrueliste.github.io',
   baseUrl: '/CavrianaCorr_FrontEnd/',
   organizationName: 'Pantagrueliste',
