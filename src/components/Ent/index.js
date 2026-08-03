@@ -16,9 +16,16 @@ function personDetail(rec, letterDate) {
   return [held || rec.role, rec.note].filter(Boolean);
 }
 
-/** Born and died, for the card. Identifiers belong in the index, not here. */
+/**
+ * Born and died, for the card. Identifiers belong in the index, not here.
+ *
+ * The authority file records whatever precision its source gives — Alamanni is
+ * 1536-03-13 after the Dizionario Biografico — but a card beside a sentence
+ * wants the year alone.
+ */
 function life(rec) {
-  return [rec.birth, rec.death].filter(Boolean).join("–");
+  const year = (d) => (d ? String(d).slice(0, 4) : "");
+  return [year(rec.birth), year(rec.death)].filter(Boolean).join("–");
 }
 
 function placeDetail(rec) {
