@@ -144,6 +144,9 @@
   stroke: var(--ifm-color-primary);
   stroke-width: 1.5;
   stroke-dasharray: 2.5 2;
+  /* With no fill there is nothing to hit, and a dashed stroke has gaps, so the
+     ring could only be caught on a dash. This makes the whole disc a target. */
+  pointer-events: all;
 }
 
 .point:hover circle.polityMark,
