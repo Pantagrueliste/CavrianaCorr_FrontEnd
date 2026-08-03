@@ -1,6 +1,7 @@
 import MDXComponents from '@theme-original/MDXComponents';
 import Ent from '@site/src/components/Ent';
 import CipherNote from '@site/src/components/CipherNote';
+import EdNote from '@site/src/components/EdNote';
 
 // Generated letter pages use these without importing them. Both casings are
 // registered: MDX resolves capitalised tags, but if the markdown format is
@@ -11,4 +12,6 @@ export default {
   ent: Ent,
   CipherNote,
   ciphernote: CipherNote,
+  EdNote,
+  ednote: EdNote,
 };
