@@ -18,22 +18,48 @@ function letterHref({slug, date}) {
   return `/docs/${year}/${slug}`;
 }
 
+const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+/**
+ * Every letter that reaches this entity, whether by naming it or by naming its
+ * people. The two are counted together — "i Corsi" is a reference to Corsica —
+ * but a letter that only ever names the people is marked, so the reader can
+ * see which kind of reference took them there.
+ */
+function allLetters(rec) {
+  const byslug = new Map();
+  for (const l of rec.letters ?? []) {
+    byslug.set(l.slug, {...l, direct: true});
+  }
+  for (const l of rec.asPeople ?? []) {
+    const seen = byslug.get(l.slug);
+    if (seen) seen.n += l.n;
+    else byslug.set(l.slug, {...l, direct: false});
+  }
+  return [...byslug.values()].sort((a, b) => a.slug.localeCompare(b.slug));
+}
+
 function Entry({id, rec, children}) {
+  const letters = allLetters(rec);
+  const total = rec.total + (rec.asPeopleTotal ?? 0);
   return (
     <li className={styles.entry} id={id}>
       <div className={styles.head}>
         <h2 className={styles.name}>{rec.sortName ?? rec.name}</h2>
         <span className={styles.count}>
-          {rec.total} {rec.total === 1 ? 'mention' : 'mentions'}
-          {rec.letters.length > 0 &&
-            ` in ${rec.letters.length} ${rec.letters.length === 1 ? 'letter' : 'letters'}`}
+          {plural(total, 'mention')}
+          {letters.length > 0 && ` in ${plural(letters.length, 'letter')}`}
         </span>
       </div>
       {children}
-      {rec.letters.length > 0 && (
+      {letters.length > 0 && (
         <p className={styles.letters}>
-          {rec.letters.map((l) => (
-            <Link key={l.slug} to={letterHref(l)} className={styles.letter}>
+          {letters.map((l) => (
+            <Link
+              key={l.slug}
+              to={letterHref(l)}
+              className={l.direct ? styles.letter : styles.letterPeople}
+              title={l.direct ? undefined : `names its people, not the place`}>
               {l.slug}
             </Link>
           ))}

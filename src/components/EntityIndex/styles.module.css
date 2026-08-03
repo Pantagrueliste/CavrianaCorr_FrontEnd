@@ -209,3 +209,11 @@
   font-size: 0.8rem;
   color: var(--ifm-color-emphasis-600);
 }
+
+/* A letter that reaches this place only through its people. Same shape as the
+   others, dashed, so the difference is visible without being loud. */
+.letterPeople {
+  composes: letter;
+  border-style: dashed;
+  color: var(--ifm-color-emphasis-700);
+}

@@ -5,9 +5,12 @@ import styles from '@site/src/components/EntityIndex/styles.module.css';
 
 const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
-/** "its people named 25 times in 15 letters" — kept apart from naming the place. */
+/**
+ * The count in the heading includes these, so this says what share of it they
+ * are rather than reading as a further tally: "of these, 25 name its people".
+ */
 function peopleLine(rec) {
-  return `its people named ${plural(rec.asPeopleTotal, 'time')} in ${plural(rec.asPeople.length, 'letter')}`;
+  return `of these, ${plural(rec.asPeopleTotal, 'time')} in ${plural(rec.asPeople.length, 'letter')} it is the people who are named, not the place`;
 }
 
 function detail(rec) {
