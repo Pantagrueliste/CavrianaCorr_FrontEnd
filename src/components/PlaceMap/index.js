@@ -71,9 +71,10 @@ export default function PlaceMap() {
     const located = Object.entries(entities)
       // A country or continent is not a point on a map of towns.
       // A place is named directly, or through its people: "i Corsi" is a
-      // reference to Corsica, so the dot counts both.
+      // reference to Corsica, so the marker counts both. Continents stay off:
+      // Europe has no point that means anything.
       .filter(([, r]) =>
-        r.kind === 'place' && !r.scope && r.lat && r.lon &&
+        r.kind === 'place' && r.scope !== 'continent' && r.lat && r.lon &&
         (r.total + (r.asPeopleTotal ?? 0)) > 0,
       )
       .map(([id, r]) => ({
@@ -83,6 +84,9 @@ export default function PlaceMap() {
         lon: Number(r.lon),
         total: r.total + (r.asPeopleTotal ?? 0),
         asPeople: r.asPeopleTotal ?? 0,
+        // A country is not a town. It is marked at a point for want of
+        // anywhere better, and drawn hollow so it does not claim to be one.
+        polity: r.scope === 'country',
       }))
       .filter((p) => Number.isFinite(p.lat) && Number.isFinite(p.lon));
     if (located.length === 0) {
@@ -214,8 +218,15 @@ export default function PlaceMap() {
                     ?.scrollIntoView({behavior: 'smooth', block: 'start'});
                 });
               }}
-              aria-label={`${p.name}, ${p.total} ${p.total === 1 ? 'mention' : 'mentions'}`}>
-              <circle cx={p.x} cy={p.y} r={p.r} />
+              aria-label={`${p.name}${p.polity ? ' (a country, marked at a point)' : ''}, ${
+                p.total
+              } ${p.total === 1 ? 'mention' : 'mentions'}`}>
+              <circle
+                cx={p.x}
+                cy={p.y}
+                r={p.r}
+                className={p.polity ? styles.polityMark : undefined}
+              />
             </a>
           ))}
         </g>
@@ -252,10 +263,17 @@ export default function PlaceMap() {
       </svg>
       <figcaption className={styles.caption}>
         {onMap.length} places, sized by how often the letters name them — directly or through
-        their people — on the Europe of
+        their people. Hollow rings are countries and empires, which have no one location and are
+        marked at a point for want of anywhere better. On the Europe of
         1570. Hover to identify. Frontiers are indicative; dotted lines divide the Empire into
         its ten Imperial Circles. After HistoGIS and IEG-Maps.
-        {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}
+        {offMap.length > 0 && (
+          <>
+            {' '}
+            Beyond this frame, and so not drawn:{' '}
+            {offMap.map((p) => p.name).join(', ')}.
+          </>
+        )}
       </figcaption>
     </figure>
   );

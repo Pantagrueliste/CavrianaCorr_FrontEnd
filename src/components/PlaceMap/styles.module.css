@@ -132,3 +132,21 @@
   stroke-linecap: round;
   pointer-events: none;
 }
+
+/* Countries and empires. They have no single location, so they are marked at
+   a point for want of anywhere better and drawn hollow, so the ring reads as
+   a territory meant rather than a town claimed. Selector matches the
+   specificity of `.point circle`, which fills every marker by default. */
+.point circle.polityMark,
+.point:hover circle.polityMark,
+.pointActive circle.polityMark {
+  fill: none;
+  stroke: var(--ifm-color-primary);
+  stroke-width: 1.5;
+  stroke-dasharray: 2.5 2;
+}
+
+.point:hover circle.polityMark,
+.pointActive circle.polityMark {
+  stroke-dasharray: none;
+}
