@@ -35,7 +35,9 @@ export default function Ent({ k, id, children }) {
   }
 
   const isPerson = k === "p";
+  const isPeople = k === "e";
   const detail = isPerson ? personDetail(rec, letterDate) : placeDetail(rec);
+  const lead = isPeople ? "the people of " : "";
   const index = isPerson ? "/people" : "/places";
   const authority = isPerson
     ? [
@@ -63,7 +65,7 @@ export default function Ent({ k, id, children }) {
       {!label && (
         <Link
           to={`${index}#${id}`}
-          className={isPerson ? styles.person : styles.place}
+          className={isPeople ? styles.people : isPerson ? styles.person : styles.place}
           title={[rec.name, ...detail].join(" · ")}
         >
           {children}
@@ -80,7 +82,10 @@ export default function Ent({ k, id, children }) {
             loading="lazy"
           />
         )}
-        <span className={styles.cardName}>{rec.name}</span>
+        <span className={styles.cardName}>
+          {lead}
+          {rec.name}
+        </span>
         {detail.length > 0 && (
           <span className={styles.cardDetail}>{detail.join(" · ")}</span>
         )}

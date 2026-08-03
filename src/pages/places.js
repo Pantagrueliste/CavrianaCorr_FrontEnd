@@ -3,6 +3,13 @@ import EntityIndex from '@site/src/components/EntityIndex';
 import PlaceMap from '@site/src/components/PlaceMap';
 import styles from '@site/src/components/EntityIndex/styles.module.css';
 
+const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+/** "its people named 25 times in 15 letters" — kept apart from naming the place. */
+function peopleLine(rec) {
+  return `its people named ${plural(rec.asPeopleTotal, 'time')} in ${plural(rec.asPeople.length, 'letter')}`;
+}
+
 function detail(rec) {
   const facts = [rec.country, rec.historical?.length > 0 && `called ${rec.historical.join(', ')}`]
     .filter(Boolean)
@@ -10,6 +17,9 @@ function detail(rec) {
   return (
     <>
       {facts && <p className={styles.detail}>{facts}</p>}
+      {rec.asPeopleTotal > 0 && (
+        <p className={styles.detail}>{peopleLine(rec)}</p>
+      )}
       {rec.note && <p className={styles.detail}>{rec.note}</p>}
       {(rec.wikidata || rec.tgn || rec.geonames) && (
         <p className={styles.authority}>
