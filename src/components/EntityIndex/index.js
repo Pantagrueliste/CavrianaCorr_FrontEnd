@@ -73,13 +73,12 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
   const [query, setQuery] = useState('');
   const [role, setRole] = useState('');
 
-  // The Medici Archive's own classification of these people's offices, used
-  // here only to let a reader narrow the index to the churchmen or the soldiers.
+  // One calling each, so the chips divide the index rather than overlapping it.
   const roles = useMemo(() => {
     const count = new Map();
     for (const rec of Object.values(entities)) {
       if (rec.kind !== kind || rec.author) continue;
-      for (const c of rec.categories ?? []) count.set(c, (count.get(c) ?? 0) + 1);
+      if (rec.calling) count.set(rec.calling, (count.get(rec.calling) ?? 0) + 1);
     }
     return [...count.entries()].sort((a, b) => b[1] - a[1]);
   }, [kind]);
@@ -87,7 +86,7 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
   const classified = useMemo(
     () =>
       Object.values(entities).filter(
-        (rec) => rec.kind === kind && !rec.author && (rec.categories ?? []).length > 0,
+        (rec) => rec.kind === kind && !rec.author && Boolean(rec.calling),
       ).length,
     [kind],
   );
@@ -108,7 +107,7 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
       );
     });
     const byRole = role
-      ? all.filter(([, rec]) => (rec.categories ?? []).includes(role))
+      ? all.filter(([, rec]) => rec.calling === role)
       : all;
     const q = query.trim().toLowerCase();
     if (!q) {
