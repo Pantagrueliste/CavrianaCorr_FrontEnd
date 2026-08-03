@@ -12,7 +12,12 @@ const config = {
   organizationName: 'Pantagrueliste',
   projectName: 'CavrianaCorr_FrontEnd',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // Moved out of the top level: the old key is deprecated and goes away in v4.
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
