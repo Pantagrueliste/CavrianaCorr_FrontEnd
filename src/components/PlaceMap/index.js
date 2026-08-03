@@ -70,8 +70,20 @@ export default function PlaceMap() {
   const points = useMemo(() => {
     const located = Object.entries(entities)
       // A country or continent is not a point on a map of towns.
-      .filter(([, r]) => r.kind === 'place' && !r.scope && r.lat && r.lon && r.total > 0)
-      .map(([id, r]) => ({id, name: r.name, lat: Number(r.lat), lon: Number(r.lon), total: r.total}))
+      // A place is named directly, or through its people: "i Corsi" is a
+      // reference to Corsica, so the dot counts both.
+      .filter(([, r]) =>
+        r.kind === 'place' && !r.scope && r.lat && r.lon &&
+        (r.total + (r.asPeopleTotal ?? 0)) > 0,
+      )
+      .map(([id, r]) => ({
+        id,
+        name: r.name,
+        lat: Number(r.lat),
+        lon: Number(r.lon),
+        total: r.total + (r.asPeopleTotal ?? 0),
+        asPeople: r.asPeopleTotal ?? 0,
+      }))
       .filter((p) => Number.isFinite(p.lat) && Number.isFinite(p.lon));
     if (located.length === 0) {
       return [];
@@ -215,7 +227,10 @@ export default function PlaceMap() {
             <text x={hoveredPlace.x + hoveredPlace.r + 4} y={hoveredPlace.y + 3.5}>
               {hoveredPlace.name}
               <tspan className={styles.hoverCount}>
-                {`  ${hoveredPlace.total} ${hoveredPlace.total === 1 ? 'mention' : 'mentions'}`}
+                {`  ${hoveredPlace.total} ${hoveredPlace.total === 1 ? 'mention' : 'mentions'}` +
+                  (hoveredPlace.asPeople
+                    ? `, ${hoveredPlace.asPeople} of its people`
+                    : '')}
               </tspan>
             </text>
           </g>
@@ -236,7 +251,8 @@ export default function PlaceMap() {
         )}
       </svg>
       <figcaption className={styles.caption}>
-        {onMap.length} places, sized by how often the letters name them, on the Europe of
+        {onMap.length} places, sized by how often the letters name them — directly or through
+        their people — on the Europe of
         1570. Hover to identify. Frontiers are indicative; dotted lines divide the Empire into
         its ten Imperial Circles. After HistoGIS and IEG-Maps.
         {offMap.length > 0 && ` ${offMap.length} places lie beyond this frame.`}
