@@ -9,12 +9,16 @@ const { entities } = authorities;
 // Describe a man by what he held when this letter names him, not by what he
 // is remembered for: Alamanni is inviato in 1570 and ambasciatore only in 1572.
 function personDetail(rec, letterDate) {
-  const life = [rec.birth, rec.death].filter(Boolean).join("–");
   const held = officesOn(rec, letterDate)
     .map((o) => o.label)
     .slice(0, 2)
     .join(" · ");
-  return [held || rec.role, life, rec.note].filter(Boolean);
+  return [held || rec.role, rec.note].filter(Boolean);
+}
+
+/** Born and died, for the card. Identifiers belong in the index, not here. */
+function life(rec) {
+  return [rec.birth, rec.death].filter(Boolean).join("–");
 }
 
 function placeDetail(rec) {
@@ -25,7 +29,9 @@ function placeDetail(rec) {
 /**
  * A person or place in the transcription, resolved against the authority
  * files. Renders the manuscript's own wording; the card carries the
- * authoritative name and identifiers.
+ * authoritative name, the dates, and what the person held at the time.
+ * Identifiers are deliberately absent: a catalogue number is of no use to
+ * someone reading a sentence, and the indexes carry them.
  */
 export default function Ent({ k, id, children }) {
   const letterDate = useLetterDate();
@@ -39,22 +45,13 @@ export default function Ent({ k, id, children }) {
   const detail = isPerson ? personDetail(rec, letterDate) : placeDetail(rec);
   const lead = isPeople ? "the people of " : "";
   const index = isPerson ? "/people" : "/places";
-  const authority = isPerson
-    ? [
-        rec.wikidata && `Wikidata ${rec.wikidata}`,
-        rec.viaf && `VIAF ${rec.viaf}`,
-      ]
-        .filter(Boolean)
-        .join(" · ")
-    : [
-        rec.wikidata && `Wikidata ${rec.wikidata}`,
-        rec.tgn && `Getty TGN ${rec.tgn}`,
-      ]
-        .filter(Boolean)
-        .join(" · ");
+  const dates = isPerson ? life(rec) : "";
 
   const label = rec.author ? (
-    <span className={styles.author} title={[rec.name, ...detail].join(" · ")}>
+    <span
+      className={styles.author}
+      title={[rec.name, dates, ...detail].filter(Boolean).join(" · ")}
+    >
       {children}
     </span>
   ) : null;
@@ -66,7 +63,7 @@ export default function Ent({ k, id, children }) {
         <Link
           to={`${index}#${id}`}
           className={isPeople ? styles.people : isPerson ? styles.person : styles.place}
-          title={[rec.name, ...detail].join(" · ")}
+          title={[rec.name, dates, ...detail].filter(Boolean).join(" · ")}
         >
           {children}
         </Link>
@@ -86,10 +83,10 @@ export default function Ent({ k, id, children }) {
           {lead}
           {rec.name}
         </span>
+        {dates && <span className={styles.cardDates}>{dates}</span>}
         {detail.length > 0 && (
           <span className={styles.cardDetail}>{detail.join(" · ")}</span>
         )}
-        {authority && <span className={styles.cardAuthority}>{authority}</span>}
       </span>
     </span>
   );

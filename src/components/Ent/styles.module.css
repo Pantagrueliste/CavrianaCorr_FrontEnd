@@ -68,16 +68,18 @@
   font-weight: 600;
 }
 
-.cardDetail,
-.cardAuthority {
+.cardDetail {
   display: block;
   color: var(--ifm-color-emphasis-700);
 }
 
-.cardAuthority {
-  margin-top: 0.25rem;
-  font-size: 0.72rem;
-  letter-spacing: 0.02em;
+/* Born and died. Given its own line so it reads as a life, not as one more
+   fact among several. */
+.cardDates {
+  display: block;
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ifm-color-emphasis-600);
 }
 
 /* Hover cards depend on a pointer; on touch the link still reaches the
