@@ -1,5 +1,6 @@
 import React from "react";
 import EntityIndex from "@site/src/components/EntityIndex";
+import GroupList from "@site/src/components/GroupList";
 import styles from "@site/src/components/EntityIndex/styles.module.css";
 
 const commons = (file, width) =>
@@ -116,6 +117,7 @@ export default function People() {
       title="People"
       description="Everyone named in the correspondence, with the letters that mention them. Cavriana himself is not listed: he wrote these letters and signs almost all of them, under his own name and under two pseudonyms."
       renderDetail={detail}
+      after={<GroupList />}
     />
   );
 }

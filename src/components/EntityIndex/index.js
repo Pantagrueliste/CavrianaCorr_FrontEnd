@@ -69,7 +69,7 @@ function Entry({id, rec, children}) {
   );
 }
 
-export default function EntityIndex({kind, title, description, renderDetail, children}) {
+export default function EntityIndex({kind, title, description, renderDetail, children, after}) {
   const [query, setQuery] = useState('');
   const [role, setRole] = useState('');
 
@@ -199,6 +199,7 @@ export default function EntityIndex({kind, title, description, renderDetail, chi
             </ol>
           </section>
         )}
+        {after}
       </main>
     </Layout>
   );
