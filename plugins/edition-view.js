@@ -9,7 +9,6 @@
  */
 const SETTINGS = [
   {storage: 'cav.view', attr: 'data-cav-view', fallback: 'reading'},
-  {storage: 'cav.cipher', attr: 'data-cav-cipher', fallback: 'shown'},
 ];
 
 module.exports = function editionViewPlugin() {

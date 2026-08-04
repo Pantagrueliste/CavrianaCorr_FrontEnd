@@ -136,26 +136,32 @@
 /* Contemporary decipherments written   */
 /* above cipher passages                */
 /* ==================================== */
-/* The decipherment stands over its own cipher group, as the chancery clerk
-   wrote it between the lines. The pair is one inline box so the two stay
-   together when the paragraph wraps. */
+/* A cipher group and its reading occupy the same place on the line.
+
+   Stacking the two, as the chancery clerk wrote them, opened the interline and
+   made the page unpleasant to read. So the line carries one or the other: in
+   the reading view the words, which is what the letter says; in the diplomatic
+   view the digits, which is what the paper holds, with the reading brought up
+   on hover. Neither costs a line of height. */
 .cipher-pair {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  vertical-align: bottom;
-  line-height: 1.2;
-  margin: 0 0.1em;
+  position: relative;
+  display: inline;
 }
 
-.decipher {
-  font-style: italic;
-  cursor: help;
-  white-space: nowrap;
+/* Reading view: the words, and no sign of the digits. */
+.cipher-pair .cipher {
+  display: none;
 }
 
-/* A reading the editor supplied is not a reading the manuscript gives, and
-   wears the colour supplied text wears everywhere else in the edition. */
+/* Except where nothing has been read — hiding those would drop the passage
+   from the letter without saying so. */
+.cipher-pair[data-solved-by='none'] .cipher {
+  display: inline;
+  border-bottom: 2px dotted var(--ifm-color-emphasis-500);
+}
+
+/* A reading the editor supplied is not one the manuscript gives, and wears the
+   colour supplied text wears everywhere else in the edition. */
 .cipher-pair[data-solved-by='editor'] .decipher {
   color: #96331f;
 }
@@ -163,27 +169,48 @@
   color: #d98b74;
 }
 
-/* A group nobody has read is marked, rather than left to look like any other
-   run of digits. */
-.cipher-pair[data-solved-by='none'] .cipher {
-  border-bottom: 2px dotted var(--ifm-color-emphasis-500);
+/* Diplomatic view: the digits stand on the line, marked as holding something,
+   and the reading appears over them only when asked for. */
+html[data-cav-view='diplomatic'] .cipher-pair .cipher {
+  display: inline;
+  cursor: help;
 }
 
-/* ==================================== */
-/* Cipher apparatus                     */
-/* ==================================== */
-.cipher {
-  font-family: var(--ifm-font-family-monospace);
-  font-size: 0.85em;
-  color: var(--ifm-color-primary-dark);
-  background: var(--ifm-color-emphasis-100);
-  padding: 0.05em 0.35em;
-  border-radius: 3px;
-  word-break: break-all;
+html[data-cav-view='diplomatic'] .cipher-pair .decipher {
+  position: absolute;
+  bottom: 1.7em;
+  left: 0;
+  z-index: 20;
+  display: none;
+  width: max-content;
+  max-width: 20rem;
+  padding: 0.3rem 0.55rem;
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: 1.35;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 12%);
 }
-[data-theme='dark'] .cipher {
-  color: var(--ifm-color-primary-light);
-  background: var(--ifm-color-emphasis-200);
+
+html[data-cav-view='diplomatic'] .cipher-pair:hover .decipher,
+html[data-cav-view='diplomatic'] .cipher-pair:focus-within .decipher {
+  display: block;
+}
+
+/* Hover cards want a pointer; without one the diplomatic view would hide the
+   reading with no way to ask for it, so the words stay on the line. */
+@media (hover: none) {
+  html[data-cav-view='diplomatic'] .cipher-pair .decipher {
+    position: static;
+    display: inline;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
 }
 
 /* Text supplied by the editor, not present in the manuscript */
@@ -210,14 +237,6 @@ html:not([data-cav-view='diplomatic']) .expan {
   border-bottom: 1px dotted var(--ifm-color-emphasis-400);
 }
 
-/* Hiding the ciphertext leaves the reading alone on the line — except where
-   nothing has been read, since hiding those would silently drop the passage
-   from the letter altogether. */
-html[data-cav-cipher='hidden'] .cipher-pair { display: inline; }
-html[data-cav-cipher='hidden'] .cipher { display: none; }
-html[data-cav-cipher='hidden'] .cipher-pair[data-solved-by='none'] .cipher {
-  display: inline;
-}
 
 /* ==================================== */
 /* Epistolary frame                     */

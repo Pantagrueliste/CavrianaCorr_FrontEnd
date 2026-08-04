@@ -10,6 +10,10 @@ import styles from './styles.module.css';
  * never flashes the wrong reading. React state starts as null and is read
  * from the DOM in an effect, which is what avoids a hydration mismatch.
  */
+/* The ciphertext used to have a switch of its own. It no longer needs one:
+   the diplomatic view shows the digits, with each reading on hover, and the
+   reading view shows the words. Two controls for the same thing could
+   contradict each other. */
 export const SETTINGS = [
   {
     key: 'cav.view',
@@ -18,14 +22,6 @@ export const SETTINGS = [
     off: 'reading',
     label: 'Diplomatic text',
     hint: "Show the manuscript's own abbreviations instead of their expansions",
-  },
-  {
-    key: 'cav.cipher',
-    attr: 'data-cav-cipher',
-    on: 'hidden',
-    off: 'shown',
-    label: 'Hide ciphertext',
-    hint: 'Read the deciphered text alone, without the numeric cipher',
   },
 ];
 
@@ -79,8 +75,8 @@ function Setting({setting}) {
   );
 }
 
-export default function EditionView({hasCipher}) {
-  const settings = hasCipher ? SETTINGS : SETTINGS.filter((s) => s.key !== 'cav.cipher');
+export default function EditionView() {
+  const settings = SETTINGS;
   return (
     <div className={styles.bar}>
       <span className={styles.legend}>Reading</span>

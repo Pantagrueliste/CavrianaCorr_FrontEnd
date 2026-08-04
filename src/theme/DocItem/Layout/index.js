@@ -26,7 +26,7 @@ export default function DocItemLayoutWrapper(props) {
   // described by the office he held when this letter names him.
   return (
     <LetterDateProvider date={letterDate}>
-      <EditionView hasCipher={Boolean(frontMatter.hasCipher)} />
+      <EditionView />
       <LetterContext date={letterDate} />
       <Layout {...props} />
     </LetterDateProvider>
