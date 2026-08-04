@@ -1,4 +1,8 @@
 .note {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
   margin: 0 0 1.25rem;
   font-size: 0.83rem;
   line-height: 1.5;
@@ -6,10 +10,49 @@
 }
 
 .label {
-  display: inline-block;
-  margin-right: 0.6rem;
+  flex: none;
   font-size: 0.66rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ifm-color-emphasis-600);
+}
+
+.body {
+  flex: 1 1 16rem;
+}
+
+/* How much of the letter can be read, at a glance. The bar is proportional to
+   the count of groups, so a letter mostly solved at the time looks different
+   from one mostly solved now. */
+.meter {
+  display: flex;
+  flex: 1 1 8rem;
+  min-width: 6rem;
+  max-width: 14rem;
+  height: 0.3rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+}
+
+.chancery {
+  background: var(--ifm-color-primary);
+}
+
+/* The editor's readings are the colour used for supplied text throughout, so
+   the same claim wears the same colour wherever it is made. */
+.editor {
+  background: #96331f;
+}
+
+.shut {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--ifm-color-emphasis-300) 0 3px,
+    var(--ifm-color-emphasis-200) 3px 6px
+  );
+}
+
+[data-theme='dark'] .editor {
+  background: #d98b74;
 }

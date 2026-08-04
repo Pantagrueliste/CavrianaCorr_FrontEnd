@@ -136,10 +136,37 @@
 /* Contemporary decipherments written   */
 /* above cipher passages                */
 /* ==================================== */
+/* The decipherment stands over its own cipher group, as the chancery clerk
+   wrote it between the lines. The pair is one inline box so the two stay
+   together when the paragraph wraps. */
+.cipher-pair {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: bottom;
+  line-height: 1.2;
+  margin: 0 0.1em;
+}
+
 .decipher {
   font-style: italic;
-  border-bottom: 1px dashed var(--ifm-color-emphasis-500);
   cursor: help;
+  white-space: nowrap;
+}
+
+/* A reading the editor supplied is not a reading the manuscript gives, and
+   wears the colour supplied text wears everywhere else in the edition. */
+.cipher-pair[data-solved-by='editor'] .decipher {
+  color: #96331f;
+}
+[data-theme='dark'] .cipher-pair[data-solved-by='editor'] .decipher {
+  color: #d98b74;
+}
+
+/* A group nobody has read is marked, rather than left to look like any other
+   run of digits. */
+.cipher-pair[data-solved-by='none'] .cipher {
+  border-bottom: 2px dotted var(--ifm-color-emphasis-500);
 }
 
 /* ==================================== */
@@ -183,7 +210,14 @@ html:not([data-cav-view='diplomatic']) .expan {
   border-bottom: 1px dotted var(--ifm-color-emphasis-400);
 }
 
+/* Hiding the ciphertext leaves the reading alone on the line — except where
+   nothing has been read, since hiding those would silently drop the passage
+   from the letter altogether. */
+html[data-cav-cipher='hidden'] .cipher-pair { display: inline; }
 html[data-cav-cipher='hidden'] .cipher { display: none; }
+html[data-cav-cipher='hidden'] .cipher-pair[data-solved-by='none'] .cipher {
+  display: inline;
+}
 
 /* ==================================== */
 /* Epistolary frame                     */
