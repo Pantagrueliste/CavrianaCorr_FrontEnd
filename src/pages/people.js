@@ -45,13 +45,21 @@ function detail(rec) {
           />
         </a>
       )}
-      {(facts || rec.aliases?.length > 0) && (
+      {(facts || rec.aliases?.length > 0 || rec.probableName) && (
         <p className={styles.detail}>
           {facts}
           {rec.aliases?.length > 0 && (
             <>
               {facts && " · "}
               also called {rec.aliases.join(", ")}
+            </>
+          )}
+          {/* A proposed identification is not an established name. The letters
+              give this man a forename and an office and nothing else. */}
+          {rec.probableName && (
+            <>
+              {(facts || rec.aliases?.length > 0) && " · "}
+              probably {rec.probableName}
             </>
           )}
         </p>
