@@ -10471,5 +10471,13 @@
    "when": "",
    "wikidata": ""
   }
- ]
+ ],
+ "stats": {
+  "catalogued": 115,
+  "cipherGroups": 258,
+  "firstYear": 1566,
+  "lastYear": 1574,
+  "transcribed": 62,
+  "words": 46095
+ }
 }

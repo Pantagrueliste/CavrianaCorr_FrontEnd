@@ -1,0 +1,48 @@
+.wrap {
+  margin: 1.25rem 0 1.75rem;
+}
+
+.figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.75rem 1.5rem;
+  margin: 0;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.figure {
+  margin: 0;
+}
+
+/* Digits line up across the row, which is the whole point of putting them
+   side by side. */
+.value {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: var(--ifm-heading-color);
+}
+
+.label {
+  display: block;
+  margin: 0.15rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.note {
+  display: block;
+  font-variant-numeric: tabular-nums;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.caption {
+  margin: 0.6rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-600);
+}

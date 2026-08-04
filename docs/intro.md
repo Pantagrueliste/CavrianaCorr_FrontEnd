@@ -4,10 +4,13 @@ title: Introduction
 ---
 
 import CustomHeatmap from '@site/src/components/CustomHeatmap';
+import EditionStats from '@site/src/components/EditionStats';
 
 # Introduction to the Digital Edition
 
 This digital edition presents the correspondence of Filippo Cavriana, a physician, diplomat, and scholar active in the late 16th century.
+
+<EditionStats />
 
 ## Letter-Writing Activity
 
@@ -19,7 +22,7 @@ The visualization below shows Cavriana's letter-writing activity over time, with
 
 Browse through the letters chronologically or search for specific topics, people, or places mentioned in the correspondence.
 
-The edition is published in stages. 113 letters from 1566 to 1574 are catalogued, and the 57 transcribed so far are published here and shown in the heatmap above; the rest will appear as their transcriptions are completed. No letters survive from 1573.
+The edition is published in stages. The letters counted above as transcribed are published here and shown in the heatmap; the rest will appear as their transcriptions are completed. No letters survive from 1573.
 
 ## How to Cite
 
