@@ -15,12 +15,12 @@ pers-auger-ed,person,Émond Auger,Émond Auger,1530,1591,51712390,,,,,,,,2,2
 pers-bellievre-p,person,Pomponne de Bellièvre,Pomponne de Bellièvre,,,34561686,,,,,,,,1,1
 pers-birague-c,person,Charles de Birague,Charles de Birague,,,4166955799046910252,,,,,,,,4,4
 pers-bobba-t,person,Traiano di Fabrizio Bobba,Traiano di Fabrizio Bobba,,1590,,,,,,,,,3,3
-pers-bourbon-conde,person,Henri I de Bourbon,Henri I de Bourbon,1552-12-29,1588-03-05,,,,,,,,,1,1
-pers-bourbon-h-nav,person,Henri de Bourbon,Henri de Bourbon,,,266965539,,,,,,,,12,9
+pers-bourbon-conde,person,Henri I de Bourbon,Henri I de Bourbon,1552-12-29,1588-03-05,,,,,,,,,2,2
+pers-bourbon-h-nav,person,Henri de Bourbon,Henri de Bourbon,,,266965539,,,,,,,,13,10
 pers-bourbonvendome-l3,person,Louis III de Bourbon‑Vendôme,Louis III de Bourbon‑Vendôme,,,15202389,,,,,,,,2,2
 pers-briquemault-f,person,François de Beauvais,François de Beauvais,c. 1502,1572,643145857896423021076,,,,,,,,1,1
 pers-castellan-h,person,Honoré Castellan,Honoré Castellan,,,,,,,,,,,1,1
-pers-cavriana-f,person,Filippo Cavriana,Filippo Cavriana,,,,,,,,,,,57,54
+pers-cavriana-f,person,Filippo Cavriana,Filippo Cavriana,,,,,,,,,,,58,55
 pers-charite-h,person,Hugues de La Charité,Hugues de La Charité,,,,,,,,,,,0,0
 pers-cleves-h,person,Henriette de Clèves,Henriette de Clèves,1542-10-31,1601-06-24,4552150203822803250006,,,,,,,,4,3
 pers-coligny-g,person,Gaspard de Coligny,Gaspard de Coligny,,,79105346,,,,,,,,26,13
@@ -33,7 +33,7 @@ pers-delamarck-d,person,Diane de la Marck,Diane de la Marck,1544-06-16,1622,,,,,
 pers-deste-i,person,Ippolito d'Este,Ippolito d'Este,1509-08-25,1572-12-01,74104371,,,,,,,,3,3
 pers-deteligny-c,person,Charles de Téligny,Charles de Téligny,1535,1572,314802260,,,,,,,,5,4
 pers-epernon-jl,person,Jean‑Louis de Nogaret de La Valette,Jean‑Louis de Nogaret de La Valette,,,51679355,,,,,,,,0,0
-pers-este-a,person,Alfonso d'Este,Alfonso d'Este,,,,,,,,,,,4,4
+pers-este-a,person,Alfonso d'Este,Alfonso d'Este,,,,,,,,,,,5,5
 pers-este-r,person,Renée de France,Renée de France,,,47560739,,,,,,,,2,1
 pers-france-c,person,Claude de France,Claude de France,1547-11-12,1575-02-21,305115069,,,,,,,,2,2
 pers-galeazzosanseverino-g,person,Gian Galeazzo Sanseverino,Gian Galeazzo Sanseverino,1527,1575,4166955799046910252,,,,,,,,2,2
@@ -45,7 +45,7 @@ pers-gonzaga-l-nev,person,Luigi Gonzaga,Luigi Gonzaga,,,66529198,,,,,,,,28,18
 pers-gregorio-xiii,person,Gregory XIII,Gregory XIII,,,316407579,,,,,,,,10,5
 pers-guise-h,person,Henri de Guise,Henri de Guise,,,34454133,,,,,,,,22,12
 pers-habsburg-e,person,Elisabeth,Elisabeth,1554-06-05,1592-01-22,97794481,,,,,,,,14,7
-pers-habsburg-f,person,Philippe,Philippe,1527-05-21,1598-09-13,88973996,,,,,,,,19,7
+pers-habsburg-f,person,Philippe,Philippe,1527-05-21,1598-09-13,88973996,,,,,,,,20,8
 pers-habsburg-j,person,Juan de Austria,Juan de Austria,,,96139668,,,,,,,,2,2
 pers-habsburg-m,person,Maxmilian II,Maxmilian II,1527-07-31,1576-10-12,27863609,,,,,,,,18,5
 pers-joyeuse-a,person,Anne de Joyeuse,Anne de Joyeuse,,,45097317,,,,,,,,1,1
@@ -59,7 +59,7 @@ pers-lorraine-chr,person,Christine de Lorraine,Christine de Lorraine,,,4230910,,
 pers-lorraine-h1,person,Henri de Lorraine,Henri de Lorraine,,,69048019,,,,,,,,0,0
 pers-lorraine-h2,person,Henri II de Lorraine,Henri II de Lorraine,1563-11-08,1624-07-31,37071898,,,,,,,,0,0
 pers-maxmilian-m,person,Maxmilian II,Maxmilian II,1527-07-31,1576-10-12,27863609,,,,,,,,0,0
-pers-medici-cat,person,Caterina de' Medici,Caterina de' Medici,,,4936327,,,,,,,,53,18
+pers-medici-cat,person,Caterina de' Medici,Caterina de' Medici,,,4936327,,,,,,,,55,19
 pers-medici-cos-1,person,Cosimo I de' Medici,Cosimo I de' Medici,,,59259382,,,,,,,,32,13
 pers-medici-fer,person,Ferdinando de' Medici,Ferdinando de' Medici,,,100212180,,,,,,,,4,2
 pers-montluc-b,person,Blaise de Montluc,Blaise de Montluc,,,7394560,,,,,,,,4,4
@@ -90,11 +90,11 @@ pers-sorbin-a,person,Arnauld Sorbin,Arnauld Sorbin,1532-07-14,1606-05-01,2526805
 pers-striggio-a,person,Alessandro Striggio,Alessandro Striggio,1537,1592-02-29,,,,,,,,,2,2
 pers-tavannes-g,person,Gaspard de Saulx‑Tavannes,Gaspard de Saulx‑Tavannes,1509,1573-06-19,2578946,,,,,,,,1,1
 pers-termes-j,person,Jean de Termes,Jean de Termes,,,,,,,,,,,0,0
-pers-toledo-f,person,Fernando Álvarez de Toledo,Fernando Álvarez de Toledo,1507-10-29,1582-12-11,,,,,,,,,2,2
+pers-toledo-f,person,Fernando Álvarez de Toledo,Fernando Álvarez de Toledo,1507-10-29,1582-12-11,,,,,,,,,3,3
 pers-tudor-e,person,Elizabeth Tudor,Elizabeth Tudor,,,73876780,,,,,,,,13,6
 pers-vaini-e,person,Enea Vaini,Enea Vaini,,,,,,,,,,,2,2
-pers-valois-ch-9,person,Charles IX,Charles IX,,,59215242,,,,,,,,107,18
-pers-valois-h-3,person,Henri III,Henri III,,,7398374,,,,,,,,5,4
+pers-valois-ch-9,person,Charles IX,Charles IX,,,59215242,,,,,,,,109,19
+pers-valois-h-3,person,Henri III,Henri III,,,7398374,,,,,,,,6,5
 pers-valois-m,person,Marguerite de Valois,Marguerite de Valois,1553-05-14,1615-03-27,78750412,,,,,,,,3,2
 pers-vigor-s,person,Simon Vigor,Simon Vigor,1515,1575,39246854,,,,,,,,1,1
 pers-zygmunt-z,person,Zygmunt II,Zygmunt II,1520-08-01,1572-07-07,804948,,,,,,,,2,2
@@ -113,8 +113,8 @@ place-de,place,Germany,Germany,,,,,,,7001430,,,,15,11
 place-ecouen,place,Écouen,Écouen,,,,,,,7007074,,49.0189,2.3778,2,2
 place-england,place,England,England,,,,,,,7002445,,,,13,6
 place-es,place,Spain,Spain,,,,,,,7002327,,,,35,10
-place-ferrara,place,Ferrara,Ferrara,,,,,,,,,44.8378,11.6197,7,5
-place-fiandra,place,Flandre,Flandre,,,,,,,,,,,9,4
+place-ferrara,place,Ferrara,Ferrara,,,,,,,,,44.8378,11.6197,8,6
+place-fiandra,place,Flandre,Flandre,,,,,,,,,,,10,5
 place-firenze,place,Florence,Florence,,,,,,,7003893,,43.7696,11.2558,10,7
 place-fr,place,France,France,,,,,,,1000070,,,,50,19
 place-heidelberg,place,Heidelberg,Heidelberg,,,,,,,7003720,,49.3988,8.6724,1,1
@@ -135,7 +135,7 @@ place-netherlands,place,Netherlands,Netherlands,,,,,,,1000140,,,,0,0
 place-nevers,place,Nevers,Nevers,,,,,,,7007062,,46.9917,3.1620,6,6
 place-normandie,place,Normandie,Normandie,,,,,,,7003584,,,,4,3
 place-padova,place,Padua,Padua,,,,,,,7004426,,45.4064,11.8768,1,1
-place-paris,place,Paris,Paris,,,,,,,7008882,,48.8566,2.3522,58,33
+place-paris,place,Paris,Paris,,,,,,,7008882,,48.8566,2.3522,59,34
 place-parma,place,Parma,Parma,,,,,,,7004942,,44.8015,10.3279,1,1
 place-picardie,place,Picardy,Picardy,,,,,,,7024273,,,,4,3
 place-piemonte,place,Piedmont,Piedmont,,,,,,,7002988,,45.0522,7.5155,16,10
