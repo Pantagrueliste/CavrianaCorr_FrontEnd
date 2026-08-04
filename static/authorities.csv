@@ -112,7 +112,7 @@ pers-strozzi-f,person,Filippo Strozzi,"Strozzi, Filippo",1541,1582,,Q1414020,191
 pers-tavannes-g,person,Gaspard de Saulx-Tavannes,"Saulx-Tavannes, Gaspard de",1509,1573-06-19,2578946,Q563042,,,,,,,2,2
 pers-taxis-c,person,Taxi family member,Taxi family member,,,,,1794,,,,,,2,1
 pers-termes-j,person,Jean de Termes,"Termes, Jean de",,,,,,,,,,,0,0
-pers-toledo-f,person,Fernando Álvarez de Toledo,"Álvarez de Toledo, Fernando",1507-10-29,1582-12-11,20476873,Q80847,390,,,,,,3,3
+pers-toledo-f,person,Fernando Álvarez de Toledo,"Álvarez de Toledo, Fernando",1507-10-29,1582-12-11,20476873,Q80847,390,,,,,,5,4
 pers-tudor-e,person,Elizabeth Tudor,"Tudor, Elizabeth",1533,1603,73876780,Q7207,1703,,,,,,13,6
 pers-vaini-e,person,Enea Vaini,"Vaini, Enea",1537,1612,,,772,,,,,,2,2
 pers-valois-ch-9,person,Charles IX,"Valois, Charles IX",1550,1574,59215242,Q134309,3433,,,,,,114,20
@@ -130,7 +130,7 @@ place-ardena,place,Ardennes,Ardennes,,,,Q151985,,,,2803095,50.2500,5.6667,1,1
 place-auxerre,place,Auxerre,Auxerre,,,,Q167600,,,7013341,3035843,47.7982,3.5733,1,1
 place-bagni-di-lucca,place,Bagni di Lucca,Bagni di Lucca,,,,Q216399,,,7006075,6539959,44.0117,10.5829,4,3
 place-bar-sur-aube,place,Bar-sur-Aube,Bar-sur-Aube,,,,Q209093,,,7008984,3034802,48.2373,4.1540,1,1
-place-baviera,place,Bavaria,Bavaria,,,,Q980,,,7003669,2951839,49.0786,11.3856,1,1
+place-baviera,place,Bavaria,Bavaria,,,,Q980,,,7003669,2951839,49.0786,11.3856,2,2
 place-blois,place,Blois,Blois,,,,Q160927,,,7008320,3032213,47.5931,1.3272,5,5
 place-bollione,place,Bouillon,Bouillon,,,,Q217216,,,1026347,2801284,49.7917,5.0667,1,1
 place-bordeaux,place,Bordeaux,Bordeaux,,,,Q1479,,,7008161,3031582,44.8378,-0.5792,2,1
@@ -148,8 +148,8 @@ place-ecouen,place,Écouen,Écouen,,,,Q273695,,,7008036,3020440,49.0189,2.3778,2
 place-england,place,England,England,,,,Q21,,,7002445,2649994,53.0000,-1.0000,14,7
 place-es,place,Spain,Spain,,,,Q29,,,1000095,2510769,40.2000,-3.5000,37,11
 place-europe,place,Europe,Europe,,,,Q46,,,1000003,6255148,53.5000,15.5000,1,1
-place-ferrara,place,Ferrara,Ferrara,,,,Q13362,,,7004264,6542120,44.8392,11.6175,8,6
-place-fiandra,place,Flanders,Flanders,,,,Q234,,,7024097,3337388,51.0000,4.5000,10,5
+place-ferrara,place,Ferrara,Ferrara,,,,Q13362,,,7004264,6542120,44.8392,11.6175,9,7
+place-fiandra,place,Flanders,Flanders,,,,Q234,,,7024097,3337388,51.0000,4.5000,12,6
 place-firenze,place,Florence,Florence,,,,Q2044,,,7000457,6542285,43.7696,11.2558,10,7
 place-flesinga,place,Vlissingen,Vlissingen,,,,Q10084,,,7006750,2745391,51.4428,3.5731,1,1
 place-fr,place,France,France,,,,Q142,,,1000070,3017382,47.0000,2.0000,50,19
@@ -158,7 +158,7 @@ place-gatinais,place,Gâtinais,Gâtinais,,,,Q1303414,,,7644947,,48.1269,2.7544,1
 place-genova,place,Genoa,Genoa,,,,Q1449,,,7008546,6542282,44.4072,8.9340,1,1
 place-guyenne,place,Guyenne,Guyenne,,,,Q849324,,,,,43.9770,-0.1760,1,1
 place-heidelberg,place,Heidelberg,Heidelberg,,,,Q2966,,,7005177,2907911,49.3988,8.6724,1,1
-place-hollanda,place,Holland,Holland,,,,Q102911,,,7263522,,52.2500,4.6670,1,1
+place-hollanda,place,Holland,Holland,,,,Q102911,,,7263522,,52.2500,4.6670,2,2
 place-it,place,Italy,Italy,,,,Q38,,,1000080,3175395,42.5000,12.5000,26,17
 place-la-charite,place,La Charité,La Charité,,,,Q504883,,,7017054,3010201,47.1778,3.0147,4,3
 place-languedoc,place,Languedoc,Languedoc,,,,Q206221,,,7002884,,43.6667,3.1667,1,1
@@ -198,7 +198,7 @@ place-piemonte,place,Piedmont,Piedmont,,,,Q1216,,,7003120,3170831,45.0522,7.5155
 place-pinerolo,place,Pinerolo,Pinerolo,,,,Q9573,,,7005728,6540662,44.8833,7.3333,3,3
 place-pisa,place,Pisa,Pisa,,,,Q13375,,,7006082,6542122,43.7228,10.4017,10,8
 place-poitou,place,Poitou,Poitou,,,,Q954076,,,7002891,2986493,46.6486,-0.2478,1,1
-place-polonia,place,Poland,Poland,,,,Q36,,,7006366,798544,52.0000,19.0000,1,1
+place-polonia,place,Poland,Poland,,,,Q36,,,7006366,798544,52.0000,19.0000,2,2
 place-porto-ercole,place,Porto Ercole,Porto Ercole,,,,Q1394400,,,1046135,3170119,42.3953,11.2053,1,1
 place-portugal,place,Portugal,Portugal,,,,Q45,,,1000090,2264397,38.7000,-9.1833,2,1
 place-pragelato,place,Pragelato,Pragelato,,,,Q10201,,,1046177,3169958,45.0167,6.9333,1,1
