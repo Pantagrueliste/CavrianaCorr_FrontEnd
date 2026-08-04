@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useId } from "react";
 import Link from "@docusaurus/Link";
 import authorities from "@site/src/data/authorities.json";
 import { useLetterDate, officesOn } from "@site/src/components/LetterDate";
@@ -54,11 +54,14 @@ export default function Ent({ k, id, children }) {
   const index = isPerson ? "/people" : "/places";
   const dates = isPerson ? life(rec) : "";
 
+  // The card below already says all of this. A title attribute would make the
+  // browser draw its own plain tooltip beside it — the same words a second
+  // time, without the portrait. The card is bound to the name for assistive
+  // technology instead, which is what the title was doing that mattered.
+  const cardId = useId();
+
   const label = rec.author ? (
-    <span
-      className={styles.author}
-      title={[rec.name, dates, ...detail].filter(Boolean).join(" · ")}
-    >
+    <span className={styles.author} aria-describedby={cardId}>
       {children}
     </span>
   ) : null;
@@ -70,12 +73,12 @@ export default function Ent({ k, id, children }) {
         <Link
           to={`${index}#${id}`}
           className={isPeople ? styles.people : isPerson ? styles.person : styles.place}
-          title={[rec.name, dates, ...detail].filter(Boolean).join(" · ")}
+          aria-describedby={cardId}
         >
           {children}
         </Link>
       )}
-      <span className={styles.card} role="note">
+      <span className={styles.card} id={cardId} role="note">
         {rec.image && (
           <img
             className={styles.cardPortrait}
