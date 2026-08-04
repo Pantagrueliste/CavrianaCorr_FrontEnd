@@ -4,20 +4,43 @@ import styles from './styles.module.css';
 /**
  * An editorial note, attached to the passage it annotates.
  *
- * The transform emits the marker immediately after the annotated element, so
- * the note binds to its own previous sibling: hovering the words themselves —
- * not a footnote number somewhere else — brings up the remark. The passage
- * carries a faint underline so a reader can see there is something to hover.
+ * Hovering the words themselves — not a footnote number somewhere else —
+ * brings up the remark, and the passage carries a faint underline so a reader
+ * can see there is something to hover.
+ *
+ * The passage is found three ways, so that any note the editor writes behaves
+ * the same. `for` names it outright, from the note's @target, and does not
+ * depend on where the note sits. Otherwise the marker is emitted straight
+ * after the passage, and binds to its own previous sibling. Where that
+ * sibling is bare text — a note written after a few plain words, with no
+ * element between — there is nothing to attach a listener to, so the text is
+ * wrapped here and the wrapper used instead.
  *
  * Where the note is about the letter rather than a passage, it stands alone.
  */
-export default function EdNote({note, standalone = false}) {
+
+/** The element the note annotates, wrapping a bare text passage if need be. */
+function findPassage(marker, forId) {
+  if (forId) return document.getElementById(forId);
+  const prev = marker.previousSibling;
+  if (!prev) return null;
+  if (prev.nodeType === Node.ELEMENT_NODE) return prev;
+  if (prev.nodeType === Node.TEXT_NODE && prev.textContent.trim()) {
+    const span = document.createElement('span');
+    prev.parentNode.insertBefore(span, prev);
+    span.appendChild(prev);
+    return span;
+  }
+  return null;
+}
+
+export default function EdNote({note, standalone = false, for: forId}) {
   const ref = useRef(null);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
     if (standalone || !ref.current) return undefined;
-    const passage = ref.current.previousElementSibling;
+    const passage = findPassage(ref.current, forId);
     if (!passage) return undefined;
 
     const show = () => setOpen(true);
@@ -34,7 +57,7 @@ export default function EdNote({note, standalone = false}) {
       passage.removeEventListener('focusin', show);
       passage.removeEventListener('focusout', hide);
     };
-  }, [standalone]);
+  }, [standalone, forId]);
 
   if (standalone) {
     return (
