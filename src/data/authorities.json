@@ -19,6 +19,7 @@
   "1570-07-29-b": "1570-07-29",
   "1570-08-08-c": "1570-08-08",
   "1570-08-17": "1570-08-17",
+  "1570-08-30": "1570-08-30",
   "1570-09-01": "1570-09-01",
   "1570-09-11": "1570-09-11",
   "1570-09-14": "1570-09-14",
@@ -136,29 +137,6 @@
    "total": 13,
    "wikidata": ""
   },
-  "grp-corsicans": {
-   "aliases": [],
-   "kind": "group",
-   "letters": [
-    {
-     "date": "1570-07-29",
-     "n": 1,
-     "slug": "1570-07-29"
-    },
-    {
-     "date": "1570-08-08",
-     "n": 1,
-     "slug": "1570-08-08-c"
-    }
-   ],
-   "name": "Corsicans",
-   "note": "",
-   "place": "place-corsica",
-   "role": "people",
-   "sortName": "Corsicans",
-   "total": 2,
-   "wikidata": "Q14112"
-  },
   "grp-english": {
    "aliases": [],
    "kind": "group",
@@ -185,7 +163,7 @@
    "role": "people",
    "sortName": "English",
    "total": 4,
-   "wikidata": "Q21"
+   "wikidata": ""
   },
   "grp-french": {
    "aliases": [],
@@ -273,7 +251,7 @@
    "role": "people",
    "sortName": "French",
    "total": 25,
-   "wikidata": "Q142"
+   "wikidata": ""
   },
   "grp-hugonotti": {
    "aliases": [
@@ -412,7 +390,7 @@
    "role": "people",
    "sortName": "Italians",
    "total": 7,
-   "wikidata": "Q38"
+   "wikidata": ""
   },
   "grp-mori": {
    "aliases": [
@@ -515,89 +493,18 @@
    "role": "people",
    "sortName": "Spanish",
    "total": 5,
-   "wikidata": "Q29"
-  },
-  "grp-swiss": {
-   "aliases": [],
-   "kind": "group",
-   "letters": [
-    {
-     "date": "1569-01-03",
-     "n": 1,
-     "slug": "1569-01-03"
-    },
-    {
-     "date": "1570-08-17",
-     "n": 1,
-     "slug": "1570-08-17"
-    },
-    {
-     "date": "1570-10-13",
-     "n": 1,
-     "slug": "1570-10-13"
-    },
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    },
-    {
-     "date": "1572-11-27",
-     "n": 1,
-     "slug": "1572-11-27"
-    },
-    {
-     "date": "1572-12-07",
-     "n": 1,
-     "slug": "1572-12-07"
-    }
-   ],
-   "name": "Swiss",
-   "note": "",
-   "place": "place-svizzera",
-   "role": "people",
-   "sortName": "Swiss",
-   "total": 6,
-   "wikidata": "Q39"
-  },
-  "grp-turks": {
-   "aliases": [],
-   "kind": "group",
-   "letters": [
-    {
-     "date": "1572-05-28",
-     "n": 1,
-     "slug": "1572-05-28"
-    },
-    {
-     "date": "1572-12-07",
-     "n": 1,
-     "slug": "1572-12-07"
-    }
-   ],
-   "name": "Turks",
-   "note": "",
-   "place": "place-ottoman",
-   "role": "people",
-   "sortName": "Turks",
-   "total": 2,
-   "wikidata": "Q12560"
+   "wikidata": ""
   },
   "pers-alamanni-v": {
    "aliases": [
     "Alamanni"
    ],
-   "archive": {
-    "documents": 112,
-    "named": 18,
-    "received": 51,
-    "sent": 43
-   },
+   "archive": null,
    "author": false,
-   "birth": "1536-03-13",
-   "calling": "Officials and envoys",
-   "dbi": "vincenzo-alamanni",
-   "death": "1590-01",
+   "birth": "",
+   "calling": "",
+   "dbi": "",
+   "death": "",
    "image": "",
    "kind": "person",
    "letters": [
@@ -612,40 +519,19 @@
      "slug": "1570-07-15"
     }
    ],
-   "map": "133",
+   "map": "",
    "name": "Vincenzo Alamanni",
    "note": "Diplomat and intermediary",
-   "offices": [
-    {
-     "from": "1568",
-     "label": "Inviato mediceo in Francia",
-     "to": ""
-    },
-    {
-     "from": "1572",
-     "label": "Ambasciatore mediceo in Francia",
-     "to": "1576"
-    },
-    {
-     "from": "",
-     "label": "Chevalier de l'Ordre de Saint-Michel",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Maître de l'hôtel du duc d'Anjou",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
-   "role": "Commissario di Pisa",
+   "role": "",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Alamanni, Vincenzo",
+   "sortName": "Vincenzo Alamanni",
    "total": 3,
    "viaf": "",
-   "wikidata": "Q114909631"
+   "wikidata": ""
   },
   "pers-alberto": {
    "aliases": [],
@@ -664,57 +550,19 @@
      "slug": "1570-07-15"
     }
    ],
-   "map": "18680",
+   "map": "",
    "name": "Alberto",
    "note": "",
    "offices": [],
-   "probableName": "Alberto Luchi",
+   "probableName": "",
    "role": "Secretary",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Alberto (Secretary)",
+   "sortName": "Alberto",
    "total": 1,
    "viaf": "",
    "wikidata": ""
-  },
-  "pers-albret-j": {
-   "aliases": [
-    "Reina di Navarra"
-   ],
-   "archive": {
-    "documents": 12,
-    "named": 12,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1528-11-16",
-   "calling": "Rulers",
-   "dbi": "",
-   "death": "1572-06-09",
-   "image": "Jeanne-albret-navarre.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    }
-   ],
-   "map": "10207",
-   "name": "Jeanne d'Albret",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Queen of Navarre",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "nobility",
-   "sortName": "Albret, Jeanne d'",
-   "total": 1,
-   "viaf": "88872517",
-   "wikidata": "Q229286"
   },
   "pers-anjou-mezieres-r": {
    "aliases": [],
@@ -724,11 +572,11 @@
    "calling": "",
    "dbi": "",
    "death": "1586",
-   "image": "Vitrail de la Sainte-Chapelle - détail.jpg",
+   "image": "",
    "kind": "person",
    "letters": [],
    "map": "",
-   "name": "Renée d'Anjou-Mézières",
+   "name": "Renée d'Anjou‑Mézières",
    "note": "",
    "offices": [],
    "probableName": "",
@@ -736,10 +584,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Anjou-Mézières, Renée d'",
+   "sortName": "Renée d'Anjou‑Mézières",
    "total": 0,
    "viaf": "",
-   "wikidata": "Q15967086"
+   "wikidata": ""
   },
   "pers-auger-ed": {
    "aliases": [],
@@ -749,7 +597,7 @@
    "calling": "",
    "dbi": "",
    "death": "1591",
-   "image": "Edmond Auger.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -772,25 +620,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Auger, Émond",
+   "sortName": "Émond Auger",
    "total": 2,
    "viaf": "51712390",
-   "wikidata": "Q3047736"
+   "wikidata": ""
   },
   "pers-bellievre-p": {
    "aliases": [],
-   "archive": {
-    "documents": 6,
-    "named": 6,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1529",
-   "calling": "Officials and envoys",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1607",
-   "image": "Desnos (née Robin) - Pomponne de Bellièvre, Chancelier de France (1529-1607).jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -799,35 +642,29 @@
      "slug": "1572-11-21"
     }
    ],
-   "map": "21253",
+   "map": "",
    "name": "Pomponne de Bellièvre",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Surintendant des finances",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Royal councillor and diplomat",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Bellièvre, Pomponne de",
+   "sortName": "Pomponne de Bellièvre",
    "total": 1,
    "viaf": "34561686",
-   "wikidata": "Q3396109"
+   "wikidata": ""
   },
   "pers-birague-c": {
    "aliases": [],
    "archive": null,
    "author": false,
-   "birth": "1527-01-01",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1591-01-01",
-   "image": "Charles de birague cordeliers chalons gaignières.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -866,22 +703,17 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Birague, Charles de",
+   "sortName": "Charles de Birague",
    "total": 4,
-   "viaf": "",
-   "wikidata": "Q2960522"
+   "viaf": "4166955799046910252",
+   "wikidata": ""
   },
   "pers-bobba-t": {
    "aliases": [],
-   "archive": {
-    "documents": 24,
-    "named": 16,
-    "received": 0,
-    "sent": 8
-   },
+   "archive": null,
    "author": false,
    "birth": "",
-   "calling": "Officials and envoys",
+   "calling": "",
    "dbi": "",
    "death": "1590",
    "image": "",
@@ -893,12 +725,17 @@
      "slug": "1570-07-29-b"
     },
     {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
+    },
+    {
      "date": "1570-09-14",
      "n": 1,
      "slug": "1570-09-14"
     }
    ],
-   "map": "2569",
+   "map": "",
    "name": "Traiano di Fabrizio Bobba",
    "note": "",
    "offices": [
@@ -916,16 +753,6 @@
      "from": "",
      "label": "Coppiere di Cosimo I de' Medici",
      "to": ""
-    },
-    {
-     "from": "1562",
-     "label": "Cavaliere dell'Ordine di Santo Stefano",
-     "to": ""
-    },
-    {
-     "from": "1574",
-     "label": "Cameriere di Francesco I",
-     "to": ""
     }
    ],
    "probableName": "",
@@ -933,25 +760,22 @@
    "roleFrom": "1562",
    "roleTo": "",
    "roleType": "chivalricOrder",
-   "sortName": "Bobba, Traiano di Fabrizio",
-   "total": 2,
+   "sortName": "Traiano di Fabrizio Bobba",
+   "total": 3,
    "viaf": "",
    "wikidata": ""
   },
   "pers-bourbon-conde": {
-   "aliases": [],
-   "archive": {
-    "documents": 95,
-    "named": 95,
-    "received": 0,
-    "sent": 0
-   },
+   "aliases": [
+    "Condè"
+   ],
+   "archive": null,
    "author": false,
-   "birth": "1530",
+   "birth": "1552-12-29",
    "calling": "",
    "dbi": "",
-   "death": "1569",
-   "image": "Louis Ier de Bourbon, 1er prince de Condé (1530-1569).jpg",
+   "death": "1588-03-05",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -960,62 +784,7 @@
      "slug": "1570-10-13"
     }
    ],
-   "map": "9791",
-   "name": "Louis I de Bourbon, Prince of Condé",
-   "note": "",
-   "offices": [
-    {
-     "from": "1546",
-     "label": "Prince de Condé",
-     "to": "1569"
-    },
-    {
-     "from": "",
-     "label": "Duc d'Enghien",
-     "to": ""
-    }
-   ],
-   "probableName": "",
-   "role": "Prince of Condé",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "",
-   "sortName": "Bourbon, Louis I de (Prince of Condé)",
-   "total": 1,
-   "viaf": "54264210",
-   "wikidata": "Q316913"
-  },
-  "pers-bourbon-conde-h": {
-   "aliases": [
-    "Principe di Condé",
-    "Condè"
-   ],
-   "archive": {
-    "documents": 89,
-    "named": 89,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1552-12-29",
-   "calling": "",
-   "dbi": "",
-   "death": "1588-03-05",
-   "image": "Conde-henri.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    },
-    {
-     "date": "1572-12-07",
-     "n": 2,
-     "slug": "1572-12-07"
-    }
-   ],
-   "map": "10611",
+   "map": "",
    "name": "Henri I de Bourbon",
    "note": "",
    "offices": [],
@@ -1024,25 +793,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Bourbon, Henri I de (Prince of Condé)",
-   "total": 3,
-   "viaf": "66475488",
-   "wikidata": "Q430973"
+   "sortName": "Henri I de Bourbon",
+   "total": 1,
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-bourbon-h-nav": {
    "aliases": [],
-   "archive": {
-    "documents": 539,
-    "named": 533,
-    "received": 2,
-    "sent": 3
-   },
+   "archive": null,
    "author": false,
-   "birth": "1553-12-13",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1610-05-14",
-   "image": "Henry IV of france by pourbous younger.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -1091,7 +855,7 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "311",
+   "map": "",
    "name": "Henri de Bourbon",
    "note": "Future Henri IV of France",
    "offices": [],
@@ -1100,10 +864,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Bourbon, Henri de (King of Navarre)",
+   "sortName": "Henri de Bourbon",
    "total": 12,
    "viaf": "266965539",
-   "wikidata": "Q936976"
+   "wikidata": ""
   },
   "pers-bourbonvendome-l3": {
    "aliases": [],
@@ -1113,7 +877,7 @@
    "calling": "",
    "dbi": "",
    "death": "",
-   "image": "Ludwik III de Montpensier.JPG",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -1128,7 +892,7 @@
     }
    ],
    "map": "",
-   "name": "Louis III de Bourbon-Vendôme",
+   "name": "Louis III de Bourbon‑Vendôme",
    "note": "",
    "offices": [],
    "probableName": "",
@@ -1136,21 +900,16 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Bourbon-Vendôme, Louis III de",
+   "sortName": "Louis III de Bourbon‑Vendôme",
    "total": 2,
    "viaf": "15202389",
-   "wikidata": "Q927365"
+   "wikidata": ""
   },
   "pers-briquemault-f": {
    "aliases": [
     "Brichmod"
    ],
-   "archive": {
-    "documents": 1,
-    "named": 1,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "c. 1502",
    "calling": "",
@@ -1165,7 +924,7 @@
      "slug": "1570-09-01"
     }
    ],
-   "map": "32914",
+   "map": "",
    "name": "François de Beauvais",
    "note": "French noble and military figure",
    "offices": [],
@@ -1174,40 +933,9 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Beauvais, François de (Seigneur de Briquemault)",
+   "sortName": "François de Beauvais",
    "total": 1,
-   "viaf": "",
-   "wikidata": "Q96244832"
-  },
-  "pers-caan": {
-   "aliases": [],
-   "archive": null,
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "map": "",
-   "name": "Caan",
-   "note": "Sent by Maximilian II to congratulate the Queen of France on her childbirth, December 1572",
-   "offices": [],
-   "probableName": "",
-   "role": "Imperial Grand Equerry (cavallerizo maggiore)",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "diplomat",
-   "sortName": "Caan",
-   "total": 1,
-   "viaf": "",
+   "viaf": "643145857896423021076",
    "wikidata": ""
   },
   "pers-castellan-h": {
@@ -1236,7 +964,7 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Castellan, Honoré",
+   "sortName": "Honoré Castellan",
    "total": 1,
    "viaf": "",
    "wikidata": ""
@@ -1247,7 +975,7 @@
     "Chi ella sà"
    ],
    "archive": null,
-   "author": true,
+   "author": false,
    "birth": "",
    "calling": "",
    "dbi": "",
@@ -1535,7 +1263,7 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Cavriana, Filippo",
+   "sortName": "Filippo Cavriana",
    "total": 57,
    "viaf": "",
    "wikidata": ""
@@ -1559,26 +1287,21 @@
    "role": "Franciscan Friar",
    "roleFrom": "",
    "roleTo": "",
-   "roleType": "ecclesiastic",
-   "sortName": "La Charité, Hugues de",
+   "roleType": "religious",
+   "sortName": "Hugues de La Charité",
    "total": 0,
    "viaf": "",
    "wikidata": ""
   },
   "pers-cleves-h": {
    "aliases": [],
-   "archive": {
-    "documents": 1,
-    "named": 1,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1542-10-31",
    "calling": "",
    "dbi": "",
    "death": "1601-06-24",
-   "image": "Henriette de Nevers.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -1597,7 +1320,7 @@
      "slug": "1571-03-31"
     }
    ],
-   "map": "4802",
+   "map": "",
    "name": "Henriette de Clèves",
    "note": "",
    "offices": [],
@@ -1606,25 +1329,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Clèves, Henriette de",
+   "sortName": "Henriette de Clèves",
    "total": 4,
    "viaf": "4552150203822803250006",
-   "wikidata": "Q289646"
+   "wikidata": ""
   },
   "pers-coligny-g": {
    "aliases": [],
-   "archive": {
-    "documents": 25,
-    "named": 25,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1519-02-16",
-   "calling": "Military",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1572-08-24",
-   "image": "François Clouet - Admiral Gaspard II de Coligny - 168-1925 - Saint Louis Art Museum.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -1693,7 +1411,7 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "1461",
+   "map": "",
    "name": "Gaspard de Coligny",
    "note": "",
    "offices": [],
@@ -1702,10 +1420,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
-   "sortName": "Coligny, Gaspard de",
+   "sortName": "Gaspard de Coligny",
    "total": 26,
    "viaf": "79105346",
-   "wikidata": "Q204975"
+   "wikidata": ""
   },
   "pers-concini-b": {
    "aliases": [
@@ -1714,10 +1432,10 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1507-01-01",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1578-01-01",
+   "death": "",
    "image": "",
    "kind": "person",
    "letters": [
@@ -1756,25 +1474,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Concino di Conti della Penna, Bartolomeo",
+   "sortName": "Bartolomeo Concino di Conti della Penna",
    "total": 7,
-   "viaf": "1975149844995502960005",
-   "wikidata": "Q3635357"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-corso-a": {
    "aliases": [],
-   "archive": {
-    "documents": 6,
-    "named": 5,
-    "received": 1,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1548",
-   "calling": "Military",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1610",
-   "image": "Alphonse Corse, dit d'Ornano (1548-1610).jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -1788,30 +1501,19 @@
      "slug": "1570-09-01"
     }
    ],
-   "map": "33276",
+   "map": "",
    "name": "Alfonso Corso",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Maréchal de France",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Chevalier du Saint-Esprit",
-     "to": "1610"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Military commander",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Corso, Alfonso",
+   "sortName": "Alfonso Corso",
    "total": 2,
-   "viaf": "8649946",
-   "wikidata": "Q2651115"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-cosse-renee": {
    "aliases": [],
@@ -1839,7 +1541,7 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Cossé-Brissac, Renée de",
+   "sortName": "Renée de Cossé-Brissac",
    "total": 1,
    "viaf": "",
    "wikidata": ""
@@ -1870,57 +1572,19 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Crotto",
+   "sortName": "crotto",
    "total": 2,
    "viaf": "",
    "wikidata": ""
   },
-  "pers-dalava-f": {
-   "aliases": [
-    "Don Frances d'Alava"
-   ],
-   "archive": null,
-   "author": false,
-   "birth": "1510-01-01",
-   "calling": "",
-   "dbi": "",
-   "death": "1586-01-01",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 2,
-     "slug": "1572-05-12"
-    }
-   ],
-   "map": "",
-   "name": "Francés de Álava",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Spanish ambassador to France",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "diplomat",
-   "sortName": "Álava, Francés de",
-   "total": 2,
-   "viaf": "33681214",
-   "wikidata": "Q55988621"
-  },
   "pers-dani-j": {
    "aliases": [],
-   "archive": {
-    "documents": 18,
-    "named": 8,
-    "received": 2,
-    "sent": 8
-   },
+   "archive": null,
    "author": false,
-   "birth": "1530",
-   "calling": "Officials and envoys",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1598",
+   "death": "",
    "image": "",
    "kind": "person",
    "letters": [
@@ -1930,27 +1594,16 @@
      "slug": "1570-07-15"
     }
    ],
-   "map": "655",
+   "map": "",
    "name": "Jacopo Dani",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Provvisionato di Cosimo I de' Medici",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Segretario della Pratica Segreta",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Medici Secretary",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Dani, Jacopo",
+   "sortName": "Jacopo Dani",
    "total": 1,
    "viaf": "",
    "wikidata": ""
@@ -1963,7 +1616,7 @@
    "calling": "",
    "dbi": "",
    "death": "1622",
-   "image": "Diane de La Marck.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -1981,25 +1634,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "La Marck, Diane de",
+   "sortName": "Diane de la Marck",
    "total": 1,
    "viaf": "",
-   "wikidata": "Q21294643"
+   "wikidata": ""
   },
   "pers-deste-i": {
    "aliases": [],
-   "archive": {
-    "documents": 97,
-    "named": 81,
-    "received": 9,
-    "sent": 7
-   },
+   "archive": null,
    "author": false,
    "birth": "1509-08-25",
-   "calling": "Church",
+   "calling": "",
    "dbi": "",
    "death": "1572-12-01",
-   "image": "Ippolito II d'Este.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2018,7 +1666,7 @@
      "slug": "1572-03-08"
     }
    ],
-   "map": "429",
+   "map": "",
    "name": "Ippolito d'Este",
    "note": "",
    "offices": [],
@@ -2027,10 +1675,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "ecclesiastic",
-   "sortName": "Este, Ippolito d'",
+   "sortName": "Ippolito d'Este",
    "total": 3,
    "viaf": "74104371",
-   "wikidata": "Q554296"
+   "wikidata": ""
   },
   "pers-deteligny-c": {
    "aliases": [],
@@ -2040,7 +1688,7 @@
    "calling": "",
    "dbi": "",
    "death": "1572",
-   "image": "Charles-louis-de-teligny.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2073,63 +1721,45 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Téligny, Charles de",
+   "sortName": "Charles de Téligny",
    "total": 5,
    "viaf": "314802260",
-   "wikidata": "Q1868249"
+   "wikidata": ""
   },
   "pers-epernon-jl": {
    "aliases": [],
-   "archive": {
-    "documents": 82,
-    "named": 82,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1554",
-   "calling": "Military",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1642",
-   "image": "Jean Louis de Nogaret de La Valette.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [],
-   "map": "16017",
-   "name": "Jean-Louis de Nogaret de La Valette",
+   "map": "",
+   "name": "Jean‑Louis de Nogaret de La Valette",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Duc d'Épernon",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Duke of Épernon",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Nogaret de La Valette, Jean-Louis de",
+   "sortName": "Jean‑Louis de Nogaret de La Valette",
    "total": 0,
    "viaf": "51679355",
-   "wikidata": "Q667104"
+   "wikidata": ""
   },
   "pers-este-a": {
-   "aliases": [
-    "Duca di Ferrara"
-   ],
-   "archive": {
-    "documents": 259,
-    "named": 248,
-    "received": 11,
-    "sent": 0
-   },
+   "aliases": [],
+   "archive": null,
    "author": false,
-   "birth": "1533-11-22",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1597-10-27",
-   "image": "Cesare Aretusi Retrato de Alfonso II de Este, duque de Ferrara.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2153,84 +1783,19 @@
      "slug": "1571-07-07"
     }
    ],
-   "map": "427",
-   "name": "Alfonso II d'Este",
+   "map": "",
+   "name": "Alfonso d'Este",
    "note": "",
-   "offices": [
-    {
-     "from": "1559",
-     "label": "Duca di Ferrara",
-     "to": "1597"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Duke of Ferrara",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Este, Alfonso II d'",
+   "sortName": "Alfonso d'Este",
    "total": 4,
-   "viaf": "27142287",
-   "wikidata": "Q1856074"
-  },
-  "pers-este-card": {
-   "aliases": [
-    "Cardinal d'Este"
-   ],
-   "archive": {
-    "documents": 65,
-    "named": 64,
-    "received": 1,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1538-12-25",
-   "calling": "Church",
-   "dbi": "",
-   "death": "1586-12-30",
-   "image": "Cardinale Luigi d Este.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "map": "1918",
-   "name": "Luigi d'Este",
-   "note": "Brother of Alfonso II d'Este; the letter of 1 September 1570 identifies him as such, which distinguishes him from his uncle Ippolito II, the Cardinal of Ferrara recorded separately.",
-   "offices": [
-    {
-     "from": "1562",
-     "label": "Titulus SS. Nerei et Achillei",
-     "to": ""
-    },
-    {
-     "from": "1561",
-     "label": "Cardinalis diaconus",
-     "to": "1586"
-    },
-    {
-     "from": "1563",
-     "label": "Titulus S. Luciae in Silice",
-     "to": ""
-    },
-    {
-     "from": "1572",
-     "label": "Governatore di Tivoli",
-     "to": "1573"
-    }
-   ],
-   "probableName": "",
-   "role": "Cardinal",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "ecclesiastic",
-   "sortName": "Este, Luigi d'",
-   "total": 1,
-   "viaf": "61353628",
-   "wikidata": "Q2527555"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-este-r": {
    "aliases": [
@@ -2242,7 +1807,7 @@
    "calling": "",
    "dbi": "",
    "death": "",
-   "image": "Renee de france.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2260,61 +1825,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "France, Renée de",
+   "sortName": "Renée de France",
    "total": 2,
    "viaf": "47560739",
-   "wikidata": "Q235841"
-  },
-  "pers-farnese-a-card": {
-   "aliases": [],
-   "archive": {
-    "documents": 314,
-    "named": 290,
-    "received": 15,
-    "sent": 9
-   },
-   "author": false,
-   "birth": "1520-10-07",
-   "calling": "Church",
-   "dbi": "",
-   "death": "1589-03-02",
-   "image": "Portrait of Cardinal Alessandro Farnese (by Titian)FXD.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    }
-   ],
-   "map": "474",
-   "name": "Alessandro Farnese",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Cardinal",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "ecclesiastic",
-   "sortName": "Farnese, Alessandro",
-   "total": 1,
-   "viaf": "23504937",
-   "wikidata": "Q248459"
+   "wikidata": ""
   },
   "pers-france-c": {
    "aliases": [],
-   "archive": {
-    "documents": 9,
-    "named": 9,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1547-11-12",
    "calling": "",
    "dbi": "",
    "death": "1575-02-21",
-   "image": "FRANCOIS-CLOUET HERZOGIN-CLAUDIA-TOCHTER-HEINRICHS-II-VON-FRANKREICH CC-BY-SA BSTGS 1489.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2328,7 +1852,7 @@
      "slug": "1570-11-04"
     }
    ],
-   "map": "3108",
+   "map": "",
    "name": "Claude de France",
    "note": "",
    "offices": [],
@@ -2337,21 +1861,14 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "France, Claude de",
+   "sortName": "Claude de France",
    "total": 2,
    "viaf": "305115069",
-   "wikidata": "Q242336"
+   "wikidata": ""
   },
   "pers-galeazzosanseverino-g": {
-   "aliases": [
-    "conte di Gaiazzo"
-   ],
-   "archive": {
-    "documents": 2,
-    "named": 2,
-    "received": 0,
-    "sent": 0
-   },
+   "aliases": [],
+   "archive": null,
    "author": false,
    "birth": "1527",
    "calling": "",
@@ -2371,42 +1888,31 @@
      "slug": "1572-12-07"
     }
    ],
-   "map": "19477",
+   "map": "",
    "name": "Gian Galeazzo Sanseverino",
    "note": "",
-   "offices": [
-    {
-     "from": "1570",
-     "label": "Conte di Colorno",
-     "to": "1577"
-    }
-   ],
+   "offices": [],
    "probableName": "",
-   "role": "Conte di Caiazzo",
-   "roleFrom": "1539",
-   "roleTo": "1577",
+   "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
-   "sortName": "Sanseverino, Gian Galeazzo",
+   "sortName": "Gian Galeazzo Sanseverino",
    "total": 2,
-   "viaf": "",
+   "viaf": "4166955799046910252",
    "wikidata": ""
   },
   "pers-gondi-albert": {
    "aliases": [
     "Comte de Retz"
    ],
-   "archive": {
-    "documents": 31,
-    "named": 31,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1522-11-04",
-   "calling": "Military",
+   "calling": "",
    "dbi": "",
    "death": "1602-04-12",
-   "image": "Albert-de-Gondi.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2430,50 +1936,29 @@
      "slug": "1571-07-07"
     }
    ],
-   "map": "10642",
+   "map": "",
    "name": "Albert de Gondi",
    "note": "",
-   "offices": [
-    {
-     "from": "1574",
-     "label": "Maréchal de France",
-     "to": ""
-    },
-    {
-     "from": "1573",
-     "label": "Ambassadeur de France en Angleterre",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Duc de Retz",
-     "to": "1602"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Marshal of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Gondi, Albert de",
+   "sortName": "Albert de Gondi",
    "total": 4,
    "viaf": "89654338",
-   "wikidata": "Q1968726"
+   "wikidata": ""
   },
   "pers-gontaut-a": {
    "aliases": [],
-   "archive": {
-    "documents": 20,
-    "named": 20,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1524",
-   "calling": "Military",
+   "calling": "",
    "dbi": "",
    "death": "1592",
-   "image": "Armand de Gontaut, baron de Biron.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2487,91 +1972,54 @@
      "slug": "1572-05-12"
     }
    ],
-   "map": "17294",
+   "map": "",
    "name": "Armand de Gontaut",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Baron de Biron",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Guidon",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
-   "role": "Capitaine de cent gendarmes",
-   "roleFrom": "1564",
+   "role": "",
+   "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Gontaut, Armand de",
+   "sortName": "Armand de Gontaut",
    "total": 3,
    "viaf": "44293531",
-   "wikidata": "Q678012"
+   "wikidata": ""
   },
   "pers-gonzaga-gugl": {
    "aliases": [],
-   "archive": {
-    "documents": 235,
-    "named": 216,
-    "received": 7,
-    "sent": 12
-   },
+   "archive": null,
    "author": false,
-   "birth": "1538",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1587",
-   "image": "Guglielmo I Gonzaga.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [],
-   "map": "826",
+   "map": "",
    "name": "Guglielmo Gonzaga",
    "note": "",
-   "offices": [
-    {
-     "from": "1574",
-     "label": "Duca di Mantova e Monferrato",
-     "to": "1587"
-    },
-    {
-     "from": "",
-     "label": "Chevalier de la Toison d'Or",
-     "to": ""
-    },
-    {
-     "from": "1550",
-     "label": "Duca di Mantova",
-     "to": "1587"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Duke of Mantua",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Gonzaga, Guglielmo",
+   "sortName": "Guglielmo Gonzaga",
    "total": 0,
    "viaf": "",
-   "wikidata": "Q935424"
+   "wikidata": ""
   },
   "pers-gonzaga-isa": {
    "aliases": [],
-   "archive": {
-    "documents": 13,
-    "named": 13,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1537",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1579",
-   "image": "Isabel Gonzaga by Carderera.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2580,42 +2028,31 @@
      "slug": "1568-05-05"
     }
    ],
-   "map": "2879",
+   "map": "",
    "name": "Isabella Gonzaga",
    "note": "",
-   "offices": [
-    {
-     "from": "1552",
-     "label": "Marchesa di Pescara",
-     "to": "1579"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Marchioness of Pescara",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Gonzaga, Isabella",
+   "sortName": "Isabella Gonzaga",
    "total": 1,
    "viaf": "",
-   "wikidata": "Q3802268"
+   "wikidata": ""
   },
   "pers-gonzaga-l-nev": {
    "aliases": [
     "Nevers"
    ],
-   "archive": {
-    "documents": 59,
-    "named": 59,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1539-09-18",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1595-10-23",
-   "image": "Italian School, North Italian - Ludovico Gonzaga (1539-1595) with his Servant. - RCIN 406014 - Royal Collection.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2709,7 +2146,7 @@
      "slug": "1572-11-21"
     }
    ],
-   "map": "3851",
+   "map": "",
    "name": "Luigi Gonzaga",
    "note": "",
    "offices": [],
@@ -2718,10 +2155,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Gonzaga, Luigi",
+   "sortName": "Luigi Gonzaga",
    "total": 28,
    "viaf": "66529198",
-   "wikidata": "Q969113"
+   "wikidata": ""
   },
   "pers-gregorio-xiii": {
    "aliases": [
@@ -2729,11 +2166,11 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1502-01-01",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1585-04-10",
-   "image": "Lavinia Fontana - Portrait of Pope Gregory XIII.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2771,40 +2208,9 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "ecclesiastic",
-   "sortName": "Gregory XIII (Pope)",
+   "sortName": "Gregory XIII",
    "total": 10,
    "viaf": "316407579",
-   "wikidata": "Q83029"
-  },
-  "pers-guadagni": {
-   "aliases": [],
-   "archive": null,
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1571-06-27",
-     "n": 1,
-     "slug": "1571-06-27"
-    }
-   ],
-   "map": "",
-   "name": "Guadagni family member",
-   "note": "Entity needs research and completion",
-   "offices": [],
-   "probableName": "",
-   "role": "Noble",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "",
-   "sortName": "Guadagni family member",
-   "total": 1,
-   "viaf": "",
    "wikidata": ""
   },
   "pers-guise-h": {
@@ -2812,18 +2218,13 @@
     "Guisa",
     "Duca di Ghisa"
    ],
-   "archive": {
-    "documents": 95,
-    "named": 95,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1550-12-31",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1588-12-23",
-   "image": "Guise.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2887,7 +2288,7 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "10004",
+   "map": "",
    "name": "Henri de Guise",
    "note": "",
    "offices": [],
@@ -2896,25 +2297,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Guise, Henri de",
+   "sortName": "Henri de Guise",
    "total": 22,
-   "viaf": "69048019",
-   "wikidata": "Q313700"
+   "viaf": "34454133",
+   "wikidata": ""
   },
   "pers-habsburg-e": {
    "aliases": [],
-   "archive": {
-    "documents": 54,
-    "named": 53,
-    "received": 0,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
    "birth": "1554-06-05",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1592-01-22",
-   "image": "François Clouet - Elisabeth of Austria (ca. 1571) - Google Art Project.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -2953,7 +2349,7 @@
      "slug": "1572-12-01"
     }
    ],
-   "map": "3390",
+   "map": "",
    "name": "Elisabeth",
    "note": "",
    "offices": [],
@@ -2962,25 +2358,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Habsburg, Elisabeth (Queen of France)",
+   "sortName": "Elisabeth",
    "total": 14,
    "viaf": "97794481",
-   "wikidata": "Q164512"
+   "wikidata": ""
   },
   "pers-habsburg-f": {
    "aliases": [],
-   "archive": {
-    "documents": 1435,
-    "named": 1375,
-    "received": 41,
-    "sent": 13
-   },
+   "archive": null,
    "author": false,
    "birth": "1527-05-21",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1598-09-13",
-   "image": "Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3019,7 +2410,7 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "182",
+   "map": "",
    "name": "Philippe",
    "note": "",
    "offices": [],
@@ -3028,20 +2419,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Habsburg, Philippe (King of Spain)",
+   "sortName": "Philippe",
    "total": 19,
    "viaf": "88973996",
-   "wikidata": "Q34417"
+   "wikidata": ""
   },
   "pers-habsburg-j": {
    "aliases": [],
    "archive": null,
    "author": false,
-   "birth": "1547-02-24",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1578-10-01",
-   "image": "John of Austria portrait.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3064,27 +2455,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Habsburg, Juan de Austria",
+   "sortName": "Juan de Austria",
    "total": 2,
    "viaf": "96139668",
-   "wikidata": "Q157107"
+   "wikidata": ""
   },
   "pers-habsburg-m": {
-   "aliases": [
-    "Cesare"
-   ],
-   "archive": {
-    "documents": 517,
-    "named": 502,
-    "received": 13,
-    "sent": 2
-   },
+   "aliases": [],
+   "archive": null,
    "author": false,
    "birth": "1527-07-31",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1576-10-12",
-   "image": "Nicolas Neufchâtel 002.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3113,36 +2497,31 @@
      "slug": "1572-08-04"
     }
    ],
-   "map": "874",
+   "map": "",
    "name": "Maxmilian II",
    "note": "",
    "offices": [],
    "probableName": "",
-   "role": "Imperator Romanus Sacer",
-   "roleFrom": "1564",
-   "roleTo": "1576",
+   "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
-   "sortName": "Habsburg, Maximilian II",
+   "sortName": "Maxmilian II",
    "total": 18,
    "viaf": "27863609",
-   "wikidata": "Q150862"
+   "wikidata": ""
   },
   "pers-joyeuse-a": {
    "aliases": [
     "Gioiosa"
    ],
-   "archive": {
-    "documents": 33,
-    "named": 33,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1560",
-   "calling": "Military",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1587",
-   "image": "Annejoyeuse.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3151,30 +2530,19 @@
      "slug": "1569-01-03"
     }
    ],
-   "map": "17269",
+   "map": "",
    "name": "Anne de Joyeuse",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Duc de Joyeuse",
-     "to": "1587"
-    },
-    {
-     "from": "",
-     "label": "Baron d'Arques",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Duke of Joyeuse",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Joyeuse, Anne de",
+   "sortName": "Anne de Joyeuse",
    "total": 1,
    "viaf": "45097317",
-   "wikidata": "Q565927"
+   "wikidata": ""
   },
   "pers-katarzyna-k": {
    "aliases": [],
@@ -3184,7 +2552,7 @@
    "calling": "",
    "dbi": "",
    "death": "1572-02-28",
-   "image": "Tiziano Vecellio - Bildnis der Erzherzogin Katharina von Österreich.jpg",
+   "image": "",
    "kind": "person",
    "letters": [],
    "map": "",
@@ -3196,82 +2564,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Katarzyna (Queen of Poland)",
+   "sortName": "Katarzyna",
    "total": 0,
    "viaf": "81319677",
-   "wikidata": "Q237737"
-  },
-  "pers-laguardia": {
-   "aliases": [
-    "Baron de la Garde",
-    "Baron della guardia"
-   ],
-   "archive": null,
-   "author": false,
-   "birth": "1498",
-   "calling": "",
-   "dbi": "",
-   "death": "1578",
-   "image": "Antoine des Escalins des Aimars, baron de La Garde.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 3,
-     "slug": "1572-05-12"
-    }
-   ],
-   "map": "",
-   "name": "Antoine Escalin des Aimars",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "General of the French galleys",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "military",
-   "sortName": "Escalin des Aimars, Antoine",
-   "total": 3,
-   "viaf": "4997694",
-   "wikidata": "Q2853927"
-  },
-  "pers-lamole-j": {
-   "aliases": [
-    "la Mola"
-   ],
-   "archive": {
-    "documents": 1,
-    "named": 1,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "1574-04-30",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "map": "23870",
-   "name": "Joseph Boniface de la Môle",
-   "note": "Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.",
-   "offices": [],
-   "probableName": "",
-   "role": "Provençal gentleman, favourite of the Duke of Alençon",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "nobility",
-   "sortName": "La Môle, Joseph Boniface de",
-   "total": 1,
-   "viaf": "",
-   "wikidata": "Q1924885"
+   "wikidata": ""
   },
   "pers-lhospital-m": {
    "aliases": [],
@@ -3281,7 +2577,7 @@
    "calling": "",
    "dbi": "",
    "death": "1573-03-13",
-   "image": "Michel-Hospital.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3299,10 +2595,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "L'Hospital, Michel de",
+   "sortName": "Michel de L'Hospital",
    "total": 1,
    "viaf": "100198491",
-   "wikidata": "Q551804"
+   "wikidata": ""
   },
   "pers-loignac-j": {
    "aliases": [],
@@ -3324,25 +2620,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Loignac, Jacques de",
+   "sortName": "Jacques de Loignac",
    "total": 0,
    "viaf": "",
    "wikidata": ""
   },
   "pers-lorraine-c": {
    "aliases": [],
-   "archive": {
-    "documents": 60,
-    "named": 60,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1543-02-18",
    "calling": "",
    "dbi": "",
    "death": "1608-05-14",
-   "image": "Charles III, Duke of Lorraine, by studio of François Clouet.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3356,19 +2647,19 @@
      "slug": "1570-11-04"
     }
    ],
-   "map": "608",
+   "map": "",
    "name": "Charles III de Lorraine",
    "note": "",
    "offices": [],
    "probableName": "",
-   "role": "Duc de Lorraine",
-   "roleFrom": "1545",
-   "roleTo": "1608",
+   "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
-   "sortName": "Lorraine, Charles III de",
+   "sortName": "Charles III de Lorraine",
    "total": 2,
    "viaf": "59905716",
-   "wikidata": "Q505040"
+   "wikidata": ""
   },
   "pers-lorraine-ch-aum": {
    "aliases": [
@@ -3403,7 +2694,7 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Lorraine, Charles de (Duke of Aumale)",
+   "sortName": "Charles de Lorraine",
    "total": 2,
    "viaf": "120178357",
    "wikidata": ""
@@ -3413,18 +2704,13 @@
     "Lorena",
     "Loreno"
    ],
-   "archive": {
-    "documents": 77,
-    "named": 77,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1524-02-17",
-   "calling": "Church",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1574-12-26",
-   "image": "CharlesdeGuise.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3478,7 +2764,7 @@
      "slug": "1572-12-07"
     }
    ],
-   "map": "12450",
+   "map": "",
    "name": "Charles de Lorraine",
    "note": "",
    "offices": [],
@@ -3487,42 +2773,12 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "ecclesiastic",
-   "sortName": "Lorraine, Charles de (Cardinal of Lorraine)",
+   "sortName": "Charles de Lorraine",
    "total": 23,
-   "viaf": "46904834",
-   "wikidata": "Q712264"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-lorraine-chr": {
-   "aliases": [],
-   "archive": {
-    "documents": 841,
-    "named": 514,
-    "received": 243,
-    "sent": 85
-   },
-   "author": false,
-   "birth": "1565-08-16",
-   "calling": "Rulers",
-   "dbi": "",
-   "death": "1637-12-19",
-   "image": "Pulzone, Scipione - Cristina di Lorena, granduchessa di Toscana - 1590.jpg",
-   "kind": "person",
-   "letters": [],
-   "map": "324",
-   "name": "Christine de Lorraine",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Princess of Lorraine",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "nobility",
-   "sortName": "Lorraine, Christine de",
-   "total": 0,
-   "viaf": "4230910",
-   "wikidata": "Q257579"
-  },
-  "pers-lorraine-h": {
    "aliases": [],
    "archive": null,
    "author": false,
@@ -3532,145 +2788,111 @@
    "death": "",
    "image": "",
    "kind": "person",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
+   "letters": [],
    "map": "",
-   "name": "Henry of Lorraine",
-   "note": "Entity needs research and completion",
+   "name": "Christine de Lorraine",
+   "note": "",
    "offices": [],
    "probableName": "",
-   "role": "Noble",
+   "role": "Princess of Lorraine",
    "roleFrom": "",
    "roleTo": "",
-   "roleType": "",
-   "sortName": "Lorraine, Henry of",
-   "total": 1,
-   "viaf": "",
+   "roleType": "nobility",
+   "sortName": "Christine de Lorraine",
+   "total": 0,
+   "viaf": "4230910",
+   "wikidata": ""
+  },
+  "pers-lorraine-h1": {
+   "aliases": [
+    "Loreno"
+   ],
+   "archive": null,
+   "author": false,
+   "birth": "",
+   "calling": "",
+   "dbi": "",
+   "death": "",
+   "image": "",
+   "kind": "person",
+   "letters": [],
+   "map": "",
+   "name": "Henri de Lorraine",
+   "note": "",
+   "offices": [],
+   "probableName": "",
+   "role": "Duke of Guise",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "nobility",
+   "sortName": "Henri de Lorraine",
+   "total": 0,
+   "viaf": "69048019",
    "wikidata": ""
   },
   "pers-lorraine-h2": {
    "aliases": [],
-   "archive": {
-    "documents": 37,
-    "named": 34,
-    "received": 0,
-    "sent": 3
-   },
+   "archive": null,
    "author": false,
    "birth": "1563-11-08",
    "calling": "",
    "dbi": "",
    "death": "1624-07-31",
-   "image": "Henri II Lorraine.jpg",
+   "image": "",
    "kind": "person",
    "letters": [],
-   "map": "3234",
+   "map": "",
    "name": "Henri II de Lorraine",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Marquis de Pont à Mousson",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
-   "role": "Duc de Bar",
+   "role": "",
    "roleFrom": "",
-   "roleTo": "1624",
+   "roleTo": "",
    "roleType": "",
-   "sortName": "Lorraine, Henri II de",
+   "sortName": "Henri II de Lorraine",
    "total": 0,
    "viaf": "37071898",
-   "wikidata": "Q704178"
+   "wikidata": ""
   },
-  "pers-maldonado-j": {
+  "pers-maxmilian-m": {
    "aliases": [
-    "Maldonato"
+    "Cesare"
    ],
    "archive": null,
    "author": false,
-   "birth": "1533",
+   "birth": "1527-07-31",
    "calling": "",
    "dbi": "",
-   "death": "1583-01-05",
-   "image": "Maldonatus.jpg",
+   "death": "1576-10-12",
+   "image": "",
    "kind": "person",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 3,
-     "slug": "1572-12-01"
-    }
-   ],
-   "map": "20786",
-   "name": "Juan Maldonado",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Jesuit theologian",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "ecclesiastic",
-   "sortName": "Maldonado, Juan",
-   "total": 3,
-   "viaf": "44310930",
-   "wikidata": "Q352804"
-  },
-  "pers-mauvissiere": {
-   "aliases": [
-    "Mauvissière"
-   ],
-   "archive": null,
-   "author": false,
-   "birth": "1520",
-   "calling": "",
-   "dbi": "",
-   "death": "1592",
-   "image": "Jaspar Isaac - Michel de Castelnau Mauvissière - 11-511165.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 2,
-     "slug": "1572-11-21"
-    }
-   ],
+   "letters": [],
    "map": "",
-   "name": "Michel de Castelnau",
+   "name": "Maxmilian II",
    "note": "",
    "offices": [],
    "probableName": "",
-   "role": "French envoy to England",
+   "role": "",
    "roleFrom": "",
    "roleTo": "",
-   "roleType": "diplomat",
-   "sortName": "Castelnau, Michel de",
-   "total": 2,
-   "viaf": "7396729",
-   "wikidata": "Q599082"
+   "roleType": "",
+   "sortName": "Maxmilian II",
+   "total": 0,
+   "viaf": "27863609",
+   "wikidata": ""
   },
   "pers-medici-cat": {
    "aliases": [
     "Reina"
    ],
-   "archive": {
-    "documents": 247,
-    "named": 237,
-    "received": 9,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
-   "birth": "1519",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1589",
-   "image": "Catarina de' Medici Uffizi.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3764,47 +2986,31 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "348",
+   "map": "",
    "name": "Caterina de' Medici",
    "note": "",
-   "offices": [
-    {
-     "from": "1547",
-     "label": "Reine de France",
-     "to": "1589"
-    },
-    {
-     "from": "1560",
-     "label": "Régente pour Charles IX",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Queen Mother of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Medici, Caterina de'",
+   "sortName": "Caterina de' Medici",
    "total": 53,
    "viaf": "4936327",
-   "wikidata": "Q131552"
+   "wikidata": ""
   },
   "pers-medici-cos-1": {
    "aliases": [
     "Gran Duca"
    ],
-   "archive": {
-    "documents": 7540,
-    "named": 1914,
-    "received": 3302,
-    "sent": 2322
-   },
+   "archive": null,
    "author": false,
-   "birth": "1519",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1574",
-   "image": "Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3873,70 +3079,29 @@
      "slug": "1572-11-21"
     }
    ],
-   "map": "203",
+   "map": "",
    "name": "Cosimo I de' Medici",
    "note": "",
-   "offices": [
-    {
-     "from": "1570",
-     "label": "Granduca di Toscana",
-     "to": "1574"
-    },
-    {
-     "from": "1537",
-     "label": "Duca di Firenze",
-     "to": "1574"
-    },
-    {
-     "from": "1557",
-     "label": "Duca di Firenze e Siena",
-     "to": "1574"
-    },
-    {
-     "from": "",
-     "label": "Eques Auratus",
-     "to": "1574"
-    },
-    {
-     "from": "1561",
-     "label": "Gran Maestro dell'Ordine di Santo Stefano",
-     "to": "1574"
-    },
-    {
-     "from": "1537",
-     "label": "Signore della Repubblica di Firenze",
-     "to": "1574"
-    },
-    {
-     "from": "1546",
-     "label": "Chevalier de la Toison d'Or",
-     "to": "1574"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Grand Duke of Tuscany",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Medici, Cosimo I de'",
+   "sortName": "Cosimo I de' Medici",
    "total": 32,
    "viaf": "59259382",
-   "wikidata": "Q48547"
+   "wikidata": ""
   },
   "pers-medici-fer": {
    "aliases": [],
-   "archive": {
-    "documents": 2567,
-    "named": 1180,
-    "received": 916,
-    "sent": 470
-   },
+   "archive": null,
    "author": false,
-   "birth": "1549-07-30",
-   "calling": "Church",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1609-02-17",
-   "image": "Pulzone, Scipione - Ferdinando I de' Medici, granduca di Toscana - 1590.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -3950,7 +3115,7 @@
      "slug": "1572-11-21"
     }
    ],
-   "map": "325",
+   "map": "",
    "name": "Ferdinando de' Medici",
    "note": "",
    "offices": [],
@@ -3959,82 +3124,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Medici, Ferdinando de'",
+   "sortName": "Ferdinando de' Medici",
    "total": 4,
    "viaf": "100212180",
-   "wikidata": "Q297483"
-  },
-  "pers-medici-giovanna": {
-   "aliases": [],
-   "archive": null,
-   "author": false,
-   "birth": "1547-01-24",
-   "calling": "",
-   "dbi": "",
-   "death": "1578-04-11",
-   "image": "Alessandro Allori 033.jpg",
-   "kind": "person",
-   "letters": [],
-   "map": "",
-   "name": "Giovanna d'Austria",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Grand Duchess of Tuscany",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "nobility",
-   "sortName": "Habsburg, Giovanna d'Austria",
-   "total": 0,
-   "viaf": "43563321",
-   "wikidata": "Q84459"
-  },
-  "pers-michiel-g": {
-   "aliases": [],
-   "archive": {
-    "documents": 11,
-    "named": 11,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1516",
-   "calling": "Officials and envoys",
-   "dbi": "",
-   "death": "1596",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-08-04",
-     "n": 1,
-     "slug": "1572-08-04"
-    }
-   ],
-   "map": "23349",
-   "name": "Giovanni Michiel",
-   "note": "Entity needs research and completion",
-   "offices": [
-    {
-     "from": "1572",
-     "label": "Ambasciatore straordinario veneziano in Francia",
-     "to": "1572"
-    },
-    {
-     "from": "1566",
-     "label": "Ambasciatore di Venezia alla Corte imperiale",
-     "to": "1571"
-    }
-   ],
-   "probableName": "",
-   "role": "Venetian ambassador to France",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "diplomat",
-   "sortName": "Michiel, Giovanni",
-   "total": 1,
-   "viaf": "",
-   "wikidata": "Q110269977"
+   "wikidata": ""
   },
   "pers-montluc-b": {
    "aliases": [
@@ -4046,7 +3139,7 @@
    "calling": "",
    "dbi": "",
    "death": "",
-   "image": "Blaise-monluc.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4079,28 +3172,23 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
-   "sortName": "Montluc, Blaise de",
+   "sortName": "Blaise de Montluc",
    "total": 4,
    "viaf": "7394560",
-   "wikidata": "Q378025"
+   "wikidata": ""
   },
   "pers-montm-fr": {
    "aliases": [
     "Montmoransy",
     "Mamoransi"
    ],
-   "archive": {
-    "documents": 16,
-    "named": 16,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1530",
-   "calling": "Military",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1579",
-   "image": "Clouet-montmorencyfrançois.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4174,78 +3262,32 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "18605",
+   "map": "",
    "name": "François de Montmorency",
    "note": "",
-   "offices": [
-    {
-     "from": "1559",
-     "label": "Maréchal de France",
-     "to": "1579"
-    },
-    {
-     "from": "1567",
-     "label": "Duc de Montmorency",
-     "to": "1579"
-    },
-    {
-     "from": "",
-     "label": "Grand Maître de France",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Pair de France",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Comte de Dammartin",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Baron de Châteaubriant",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Seigneur de Chantilly",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Seigneur de L'Isle-Adam",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Marshal of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
-   "sortName": "Montmorency, François de",
+   "sortName": "François de Montmorency",
    "total": 22,
    "viaf": "67259075",
-   "wikidata": "Q580292"
+   "wikidata": ""
   },
   "pers-montmorency-charles": {
    "aliases": [
     "Méru",
     "Damville"
    ],
-   "archive": {
-    "documents": 23,
-    "named": 23,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1537-03-31",
-   "calling": "Military",
+   "calling": "",
    "dbi": "",
    "death": "1612-05-05",
-   "image": "Charles de Montmorency, duc de Damville by Massard.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4259,7 +3301,7 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "22740",
+   "map": "",
    "name": "Charles de Montmorency",
    "note": "",
    "offices": [
@@ -4267,16 +3309,6 @@
      "from": "",
      "label": "Marshal of France",
      "to": ""
-    },
-    {
-     "from": "",
-     "label": "Chevalier du Saint-Esprit",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Seigneur de Méru",
-     "to": "1592"
     }
    ],
    "probableName": "",
@@ -4284,45 +3316,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Montmorency, Charles de",
+   "sortName": "Charles de Montmorency",
    "total": 3,
-   "viaf": "",
-   "wikidata": "Q1066589"
-  },
-  "pers-montmorency-g-thore": {
-   "aliases": [
-    "Torè",
-    "Thoré",
-    "turu"
-   ],
-   "archive": null,
-   "author": false,
-   "birth": "c. 1543",
-   "calling": "",
-   "dbi": "",
-   "death": "1593",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 2,
-     "slug": "1574-03-06"
-    }
-   ],
-   "map": "",
-   "name": "Guillaume de Montmorency-Thoré",
-   "note": "Brother of François de Montmorency and Charles de Montmorency (Méru). Implicated in the Malcontent conspiracy of 1574.",
-   "offices": [],
-   "probableName": "",
-   "role": "Military commander",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "military",
-   "sortName": "Montmorency-Thoré, Guillaume de",
-   "total": 2,
-   "viaf": "4231152025930103600001",
-   "wikidata": "Q997352"
+   "viaf": "47146030646835862535",
+   "wikidata": ""
   },
   "pers-montmorency-h": {
    "aliases": [
@@ -4334,7 +3331,7 @@
    "calling": "",
    "dbi": "",
    "death": "",
-   "image": "François Clouet (cercle de) - Henri 1er, Duc de Montmorency, Seigneur de Damville.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4357,20 +3354,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
-   "sortName": "Montmorency, Henri de",
+   "sortName": "Henri de Montmorency",
    "total": 3,
    "viaf": "68977937",
-   "wikidata": "Q1605895"
+   "wikidata": ""
   },
   "pers-nassau-l": {
    "aliases": [],
    "archive": null,
    "author": false,
-   "birth": "1538-01-10",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1574-04-14",
-   "image": "Lodewijk van Nassau.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4403,10 +3400,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Nassau, Ludwig von",
+   "sortName": "Ludwig von Nassau",
    "total": 5,
-   "viaf": "37283577",
-   "wikidata": "Q700300"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-nassau-w": {
    "aliases": [
@@ -4414,11 +3411,11 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1533-04-24",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1584-07-10",
-   "image": "William I, Prince of Orange by Adriaen Thomasz. Key Rijksmuseum Amsterdam SK-A-3148.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4461,10 +3458,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Nassau, Willem van",
+   "sortName": "Willem van Oranje",
    "total": 8,
    "viaf": "49260512",
-   "wikidata": "Q78454"
+   "wikidata": ""
   },
   "pers-orleans-l": {
    "aliases": [
@@ -4473,11 +3470,11 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1540-01-01",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1573-08-07",
-   "image": "Léonor d'Orléans-Longueville.jpeg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4505,81 +3502,17 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Orléans, Léonor d'",
+   "sortName": "Léonor d'Orléans",
    "total": 5,
-   "viaf": "55145003707261340813",
-   "wikidata": "Q2741365"
-  },
-  "pers-orsini-card": {
-   "aliases": [
-    "Cardinal Orsino"
-   ],
-   "archive": {
-    "documents": 27,
-    "named": 26,
-    "received": 1,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1532",
-   "calling": "Church",
-   "dbi": "",
-   "death": "1581-05-16",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    }
-   ],
-   "map": "15452",
-   "name": "Flavio Orsini",
-   "note": "",
-   "offices": [
-    {
-     "from": "1560",
-     "label": "Cardinalis",
-     "to": "1581"
-    },
-    {
-     "from": "1565",
-     "label": "Titulus S. Marcelli",
-     "to": "1578"
-    },
-    {
-     "from": "",
-     "label": "Doctor in utroque",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Nobile di Napoli",
-     "to": ""
-    }
-   ],
-   "probableName": "",
-   "role": "Cardinal, papal legate",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "ecclesiastic",
-   "sortName": "Orsini, Flavio",
-   "total": 1,
-   "viaf": "",
-   "wikidata": "Q1135565"
+   "viaf": "5145003707261340813",
+   "wikidata": ""
   },
   "pers-orsini-t": {
    "aliases": [],
-   "archive": {
-    "documents": 5,
-    "named": 4,
-    "received": 0,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
    "birth": "1547",
-   "calling": "Officials and envoys",
+   "calling": "",
    "dbi": "",
    "death": "1577-12-02",
    "image": "",
@@ -4611,53 +3544,13 @@
      "slug": "1572-12-01"
     }
    ],
-   "map": "1986",
+   "map": "",
    "name": "Troilo Orsini",
    "note": "",
    "offices": [
     {
      "from": "",
      "label": "ambassador",
-     "to": ""
-    },
-    {
-     "from": "1569",
-     "label": "Inviato mediceo in Francia",
-     "to": ""
-    },
-    {
-     "from": "1573",
-     "label": "Inviato mediceo in Francia",
-     "to": ""
-    },
-    {
-     "from": "1570",
-     "label": "Inviato mediceo in Francia",
-     "to": ""
-    },
-    {
-     "from": "1574",
-     "label": "Inviato mediceo alla Corte imperiale",
-     "to": ""
-    },
-    {
-     "from": "1574",
-     "label": "Inviato mediceo in Polonia",
-     "to": ""
-    },
-    {
-     "from": "1574",
-     "label": "Inviato mediceo in Boemia",
-     "to": ""
-    },
-    {
-     "from": "1574",
-     "label": "Inviato mediceo ad Innsbruck",
-     "to": ""
-    },
-    {
-     "from": "1574",
-     "label": "Inviato mediceo a Venezia per complimentarsi con il Re di Polonia",
      "to": ""
     }
    ],
@@ -4666,10 +3559,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
-   "sortName": "Orsini, Troilo",
+   "sortName": "Troilo Orsini",
    "total": 8,
    "viaf": "",
-   "wikidata": "Q18421538"
+   "wikidata": ""
   },
   "pers-osmanli-s2": {
    "aliases": [],
@@ -4679,7 +3572,7 @@
    "calling": "",
    "dbi": "",
    "death": "1574-12-15",
-   "image": "Portrait of Selim II by Nakkaş Osman, Şemâ'ilnâme, 1579, Istanbul, Topkapı Sarayı Müzesi, Н. 1563.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4722,10 +3615,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Osmanlı, Selim II",
+   "sortName": "Selim II",
    "total": 11,
    "viaf": "44058182",
-   "wikidata": "Q161872"
+   "wikidata": ""
   },
   "pers-ossonville": {
    "aliases": [],
@@ -4753,39 +3646,8 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Ossonville, Monsignore d'",
+   "sortName": "Monsignore d'Ossonville",
    "total": 3,
-   "viaf": "",
-   "wikidata": ""
-  },
-  "pers-papazzone-g": {
-   "aliases": [],
-   "archive": null,
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1568-05-05",
-     "n": 1,
-     "slug": "1568-05-05"
-    }
-   ],
-   "map": "",
-   "name": "Giulio Cesare Papazzone",
-   "note": "Servidore della signora Marchesa di Pescara",
-   "offices": [],
-   "probableName": "",
-   "role": "",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "",
-   "sortName": "Papazzone, Giulio Cesare",
-   "total": 1,
    "viaf": "",
    "wikidata": ""
   },
@@ -4815,24 +3677,44 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Pazzi, Filippino",
+   "sortName": "Filippino Pazzi",
    "total": 1,
+   "viaf": "",
+   "wikidata": ""
+  },
+  "pers-pers-papazzone-g": {
+   "aliases": [],
+   "archive": null,
+   "author": false,
+   "birth": "",
+   "calling": "",
+   "dbi": "",
+   "death": "",
+   "image": "",
+   "kind": "person",
+   "letters": [],
+   "map": "",
+   "name": "Giulio Cesare Papppazone",
+   "note": "Servidore della signora Marchesa di Pescara",
+   "offices": [],
+   "probableName": "",
+   "role": "",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "",
+   "sortName": "Giulio Cesare Papppazone",
+   "total": 0,
    "viaf": "",
    "wikidata": ""
   },
   "pers-petrucci": {
    "aliases": [],
-   "archive": {
-    "documents": 2,
-    "named": 1,
-    "received": 0,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
    "birth": "",
-   "calling": "Church",
+   "calling": "",
    "dbi": "",
-   "death": "1628",
+   "death": "",
    "image": "",
    "kind": "person",
    "letters": [
@@ -4862,6 +3744,11 @@
      "slug": "1570-08-17"
     },
     {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
+    },
+    {
      "date": "1570-10-03",
      "n": 2,
      "slug": "1570-10-03"
@@ -4887,8 +3774,8 @@
      "slug": "1572-05-12"
     }
    ],
-   "map": "19579",
-   "name": "Alessandro Petrucci",
+   "map": "",
+   "name": "Petrucci",
    "note": "Tuscan ambassador to France",
    "offices": [],
    "probableName": "",
@@ -4896,25 +3783,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Petrucci, Alessandro",
-   "total": 16,
+   "sortName": "Petrucci",
+   "total": 17,
    "viaf": "",
    "wikidata": ""
   },
   "pers-pfalz-fr-3": {
    "aliases": [],
-   "archive": {
-    "documents": 69,
-    "named": 68,
-    "received": 0,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
-   "birth": "1515-02-14",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1576-10-26",
-   "image": "Friedrich der Fromme.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4933,7 +3815,7 @@
      "slug": "1571-01-12"
     }
    ],
-   "map": "968",
+   "map": "",
    "name": "Friedrich III von der Pfalz",
    "note": "",
    "offices": [],
@@ -4942,10 +3824,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Pfalz, Friedrich III von der",
+   "sortName": "Friedrich III von der Pfalz",
    "total": 5,
    "viaf": "47559178",
-   "wikidata": "Q62171"
+   "wikidata": ""
   },
   "pers-pfalz-jc": {
    "aliases": [
@@ -4953,11 +3835,11 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1543-03-07",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1592-01-16",
-   "image": "Johann Casimir (Pfalz).jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -4980,28 +3862,23 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Pfalz, Johann Casimir von der",
+   "sortName": "Johann Casimir von der Pfalz",
    "total": 4,
-   "viaf": "53772122",
-   "wikidata": "Q62482"
+   "viaf": "52484350",
+   "wikidata": ""
   },
   "pers-pius-v": {
    "aliases": [
     "Michele Ghislieri",
     "Papa"
    ],
-   "archive": {
-    "documents": 304,
-    "named": 292,
-    "received": 12,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1504-01-17",
-   "calling": "Church",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1572-05-01",
-   "image": "Bartolomeo Passarotti - Pius V.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5020,7 +3897,7 @@
      "slug": "1572-08-04"
     }
    ],
-   "map": "359",
+   "map": "",
    "name": "Pius V",
    "note": "Pope from 1566 to 1572",
    "offices": [],
@@ -5029,58 +3906,22 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "ecclesiastic",
-   "sortName": "Pius V (Pope)",
+   "sortName": "Pius V",
    "total": 5,
    "viaf": "262746497",
-   "wikidata": "Q131945"
-  },
-  "pers-pontefice": {
-   "aliases": [],
-   "archive": null,
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "map": "",
-   "name": "The Pope",
-   "note": "Entity needs research and completion",
-   "offices": [],
-   "probableName": "",
-   "role": "Pope",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "",
-   "sortName": "Pope (unidentified)",
-   "total": 1,
-   "viaf": "",
    "wikidata": ""
   },
   "pers-riorikide-i-iv": {
    "aliases": [
     "Ivan the Terrible"
    ],
-   "archive": {
-    "documents": 71,
-    "named": 71,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1530-08-25",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1584-03-18",
-   "image": "Ivan grozny frame.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5094,7 +3935,7 @@
      "slug": "1572-08-04"
     }
    ],
-   "map": "3118",
+   "map": "",
    "name": "Ivan IV",
    "note": "",
    "offices": [],
@@ -5103,40 +3944,9 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Ivan IV (Czar of Russia)",
+   "sortName": "Ivan IV",
    "total": 3,
    "viaf": "89633898",
-   "wikidata": "Q7996"
-  },
-  "pers-rosieres": {
-   "aliases": [],
-   "archive": null,
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 3,
-     "slug": "1572-12-01"
-    }
-   ],
-   "map": "",
-   "name": "Rosières",
-   "note": "",
-   "offices": [],
-   "probableName": "",
-   "role": "Former Huguenot minister, converted after St Bartholomew",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "ecclesiastic",
-   "sortName": "Rosières",
-   "total": 3,
-   "viaf": "",
    "wikidata": ""
   },
   "pers-sachsen-aug": {
@@ -5145,11 +3955,11 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1526-07-31",
+   "birth": "",
    "calling": "",
    "dbi": "",
-   "death": "1586-02-11",
-   "image": "Lucas Cranach d. J. 004.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5167,10 +3977,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Sachsen, August von",
+   "sortName": "August von Sachsen",
    "total": 2,
    "viaf": "37714053",
-   "wikidata": "Q435016"
+   "wikidata": ""
   },
   "pers-sachsen-wil": {
    "aliases": [
@@ -5200,7 +4010,7 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Sachsen, Wilhelm von",
+   "sortName": "Wilhelm von Sachsen",
    "total": 3,
    "viaf": "",
    "wikidata": ""
@@ -5209,18 +4019,13 @@
    "aliases": [
     "Monsig. Salviati"
    ],
-   "archive": {
-    "documents": 10,
-    "named": 9,
-    "received": 0,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
-   "birth": "1537-01-21",
-   "calling": "Church",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1602-04-26",
-   "image": "Portrait-Of-Cardinal-Anton-Maria-Salviati.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5229,7 +4034,7 @@
      "slug": "1571-04-18"
     }
    ],
-   "map": "14437",
+   "map": "",
    "name": "Antonio Maria Salviati",
    "note": "",
    "offices": [],
@@ -5238,10 +4043,10 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "ecclesiastic",
-   "sortName": "Salviati, Antonio Maria",
+   "sortName": "Antonio Maria Salviati",
    "total": 1,
-   "viaf": "60171422",
-   "wikidata": "Q1079460"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-savoie-h-susa": {
    "aliases": [
@@ -5271,7 +4076,7 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Savoie, Honorat de (Marquis of Susa)",
+   "sortName": "Honorat de Savoie",
    "total": 1,
    "viaf": "",
    "wikidata": ""
@@ -5302,25 +4107,20 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Savoie, Honorat de (Count of Tende)",
+   "sortName": "Honorat de Savoie",
    "total": 1,
    "viaf": "",
    "wikidata": ""
   },
   "pers-savoie-j-nem": {
    "aliases": [],
-   "archive": {
-    "documents": 43,
-    "named": 43,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
-   "birth": "1531",
-   "calling": "Military",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1585",
-   "image": "Jacques de Savoie duc de Nemours - François Clouet.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5349,55 +4149,29 @@
      "slug": "1571-01-26"
     }
    ],
-   "map": "17254",
+   "map": "",
    "name": "Jacques de Savoie",
    "note": "",
-   "offices": [
-    {
-     "from": "1533",
-     "label": "Duc de Nemours",
-     "to": "1585"
-    },
-    {
-     "from": "",
-     "label": "Gouverneur de Lyon, Forez et Beaujolais",
-     "to": ""
-    },
-    {
-     "from": "1558",
-     "label": "Colonel-général de la cavalerie légère",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Gouverneur de Lyon",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Duke of Nemours",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Savoie, Jacques de",
+   "sortName": "Jacques de Savoie",
    "total": 12,
    "viaf": "29843872",
-   "wikidata": "Q2579854"
+   "wikidata": ""
   },
   "pers-savoy-em-fil": {
    "aliases": [],
-   "archive": {
-    "documents": 324,
-    "named": 312,
-    "received": 3,
-    "sent": 9
-   },
+   "archive": null,
    "author": false,
-   "birth": "1528",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1580",
-   "image": "Ritratto di Emanuele Filiberto di Savoia.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5431,35 +4205,19 @@
      "slug": "1572-12-01"
     }
    ],
-   "map": "1245",
+   "map": "",
    "name": "Emanuele Filiberto di Savoia",
    "note": "",
-   "offices": [
-    {
-     "from": "1553",
-     "label": "Duca di Savoia",
-     "to": "1580"
-    },
-    {
-     "from": "",
-     "label": "Principe del Piemonte",
-     "to": ""
-    },
-    {
-     "from": "1573",
-     "label": "Gran Maestro dell'Ordine dei Santi Maurizio e Lazzaro",
-     "to": "1580"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Duke of Savoy",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Savoia, Emanuele Filiberto di",
+   "sortName": "Emanuele Filiberto di Savoia",
    "total": 8,
-   "viaf": "",
-   "wikidata": "Q76508"
+   "viaf": "100170223",
+   "wikidata": ""
   },
   "pers-sorbin-a": {
    "aliases": [],
@@ -5487,24 +4245,19 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Sorbin, Arnauld",
+   "sortName": "Arnauld Sorbin",
    "total": 1,
    "viaf": "2526805",
-   "wikidata": "Q2863220"
+   "wikidata": ""
   },
   "pers-striggio-a": {
    "aliases": [
     "Striggi"
    ],
-   "archive": {
-    "documents": 9,
-    "named": 9,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1537",
-   "calling": "Officials and envoys",
+   "calling": "",
    "dbi": "",
    "death": "1592-02-29",
    "image": "",
@@ -5514,9 +4267,14 @@
      "date": "1570-07-29",
      "n": 1,
      "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     }
    ],
-   "map": "892",
+   "map": "",
    "name": "Alessandro Striggio",
    "note": "",
    "offices": [
@@ -5541,74 +4299,10 @@
    "roleFrom": "1559",
    "roleTo": "1574",
    "roleType": "stateCourtPersonnel",
-   "sortName": "Striggio, Alessandro",
-   "total": 1,
-   "viaf": "100216614",
-   "wikidata": "Q1377115"
-  },
-  "pers-strozzi-f": {
-   "aliases": [
-    "Strozzi"
-   ],
-   "archive": {
-    "documents": 26,
-    "named": 26,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1541",
-   "calling": "Military",
-   "dbi": "",
-   "death": "1582",
-   "image": "Strozzi-philippe.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    }
-   ],
-   "map": "19123",
-   "name": "Filippo Strozzi",
-   "note": "",
-   "offices": [
-    {
-     "from": "1563",
-     "label": "Colonel des Gardes françaises",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Chevalier de l'Ordre de Saint-Michel",
-     "to": ""
-    },
-    {
-     "from": "",
-     "label": "Amiral",
-     "to": "1582"
-    },
-    {
-     "from": "1560",
-     "label": "Seigneur d'Epernay",
-     "to": "1582"
-    },
-    {
-     "from": "1569",
-     "label": "Colonel Général de l'infanterie française",
-     "to": ""
-    }
-   ],
-   "probableName": "",
-   "role": "Colonel-General of the Infantry, commander of the French naval expedition (1572)",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "military",
-   "sortName": "Strozzi, Filippo",
-   "total": 1,
+   "sortName": "Alessandro Striggio",
+   "total": 2,
    "viaf": "",
-   "wikidata": "Q1414020"
+   "wikidata": ""
   },
   "pers-tavannes-g": {
    "aliases": [],
@@ -5618,7 +4312,7 @@
    "calling": "",
    "dbi": "",
    "death": "1573-06-19",
-   "image": "Gaspard-Saulx.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5628,7 +4322,7 @@
     }
    ],
    "map": "",
-   "name": "Gaspard de Saulx-Tavannes",
+   "name": "Gaspard de Saulx‑Tavannes",
    "note": "",
    "offices": [],
    "probableName": "",
@@ -5636,45 +4330,9 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
-   "sortName": "Saulx-Tavannes, Gaspard de",
+   "sortName": "Gaspard de Saulx‑Tavannes",
    "total": 1,
    "viaf": "2578946",
-   "wikidata": "Q563042"
-  },
-  "pers-taxis-c": {
-   "aliases": [],
-   "archive": {
-    "documents": 2,
-    "named": 2,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "",
-   "calling": "",
-   "dbi": "",
-   "death": "",
-   "image": "",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 2,
-     "slug": "1570-09-01"
-    }
-   ],
-   "map": "1794",
-   "name": "Taxi family member",
-   "note": "Entity needs research and completion",
-   "offices": [],
-   "probableName": "",
-   "role": "Noble",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "",
-   "sortName": "Taxi family member",
-   "total": 2,
-   "viaf": "",
    "wikidata": ""
   },
   "pers-termes-j": {
@@ -5697,28 +4355,22 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Termes, Jean de",
+   "sortName": "Jean de Termes",
    "total": 0,
    "viaf": "",
    "wikidata": ""
   },
   "pers-toledo-f": {
    "aliases": [
-    "Duca d'Alva",
-    "Duca d'Alba"
+    "Duke of Alba"
    ],
-   "archive": {
-    "documents": 264,
-    "named": 256,
-    "received": 5,
-    "sent": 2
-   },
+   "archive": null,
    "author": false,
    "birth": "1507-10-29",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1582-12-11",
-   "image": "Fernando Álvarez de Toledo, III Duque de Alba, retratado por Antonio Moro.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5732,34 +4384,35 @@
      "slug": "1572-11-21"
     }
    ],
-   "map": "390",
+   "map": "",
    "name": "Fernando Álvarez de Toledo",
    "note": "",
-   "offices": [],
+   "offices": [
+    {
+     "from": "",
+     "label": "Governor of the Netherlands",
+     "to": ""
+    }
+   ],
    "probableName": "",
-   "role": "Duke of Alba, Governor of the Spanish Netherlands",
+   "role": "Third Duke of Alba",
    "roleFrom": "",
    "roleTo": "",
-   "roleType": "military",
-   "sortName": "Álvarez de Toledo, Fernando",
+   "roleType": "nobility",
+   "sortName": "Fernando Álvarez de Toledo",
    "total": 2,
-   "viaf": "20476873",
-   "wikidata": "Q80847"
+   "viaf": "",
+   "wikidata": ""
   },
   "pers-tudor-e": {
    "aliases": [],
-   "archive": {
-    "documents": 340,
-    "named": 337,
-    "received": 2,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
-   "birth": "1533",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1603",
-   "image": "Elizabeth1England.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5793,44 +4446,28 @@
      "slug": "1572-12-01"
     }
    ],
-   "map": "1703",
+   "map": "",
    "name": "Elizabeth Tudor",
    "note": "",
-   "offices": [
-    {
-     "from": "1558",
-     "label": "Queen of England",
-     "to": "1603"
-    },
-    {
-     "from": "1558",
-     "label": "Queen of Ireland",
-     "to": "1603"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "Queen of England",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Tudor, Elizabeth",
+   "sortName": "Elizabeth Tudor",
    "total": 13,
    "viaf": "73876780",
-   "wikidata": "Q7207"
+   "wikidata": ""
   },
   "pers-vaini-e": {
    "aliases": [],
-   "archive": {
-    "documents": 869,
-    "named": 83,
-    "received": 3,
-    "sent": 52
-   },
+   "archive": null,
    "author": false,
-   "birth": "1537",
-   "calling": "Officials and envoys",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1612",
+   "death": "",
    "image": "",
    "kind": "person",
    "letters": [
@@ -5838,25 +4475,24 @@
      "date": "1570-07-15",
      "n": 1,
      "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     }
    ],
-   "map": "772",
+   "map": "",
    "name": "Enea Vaini",
    "note": "Order of Santo Stefano official",
-   "offices": [
-    {
-     "from": "",
-     "label": "Signore della tavola di Francesco I de' Medici",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
-   "role": "Cavaliere dell'Ordine di Santo Stefano",
-   "roleFrom": "1562",
-   "roleTo": "1612",
+   "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
-   "sortName": "Vaini, Enea",
-   "total": 1,
+   "sortName": "Enea Vaini",
+   "total": 2,
    "viaf": "",
    "wikidata": ""
   },
@@ -5864,18 +4500,13 @@
    "aliases": [
     "Re"
    ],
-   "archive": {
-    "documents": 237,
-    "named": 223,
-    "received": 1,
-    "sent": 13
-   },
+   "archive": null,
    "author": false,
-   "birth": "1550",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1574",
-   "image": "Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -5969,100 +4600,29 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "3433",
+   "map": "",
    "name": "Charles IX",
    "note": "",
-   "offices": [
-    {
-     "from": "1560",
-     "label": "Roi de France",
-     "to": "1574"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "King of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Valois, Charles IX",
+   "sortName": "Charles IX",
    "total": 107,
    "viaf": "59215242",
-   "wikidata": "Q134309"
-  },
-  "pers-valois-f-alen": {
-   "aliases": [
-    "Duca d'Alansone",
-    "Monseigneur le Duc"
-   ],
-   "archive": {
-    "documents": 232,
-    "named": 230,
-    "received": 1,
-    "sent": 1
-   },
-   "author": false,
-   "birth": "1555-03-18",
-   "calling": "",
-   "dbi": "",
-   "death": "1584-06-10",
-   "image": "Jean Decourt - Portrait François-Hercule de Valois, duc d’Alençon c. 1576.png",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-02-06",
-     "n": 1,
-     "slug": "1572-02-06"
-    },
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    },
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    },
-    {
-     "date": "1574-03-06",
-     "n": 4,
-     "slug": "1574-03-06"
-    }
-   ],
-   "map": "4142",
-   "name": "François de Valois",
-   "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Duc d'Alençon",
-     "to": ""
-    }
-   ],
-   "probableName": "",
-   "role": "Duke of Alençon, later Duke of Anjou",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "nobility",
-   "sortName": "Valois, François de",
-   "total": 7,
-   "viaf": "88904698",
-   "wikidata": "Q318380"
+   "wikidata": ""
   },
   "pers-valois-h-3": {
    "aliases": [],
-   "archive": {
-    "documents": 418,
-    "named": 408,
-    "received": 2,
-    "sent": 8
-   },
+   "archive": null,
    "author": false,
-   "birth": "1551",
-   "calling": "Rulers",
+   "birth": "",
+   "calling": "",
    "dbi": "",
-   "death": "1589",
-   "image": "Quesnel Henry III of France in Polish hat.jpg",
+   "death": "",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -6086,55 +4646,29 @@
      "slug": "1574-03-06"
     }
    ],
-   "map": "932",
+   "map": "",
    "name": "Henri III",
    "note": "",
-   "offices": [
-    {
-     "from": "1574",
-     "label": "Roi de France",
-     "to": "1589"
-    },
-    {
-     "from": "",
-     "label": "Duc d'Orleans",
-     "to": ""
-    },
-    {
-     "from": "1565",
-     "label": "Duc d'Anjou",
-     "to": ""
-    },
-    {
-     "from": "1573",
-     "label": "Król Polski",
-     "to": "1575"
-    }
-   ],
+   "offices": [],
    "probableName": "",
    "role": "King of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
-   "sortName": "Valois, Henri III",
+   "sortName": "Henri III",
    "total": 5,
    "viaf": "7398374",
-   "wikidata": "Q53448"
+   "wikidata": ""
   },
   "pers-valois-m": {
    "aliases": [],
-   "archive": {
-    "documents": 28,
-    "named": 27,
-    "received": 0,
-    "sent": 1
-   },
+   "archive": null,
    "author": false,
    "birth": "1553-05-14",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1615-03-27",
-   "image": "Marguerite de Valois vers 1574.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -6148,7 +4682,7 @@
      "slug": "1572-05-12"
     }
    ],
-   "map": "9065",
+   "map": "",
    "name": "Marguerite de Valois",
    "note": "",
    "offices": [],
@@ -6157,22 +4691,17 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Valois, Marguerite de",
+   "sortName": "Marguerite de Valois",
    "total": 3,
    "viaf": "78750412",
-   "wikidata": "Q220845"
+   "wikidata": ""
   },
   "pers-vigor-s": {
    "aliases": [],
-   "archive": {
-    "documents": 1,
-    "named": 1,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1515",
-   "calling": "Church",
+   "calling": "",
    "dbi": "",
    "death": "1575",
    "image": "",
@@ -6184,145 +4713,29 @@
      "slug": "1570-09-01"
     }
    ],
-   "map": "21396",
+   "map": "",
    "name": "Simon Vigor",
    "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Teologo",
-     "to": ""
-    },
-    {
-     "from": "1572",
-     "label": "Episcopus Narbonenensis (Narbonne)",
-     "to": "1575"
-    },
-    {
-     "from": "",
-     "label": "Recteur Université de Paris",
-     "to": ""
-    }
-   ],
+   "offices": [],
    "probableName": "",
-   "role": "Predicatore",
+   "role": "",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Vigor, Simon",
+   "sortName": "Simon Vigor",
    "total": 1,
    "viaf": "39246854",
-   "wikidata": "Q3484471"
-  },
-  "pers-walsingham-f": {
-   "aliases": [
-    "Ambasciatore Inglese"
-   ],
-   "archive": {
-    "documents": 3,
-    "named": 3,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "1532",
-   "calling": "Officials and envoys",
-   "dbi": "",
-   "death": "1590-04-06",
-   "image": "Sir Francis Walsingham by John De Critz the Elder.jpg",
-   "kind": "person",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 2,
-     "slug": "1572-11-21"
-    }
-   ],
-   "map": "19164",
-   "name": "Francis Walsingham",
-   "note": "",
-   "offices": [
-    {
-     "from": "1570",
-     "label": "Ambassador of England to France",
-     "to": "1573"
-    },
-    {
-     "from": "1559",
-     "label": "Member of Parliament",
-     "to": ""
-    },
-    {
-     "from": "1573",
-     "label": "Privy councillor of England to Elizabeth I Tudor",
-     "to": ""
-    },
-    {
-     "from": "1573",
-     "label": "Secretary of State",
-     "to": "1590"
-    }
-   ],
-   "probableName": "",
-   "role": "English ambassador to France",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "diplomat",
-   "sortName": "Walsingham, Francis",
-   "total": 2,
-   "viaf": "69738466",
-   "wikidata": "Q138409"
-  },
-  "pers-zibramonti-a": {
-   "aliases": [],
-   "archive": {
-    "documents": 3,
-    "named": 3,
-    "received": 0,
-    "sent": 0
-   },
-   "author": false,
-   "birth": "",
-   "calling": "Church",
-   "dbi": "",
-   "death": "1589",
-   "image": "Aurelio Zibramonti.png",
-   "kind": "person",
-   "letters": [],
-   "map": "34608",
-   "name": "Aurelio Zibramonti",
-   "note": "",
-   "offices": [
-    {
-     "from": "",
-     "label": "Segretario",
-     "to": ""
-    }
-   ],
-   "probableName": "",
-   "role": "Ducal secretary in Mantua",
-   "roleFrom": "",
-   "roleTo": "",
-   "roleType": "",
-   "sortName": "Zibramonti, Aurelio",
-   "total": 0,
-   "viaf": "",
-   "wikidata": "Q3629838"
+   "wikidata": ""
   },
   "pers-zygmunt-z": {
    "aliases": [],
-   "archive": {
-    "documents": 110,
-    "named": 110,
-    "received": 0,
-    "sent": 0
-   },
+   "archive": null,
    "author": false,
    "birth": "1520-08-01",
-   "calling": "Rulers",
+   "calling": "",
    "dbi": "",
    "death": "1572-07-07",
-   "image": "Cranach the Younger Sigismund II Augustus.jpg",
+   "image": "",
    "kind": "person",
    "letters": [
     {
@@ -6336,7 +4749,7 @@
      "slug": "1572-08-04"
     }
    ],
-   "map": "1071",
+   "map": "",
    "name": "Zygmunt II",
    "note": "",
    "offices": [],
@@ -6345,14 +4758,14 @@
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
-   "sortName": "Zygmunt II (King of Poland)",
+   "sortName": "Zygmunt II",
    "total": 2,
    "viaf": "804948",
-   "wikidata": "Q54058"
+   "wikidata": ""
   },
   "place-ancona": {
    "country": "Italy",
-   "geonames": "6542126",
+   "geonames": "",
    "historical": [
     "Ancona"
    ],
@@ -6380,13 +4793,13 @@
    "note": "",
    "scope": "",
    "sortName": "Ancona",
-   "tgn": "7003980",
+   "tgn": "7004220",
    "total": 5,
-   "wikidata": "Q3415"
+   "wikidata": ""
   },
   "place-angrogna": {
    "country": "Italy",
-   "geonames": "6543041",
+   "geonames": "",
    "historical": [
     "l'Angrogna"
    ],
@@ -6404,9 +4817,9 @@
    "note": "",
    "scope": "",
    "sortName": "Angrogna",
-   "tgn": "1043222",
+   "tgn": "7264258",
    "total": 1,
-   "wikidata": "Q9004"
+   "wikidata": ""
   },
   "place-anjou": {
    "country": "France",
@@ -6416,7 +4829,7 @@
     "Anioù"
    ],
    "kind": "place",
-   "lat": "47.4667",
+   "lat": "",
    "letters": [
     {
      "date": "1572-02-06",
@@ -6424,42 +4837,18 @@
      "slug": "1572-02-06"
     }
    ],
-   "lon": "-0.5500",
+   "lon": "",
    "name": "Anjou",
    "note": "",
    "scope": "",
    "sortName": "Anjou",
-   "tgn": "",
+   "tgn": "7007395",
    "total": 1,
-   "wikidata": "Q107426"
-  },
-  "place-ardena": {
-   "country": "France/Belgium",
-   "geonames": "2803095",
-   "historical": [
-    "Ardena"
-   ],
-   "kind": "place",
-   "lat": "50.2500",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "5.6667",
-   "name": "Ardennes",
-   "note": "",
-   "scope": "",
-   "sortName": "Ardennes",
-   "tgn": "",
-   "total": 1,
-   "wikidata": "Q151985"
+   "wikidata": ""
   },
   "place-auxerre": {
    "country": "France",
-   "geonames": "3035843",
+   "geonames": "",
    "historical": [
     "Ossarra"
    ],
@@ -6477,13 +4866,13 @@
    "note": "",
    "scope": "",
    "sortName": "Auxerre",
-   "tgn": "7013341",
+   "tgn": "7007078",
    "total": 1,
-   "wikidata": "Q167600"
+   "wikidata": ""
   },
   "place-bagni-di-lucca": {
    "country": "Italy",
-   "geonames": "6539959",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "44.0117",
@@ -6509,13 +4898,13 @@
    "note": "",
    "scope": "",
    "sortName": "Bagni di Lucca",
-   "tgn": "7006075",
+   "tgn": "7011806",
    "total": 4,
-   "wikidata": "Q216399"
+   "wikidata": ""
   },
   "place-bar-sur-aube": {
    "country": "France",
-   "geonames": "3034802",
+   "geonames": "",
    "historical": [
     "Bar su Auba"
    ],
@@ -6533,143 +4922,7 @@
    "note": "",
    "scope": "",
    "sortName": "Bar-sur-Aube",
-   "tgn": "7008984",
-   "total": 1,
-   "wikidata": "Q209093"
-  },
-  "place-baviera": {
-   "country": "Germany",
-   "geonames": "2951839",
-   "historical": [
-    "Baviera"
-   ],
-   "kind": "place",
-   "lat": "49.0786",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    }
-   ],
-   "lon": "11.3856",
-   "name": "Bavaria",
-   "note": "",
-   "scope": "",
-   "sortName": "Bavaria",
-   "tgn": "7003669",
-   "total": 1,
-   "wikidata": "Q980"
-  },
-  "place-blois": {
-   "country": "France",
-   "geonames": "3032213",
-   "historical": [],
-   "kind": "place",
-   "lat": "47.5931",
-   "letters": [
-    {
-     "date": "1572-02-12",
-     "n": 1,
-     "slug": "1572-02-12"
-    },
-    {
-     "date": "1572-03-19",
-     "n": 1,
-     "slug": "1572-03-19"
-    },
-    {
-     "date": "1572-04-22",
-     "n": 1,
-     "slug": "1572-04-22"
-    },
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    },
-    {
-     "date": "1572-05-28",
-     "n": 1,
-     "slug": "1572-05-28"
-    }
-   ],
-   "lon": "1.3272",
-   "name": "Blois",
-   "note": "",
-   "scope": "",
-   "sortName": "Blois",
-   "tgn": "7008320",
-   "total": 5,
-   "wikidata": "Q160927"
-  },
-  "place-bollione": {
-   "country": "Belgium",
-   "geonames": "2801284",
-   "historical": [
-    "Bollione"
-   ],
-   "kind": "place",
-   "lat": "49.7917",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "5.0667",
-   "name": "Bouillon",
-   "note": "",
-   "scope": "",
-   "sortName": "Bouillon",
-   "tgn": "1026347",
-   "total": 1,
-   "wikidata": "Q217216"
-  },
-  "place-bordeaux": {
-   "country": "France",
-   "geonames": "3031582",
-   "historical": [
-    "Bordeaux"
-   ],
-   "kind": "place",
-   "lat": "44.8378",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 2,
-     "slug": "1572-05-12"
-    }
-   ],
-   "lon": "-0.5792",
-   "name": "Bordeaux",
-   "note": "",
-   "scope": "",
-   "sortName": "Bordeaux",
-   "tgn": "7008161",
-   "total": 2,
-   "wikidata": "Q1479"
-  },
-  "place-bourbon": {
-   "country": "France",
-   "geonames": "",
-   "historical": [],
-   "kind": "place",
-   "lat": "",
-   "letters": [
-    {
-     "date": "1570-10-13",
-     "n": 1,
-     "slug": "1570-10-13"
-    }
-   ],
-   "lon": "",
-   "name": "Bourbon",
-   "note": "Entity needs coordinates and authority references",
-   "scope": "",
-   "sortName": "Bourbon",
-   "tgn": "",
+   "tgn": "7007401",
    "total": 1,
    "wikidata": ""
   },
@@ -6698,13 +4951,13 @@
    "note": "",
    "scope": "",
    "sortName": "Bretagne",
-   "tgn": "7012216",
+   "tgn": "7024267",
    "total": 2,
    "wikidata": ""
   },
   "place-chalons-en-champagne": {
    "country": "France",
-   "geonames": "6618295",
+   "geonames": "",
    "historical": [
     "Sciallone"
    ],
@@ -6722,13 +4975,13 @@
    "note": "",
    "scope": "",
    "sortName": "Châlons-en-Champagne",
-   "tgn": "7008339",
+   "tgn": "7007918",
    "total": 1,
-   "wikidata": "Q47135"
+   "wikidata": ""
   },
   "place-chantilly": {
    "country": "France",
-   "geonames": "6438625",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "49.1947",
@@ -6744,13 +4997,13 @@
    "note": "",
    "scope": "",
    "sortName": "Chantilly",
-   "tgn": "7010573",
+   "tgn": "7007221",
    "total": 1,
-   "wikidata": "Q126675"
+   "wikidata": ""
   },
   "place-charenton-le-pont": {
    "country": "France",
-   "geonames": "3026637",
+   "geonames": "",
    "historical": [
     "S. Moro Di Ponte Sciallanti"
    ],
@@ -6768,37 +5021,13 @@
    "note": "",
    "scope": "",
    "sortName": "Charenton-le-Pont",
-   "tgn": "7007614",
+   "tgn": "7007277",
    "total": 1,
-   "wikidata": "Q212793"
-  },
-  "place-chatillon-sur-seine": {
-   "country": "France",
-   "geonames": "3026046",
-   "historical": [
-    "Castillione su Senna"
-   ],
-   "kind": "place",
-   "lat": "47.8567",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "4.5728",
-   "name": "Châtillon-sur-Seine",
-   "note": "",
-   "scope": "",
-   "sortName": "Châtillon-sur-Seine",
-   "tgn": "7008222",
-   "total": 1,
-   "wikidata": "Q244707"
+   "wikidata": ""
   },
   "place-cognac": {
    "country": "France",
-   "geonames": "3024440",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "45.6950",
@@ -6814,80 +5043,19 @@
    "note": "",
    "scope": "",
    "sortName": "Cognac",
-   "tgn": "7008568",
+   "tgn": "7007412",
    "total": 1,
-   "wikidata": "Q285"
-  },
-  "place-colonia": {
-   "country": "Germany",
-   "geonames": "3247451",
-   "historical": [
-    "Colonia"
-   ],
-   "kind": "place",
-   "lat": "50.9375",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "6.9603",
-   "name": "Köln",
-   "note": "",
-   "scope": "",
-   "sortName": "Köln",
-   "tgn": "7004446",
-   "total": 1,
-   "wikidata": "Q365"
-  },
-  "place-corsica": {
-   "asPeople": [
-    {
-     "date": "1570-07-29",
-     "n": 1,
-     "slug": "1570-07-29"
-    },
-    {
-     "date": "1570-08-08",
-     "n": 1,
-     "slug": "1570-08-08-c"
-    }
-   ],
-   "asPeopleTotal": 2,
-   "country": "France",
-   "geonames": "",
-   "historical": [
-    "Corsica"
-   ],
-   "kind": "place",
-   "lat": "42.0396",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    }
-   ],
-   "lon": "9.0129",
-   "name": "Corse",
-   "note": "",
-   "scope": "",
-   "sortName": "Corse",
-   "tgn": "7651069",
-   "total": 1,
-   "wikidata": "Q14112"
+   "wikidata": ""
   },
   "place-de": {
    "country": "Germany",
-   "geonames": "2921044",
+   "geonames": "",
    "historical": [
     "Germania",
     "lamagna"
    ],
    "kind": "place",
-   "lat": "51.0000",
+   "lat": "",
    "letters": [
     {
      "date": "1570-05-20",
@@ -6945,18 +5113,18 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "10.0000",
+   "lon": "",
    "name": "Germany",
    "note": "",
-   "scope": "country",
+   "scope": "",
    "sortName": "Germany",
-   "tgn": "7000084",
+   "tgn": "7001430",
    "total": 15,
-   "wikidata": "Q183"
+   "wikidata": ""
   },
   "place-ecouen": {
    "country": "France",
-   "geonames": "3020440",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "49.0189",
@@ -6977,9 +5145,9 @@
    "note": "",
    "scope": "",
    "sortName": "Écouen",
-   "tgn": "7008036",
+   "tgn": "7007074",
    "total": 2,
-   "wikidata": "Q273695"
+   "wikidata": ""
   },
   "place-england": {
    "asPeople": [
@@ -7001,12 +5169,12 @@
    ],
    "asPeopleTotal": 4,
    "country": "England",
-   "geonames": "2649994",
+   "geonames": "",
    "historical": [
     "Inghiltera"
    ],
    "kind": "place",
-   "lat": "53.0000",
+   "lat": "",
    "letters": [
     {
      "date": "1571-03-31",
@@ -7039,14 +5207,14 @@
      "slug": "1572-12-01"
     }
    ],
-   "lon": "-1.0000",
+   "lon": "",
    "name": "England",
    "note": "",
-   "scope": "country",
+   "scope": "",
    "sortName": "England",
    "tgn": "7002445",
    "total": 13,
-   "wikidata": "Q21"
+   "wikidata": ""
   },
   "place-es": {
    "asPeople": [
@@ -7078,12 +5246,12 @@
    ],
    "asPeopleTotal": 5,
    "country": "Spain",
-   "geonames": "2510769",
+   "geonames": "",
    "historical": [
     "Spagna"
    ],
    "kind": "place",
-   "lat": "40.2000",
+   "lat": "",
    "letters": [
     {
      "date": "1570-09-11",
@@ -7136,43 +5304,23 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "-3.5000",
+   "lon": "",
    "name": "Spain",
    "note": "",
-   "scope": "country",
+   "scope": "",
    "sortName": "Spain",
-   "tgn": "1000095",
+   "tgn": "7002327",
    "total": 35,
-   "wikidata": "Q29"
-  },
-  "place-europe": {
-   "country": "Europe",
-   "geonames": "6255148",
-   "historical": [],
-   "kind": "place",
-   "lat": "53.5000",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "15.5000",
-   "name": "Europe",
-   "note": "",
-   "scope": "continent",
-   "sortName": "Europe",
-   "tgn": "1000003",
-   "total": 1,
-   "wikidata": "Q46"
+   "wikidata": ""
   },
   "place-ferrara": {
    "country": "Italy",
-   "geonames": "6542120",
-   "historical": [],
+   "geonames": "",
+   "historical": [
+    "Ferrara"
+   ],
    "kind": "place",
-   "lat": "44.8392",
+   "lat": "44.8378",
    "letters": [
     {
      "date": "1571-02-06",
@@ -7200,23 +5348,23 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "11.6175",
+   "lon": "11.6197",
    "name": "Ferrara",
    "note": "",
    "scope": "",
    "sortName": "Ferrara",
-   "tgn": "7004264",
+   "tgn": "",
    "total": 7,
-   "wikidata": "Q13362"
+   "wikidata": ""
   },
   "place-fiandra": {
    "country": "Belgium",
-   "geonames": "3337388",
+   "geonames": "",
    "historical": [
     "Fiandra"
    ],
    "kind": "place",
-   "lat": "51.0000",
+   "lat": "",
    "letters": [
     {
      "date": "1571-01-12",
@@ -7239,18 +5387,18 @@
      "slug": "1574-03-06"
     }
    ],
-   "lon": "4.5000",
-   "name": "Flanders",
+   "lon": "",
+   "name": "Flandre",
    "note": "",
    "scope": "",
-   "sortName": "Flanders",
-   "tgn": "7024097",
+   "sortName": "Flandre",
+   "tgn": "",
    "total": 9,
-   "wikidata": "Q234"
+   "wikidata": ""
   },
   "place-firenze": {
    "country": "Italy",
-   "geonames": "6542285",
+   "geonames": "",
    "historical": [
     "Firenze"
    ],
@@ -7298,33 +5446,9 @@
    "note": "",
    "scope": "",
    "sortName": "Florence",
-   "tgn": "7000457",
+   "tgn": "7003893",
    "total": 10,
-   "wikidata": "Q2044"
-  },
-  "place-flesinga": {
-   "country": "Netherlands",
-   "geonames": "2745391",
-   "historical": [
-    "Flesinga"
-   ],
-   "kind": "place",
-   "lat": "51.4428",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "3.5731",
-   "name": "Vlissingen",
-   "note": "",
-   "scope": "",
-   "sortName": "Vlissingen",
-   "tgn": "7006750",
-   "total": 1,
-   "wikidata": "Q10084"
+   "wikidata": ""
   },
   "place-fr": {
    "asPeople": [
@@ -7406,13 +5530,13 @@
    ],
    "asPeopleTotal": 25,
    "country": "France",
-   "geonames": "3017382",
+   "geonames": "",
    "historical": [
     "Francia",
     "francia"
    ],
    "kind": "place",
-   "lat": "47.0000",
+   "lat": "",
    "letters": [
     {
      "date": "1569-12-21",
@@ -7510,115 +5634,18 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "2.0000",
+   "lon": "",
    "name": "France",
    "note": "",
-   "scope": "country",
+   "scope": "",
    "sortName": "France",
    "tgn": "1000070",
    "total": 50,
-   "wikidata": "Q142"
-  },
-  "place-gascogne": {
-   "country": "France",
-   "geonames": "",
-   "historical": [
-    "Vascogna",
-    "Guascogna",
-    "Gascogna"
-   ],
-   "kind": "place",
-   "lat": "44.0000",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 2,
-     "slug": "1572-05-12"
-    },
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    }
-   ],
-   "lon": "-0.5000",
-   "name": "Gascogne",
-   "note": "",
-   "scope": "",
-   "sortName": "Gascogne",
-   "tgn": "",
-   "total": 3,
-   "wikidata": "Q191085"
-  },
-  "place-gatinais": {
-   "country": "France",
-   "geonames": "",
-   "historical": [],
-   "kind": "place",
-   "lat": "48.1269",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "2.7544",
-   "name": "Gâtinais",
-   "note": "",
-   "scope": "",
-   "sortName": "Gâtinais",
-   "tgn": "7644947",
-   "total": 1,
-   "wikidata": "Q1303414"
-  },
-  "place-genova": {
-   "country": "Italy",
-   "geonames": "6542282",
-   "historical": [],
-   "kind": "place",
-   "lat": "44.4072",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "8.9340",
-   "name": "Genoa",
-   "note": "",
-   "scope": "",
-   "sortName": "Genoa",
-   "tgn": "7008546",
-   "total": 1,
-   "wikidata": "Q1449"
-  },
-  "place-guyenne": {
-   "country": "France",
-   "geonames": "",
-   "historical": [],
-   "kind": "place",
-   "lat": "43.9770",
-   "letters": [
-    {
-     "date": "1570-10-13",
-     "n": 1,
-     "slug": "1570-10-13"
-    }
-   ],
-   "lon": "-0.1760",
-   "name": "Guyenne",
-   "note": "",
-   "scope": "",
-   "sortName": "Guyenne",
-   "tgn": "",
-   "total": 1,
-   "wikidata": "Q849324"
+   "wikidata": ""
   },
   "place-heidelberg": {
    "country": "Germany",
-   "geonames": "2907911",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "49.3988",
@@ -7634,33 +5661,9 @@
    "note": "",
    "scope": "",
    "sortName": "Heidelberg",
-   "tgn": "7005177",
+   "tgn": "7003720",
    "total": 1,
-   "wikidata": "Q2966"
-  },
-  "place-hollanda": {
-   "country": "Netherlands",
-   "geonames": "",
-   "historical": [
-    "Hollanda"
-   ],
-   "kind": "place",
-   "lat": "52.2500",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "4.6670",
-   "name": "Holland",
-   "note": "",
-   "scope": "",
-   "sortName": "Holland",
-   "tgn": "7263522",
-   "total": 1,
-   "wikidata": "Q102911"
+   "wikidata": ""
   },
   "place-it": {
    "asPeople": [
@@ -7702,12 +5705,12 @@
    ],
    "asPeopleTotal": 7,
    "country": "Italy",
-   "geonames": "3175395",
+   "geonames": "",
    "historical": [
     "Italia"
    ],
    "kind": "place",
-   "lat": "42.5000",
+   "lat": "",
    "letters": [
     {
      "date": "1568-05-05",
@@ -7795,18 +5798,18 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "12.5000",
+   "lon": "",
    "name": "Italy",
    "note": "",
-   "scope": "country",
+   "scope": "",
    "sortName": "Italy",
    "tgn": "1000080",
    "total": 26,
-   "wikidata": "Q38"
+   "wikidata": ""
   },
   "place-la-charite": {
    "country": "France",
-   "geonames": "3010201",
+   "geonames": "",
    "historical": [
     "la Charite"
    ],
@@ -7834,129 +5837,13 @@
    "note": "",
    "scope": "",
    "sortName": "La Charité",
-   "tgn": "7017054",
+   "tgn": "7004492",
    "total": 4,
-   "wikidata": "Q504883"
-  },
-  "place-languedoc": {
-   "country": "France",
-   "geonames": "",
-   "historical": [
-    "Langudoca"
-   ],
-   "kind": "place",
-   "lat": "43.6667",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    }
-   ],
-   "lon": "3.1667",
-   "name": "Languedoc",
-   "note": "",
-   "scope": "",
-   "sortName": "Languedoc",
-   "tgn": "7002884",
-   "total": 1,
-   "wikidata": "Q206221"
-  },
-  "place-lille": {
-   "country": "France",
-   "geonames": "2998324",
-   "historical": [],
-   "kind": "place",
-   "lat": "50.6319",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "3.0575",
-   "name": "Lille",
-   "note": "",
-   "scope": "",
-   "sortName": "Lille",
-   "tgn": "7008461",
-   "total": 1,
-   "wikidata": "Q648"
-  },
-  "place-limousin": {
-   "country": "France",
-   "geonames": "2998268",
-   "historical": [],
-   "kind": "place",
-   "lat": "45.6880",
-   "letters": [
-    {
-     "date": "1570-10-13",
-     "n": 1,
-     "slug": "1570-10-13"
-    }
-   ],
-   "lon": "1.6205",
-   "name": "Limousin",
-   "note": "",
-   "scope": "",
-   "sortName": "Limousin",
-   "tgn": "7001095",
-   "total": 1,
-   "wikidata": "Q1190"
-  },
-  "place-livorno": {
-   "country": "Italy",
-   "geonames": "6540122",
-   "historical": [
-    "Livorno"
-   ],
-   "kind": "place",
-   "lat": "43.5485",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    }
-   ],
-   "lon": "10.3106",
-   "name": "Livorno",
-   "note": "",
-   "scope": "",
-   "sortName": "Livorno",
-   "tgn": "7006074",
-   "total": 1,
-   "wikidata": "Q6761"
-  },
-  "place-lombardia": {
-   "country": "Italy",
-   "geonames": "3174618",
-   "historical": [
-    "Lombardia"
-   ],
-   "kind": "place",
-   "lat": "45.4700",
-   "letters": [
-    {
-     "date": "1571-07-07",
-     "n": 2,
-     "slug": "1571-07-07"
-    }
-   ],
-   "lon": "9.2050",
-   "name": "Lombardia",
-   "note": "",
-   "scope": "",
-   "sortName": "Lombardia",
-   "tgn": "7003237",
-   "total": 2,
-   "wikidata": "Q1210"
+   "wikidata": ""
   },
   "place-lorraine": {
    "country": "France",
-   "geonames": "2997551",
+   "geonames": "",
    "historical": [
     "Loreno"
    ],
@@ -7984,13 +5871,13 @@
    "note": "",
    "scope": "",
    "sortName": "Lorraine",
-   "tgn": "7002888",
+   "tgn": "7003635",
    "total": 5,
-   "wikidata": "Q1137"
+   "wikidata": ""
   },
   "place-lucca": {
    "country": "Italy",
-   "geonames": "6542121",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "43.8430",
@@ -8006,64 +5893,13 @@
    "note": "",
    "scope": "",
    "sortName": "Lucca",
-   "tgn": "7003165",
+   "tgn": "7005341",
    "total": 1,
-   "wikidata": "Q13373"
-  },
-  "place-luxembourg": {
-   "country": "Luxembourg",
-   "geonames": "2960316",
-   "historical": [
-    "Luxemburg"
-   ],
-   "kind": "place",
-   "lat": "49.6117",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "lon": "6.1300",
-   "name": "Luxembourg",
-   "note": "",
-   "scope": "",
-   "sortName": "Luxembourg",
-   "tgn": "7006254",
-   "total": 1,
-   "wikidata": "Q1842"
-  },
-  "place-lyon": {
-   "country": "France",
-   "geonames": "2996944",
-   "historical": [],
-   "kind": "place",
-   "lat": "45.7675",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    },
-    {
-     "date": "1570-10-13",
-     "n": 1,
-     "slug": "1570-10-13"
-    }
-   ],
-   "lon": "4.8350",
-   "name": "Lyon",
-   "note": "",
-   "scope": "",
-   "sortName": "Lyon",
-   "tgn": "8728756",
-   "total": 2,
-   "wikidata": "Q456"
+   "wikidata": ""
   },
   "place-mantova": {
    "country": "Italy",
-   "geonames": "6541855",
+   "geonames": "",
    "historical": [
     "Mantova"
    ],
@@ -8091,9 +5927,9 @@
    "note": "",
    "scope": "",
    "sortName": "Mantova",
-   "tgn": "7005879",
+   "tgn": "7004626",
    "total": 3,
-   "wikidata": "Q6247"
+   "wikidata": ""
   },
   "place-marne": {
    "country": "France",
@@ -8115,37 +5951,13 @@
    "note": "",
    "scope": "",
    "sortName": "Marna",
-   "tgn": "",
+   "tgn": "7007119",
    "total": 1,
    "wikidata": ""
   },
-  "place-marseille": {
-   "country": "France",
-   "geonames": "2995469",
-   "historical": [
-    "Marsilia"
-   ],
-   "kind": "place",
-   "lat": "43.2965",
-   "letters": [
-    {
-     "date": "1571-04-19",
-     "n": 1,
-     "slug": "1571-04-19"
-    }
-   ],
-   "lon": "5.3698",
-   "name": "Marseille",
-   "note": "",
-   "scope": "",
-   "sortName": "Marseille",
-   "tgn": "7008781",
-   "total": 1,
-   "wikidata": "Q23482"
-  },
   "place-metz": {
    "country": "France",
-   "geonames": "2994160",
+   "geonames": "",
    "historical": [
     "Metz"
    ],
@@ -8163,13 +5975,13 @@
    "note": "",
    "scope": "",
    "sortName": "Metz",
-   "tgn": "7008418",
+   "tgn": "7004558",
    "total": 1,
-   "wikidata": "Q22690"
+   "wikidata": ""
   },
   "place-milano": {
    "country": "Italy",
-   "geonames": "3173435",
+   "geonames": "",
    "historical": [
     "Millano"
    ],
@@ -8192,9 +6004,9 @@
    "note": "",
    "scope": "",
    "sortName": "Milano",
-   "tgn": "7005903",
+   "tgn": "7003853",
    "total": 2,
-   "wikidata": "Q490"
+   "wikidata": ""
   },
   "place-monceau": {
    "country": "France",
@@ -8216,7 +6028,7 @@
    "note": "",
    "scope": "",
    "sortName": "Monceau",
-   "tgn": "7249203",
+   "tgn": "7007100",
    "total": 1,
    "wikidata": ""
   },
@@ -8242,11 +6054,11 @@
    "sortName": "Montferrat",
    "tgn": "7009566",
    "total": 1,
-   "wikidata": "Q19868"
+   "wikidata": ""
   },
   "place-montargis": {
    "country": "France",
-   "geonames": "2993024",
+   "geonames": "",
    "historical": [
     "Montargis"
    ],
@@ -8266,11 +6078,11 @@
    "sortName": "Montargis",
    "tgn": "7008336",
    "total": 1,
-   "wikidata": "Q212352"
+   "wikidata": ""
   },
   "place-montauban": {
    "country": "France",
-   "geonames": "2993002",
+   "geonames": "",
    "historical": [
     "Montauban"
    ],
@@ -8288,13 +6100,13 @@
    "note": "",
    "scope": "",
    "sortName": "Montauban",
-   "tgn": "7008454",
+   "tgn": "7007339",
    "total": 1,
-   "wikidata": "Q172593"
+   "wikidata": ""
   },
   "place-montereau": {
    "country": "France",
-   "geonames": "2992671",
+   "geonames": "",
    "historical": [
     "Montereau"
    ],
@@ -8312,101 +6124,31 @@
    "note": "",
    "scope": "",
    "sortName": "Montereau",
-   "tgn": "7009353",
+   "tgn": "7007096",
    "total": 1,
-   "wikidata": "Q242191"
-  },
-  "place-montlucon": {
-   "country": "France",
-   "geonames": "2992292",
-   "historical": [
-    "Monlucon"
-   ],
-   "kind": "place",
-   "lat": "46.3400",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "2.6000",
-   "name": "Montluçon",
-   "note": "",
-   "scope": "",
-   "sortName": "Montluçon",
-   "tgn": "7009366",
-   "total": 1,
-   "wikidata": "Q193256"
-  },
-  "place-napoli": {
-   "country": "Italy",
-   "geonames": "3172395",
-   "historical": [
-    "Napoli"
-   ],
-   "kind": "place",
-   "lat": "40.8518",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "lon": "14.2681",
-   "name": "Napoli",
-   "note": "",
-   "scope": "",
-   "sortName": "Napoli",
-   "tgn": "7004474",
-   "total": 1,
-   "wikidata": "Q2634"
-  },
-  "place-navarre": {
-   "country": "France",
-   "geonames": "",
-   "historical": [],
-   "kind": "place",
-   "lat": "43.1632",
-   "letters": [
-    {
-     "date": "1570-10-13",
-     "n": 2,
-     "slug": "1570-10-13"
-    }
-   ],
-   "lon": "-1.2381",
-   "name": "Navarre",
-   "note": "The kingdom beyond the Pyrenees, all that remained to the house of Albret after Castile took Upper Navarre in 1512. Cavriana's Navarre is Jeanne d'Albret's and then her son Henri's; when he writes of \"la rovina della cosa di Navarra\" it is that loss he means. Marked at Saint-Jean-Pied-de-Port, its capital, rather than at Pamplona, which by 1570 was Spanish.",
-   "scope": "",
-   "sortName": "Navarre",
-   "tgn": "",
-   "total": 2,
-   "wikidata": "Q63021609"
+   "wikidata": ""
   },
   "place-netherlands": {
    "country": "Netherlands",
-   "geonames": "2750405",
+   "geonames": "",
    "historical": [
     "Paesi Bassi"
    ],
    "kind": "place",
-   "lat": "52.3167",
+   "lat": "",
    "letters": [],
-   "lon": "5.5500",
+   "lon": "",
    "name": "Netherlands",
    "note": "",
-   "scope": "country",
+   "scope": "",
    "sortName": "Netherlands",
-   "tgn": "7016845",
+   "tgn": "1000140",
    "total": 0,
-   "wikidata": "Q55"
+   "wikidata": ""
   },
   "place-nevers": {
    "country": "France",
-   "geonames": "2990474",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "46.9917",
@@ -8447,33 +6189,9 @@
    "note": "",
    "scope": "",
    "sortName": "Nevers",
-   "tgn": "7008240",
+   "tgn": "7007062",
    "total": 6,
-   "wikidata": "Q166997"
-  },
-  "place-nivernais": {
-   "country": "France",
-   "geonames": "",
-   "historical": [
-    "Nivernese"
-   ],
-   "kind": "place",
-   "lat": "47.0000",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    }
-   ],
-   "lon": "3.1500",
-   "name": "Nivernais",
-   "note": "",
-   "scope": "",
-   "sortName": "Nivernais",
-   "tgn": "7012206",
-   "total": 1,
-   "wikidata": "Q1468519"
+   "wikidata": ""
   },
   "place-normandie": {
    "country": "France",
@@ -8506,95 +6224,13 @@
    "note": "",
    "scope": "",
    "sortName": "Normandie",
-   "tgn": "",
+   "tgn": "7003584",
    "total": 4,
    "wikidata": ""
   },
-  "place-orbetello": {
-   "country": "Italy",
-   "geonames": "6541107",
-   "historical": [
-    "Orbatello"
-   ],
-   "kind": "place",
-   "lat": "42.4400",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "lon": "11.2133",
-   "name": "Orbetello",
-   "note": "",
-   "scope": "",
-   "sortName": "Orbetello",
-   "tgn": "7006176",
-   "total": 1,
-   "wikidata": "Q214849"
-  },
-  "place-orleans": {
-   "country": "France",
-   "geonames": "2989317",
-   "historical": [],
-   "kind": "place",
-   "lat": "47.9022",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    },
-    {
-     "date": "1571-01-12",
-     "n": 1,
-     "slug": "1571-01-12"
-    }
-   ],
-   "lon": "1.9042",
-   "name": "Orléans",
-   "note": "",
-   "scope": "",
-   "sortName": "Orléans",
-   "tgn": "7008337",
-   "total": 2,
-   "wikidata": "Q6548"
-  },
-  "place-ottoman": {
-   "asPeople": [
-    {
-     "date": "1572-05-28",
-     "n": 1,
-     "slug": "1572-05-28"
-    },
-    {
-     "date": "1572-12-07",
-     "n": 1,
-     "slug": "1572-12-07"
-    }
-   ],
-   "asPeopleTotal": 2,
-   "country": "Ottoman Empire",
-   "geonames": "",
-   "historical": [
-    "Turchi"
-   ],
-   "kind": "place",
-   "lat": "41.0000",
-   "letters": [],
-   "lon": "29.0000",
-   "name": "Ottoman Empire",
-   "note": "Named through its people. The Sultan himself Cavriana calls il Turco, and he is recorded separately as Selim II.",
-   "scope": "country",
-   "sortName": "Ottoman Empire",
-   "tgn": "7024412",
-   "total": 0,
-   "wikidata": "Q12560"
-  },
   "place-padova": {
    "country": "Italy",
-   "geonames": "6542281",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "45.4064",
@@ -8610,13 +6246,13 @@
    "note": "",
    "scope": "",
    "sortName": "Padua",
-   "tgn": "7003085",
+   "tgn": "7004426",
    "total": 1,
-   "wikidata": "Q617"
+   "wikidata": ""
   },
   "place-paris": {
    "country": "France",
-   "geonames": "2988507",
+   "geonames": "",
    "historical": [
     "Parigi",
     "parigi"
@@ -8648,6 +6284,11 @@
      "date": "1570-08-17",
      "n": 4,
      "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     },
     {
      "date": "1570-09-01",
@@ -8790,13 +6431,13 @@
    "note": "",
    "scope": "",
    "sortName": "Paris",
-   "tgn": "7008038",
-   "total": 57,
-   "wikidata": "Q90"
+   "tgn": "7008882",
+   "total": 58,
+   "wikidata": ""
   },
   "place-parma": {
    "country": "Italy",
-   "geonames": "6540120",
+   "geonames": "",
    "historical": [
     "Parma"
    ],
@@ -8816,17 +6457,17 @@
    "sortName": "Parma",
    "tgn": "7004942",
    "total": 1,
-   "wikidata": "Q2683"
+   "wikidata": ""
   },
   "place-picardie": {
    "country": "France",
-   "geonames": "2987375",
+   "geonames": "",
    "historical": [
     "Picchardia",
     "Picardie"
    ],
    "kind": "place",
-   "lat": "49.5000",
+   "lat": "",
    "letters": [
     {
      "date": "1571-01-14",
@@ -8844,18 +6485,18 @@
      "slug": "1572-08-04"
     }
    ],
-   "lon": "2.8333",
+   "lon": "",
    "name": "Picardy",
    "note": "",
    "scope": "",
    "sortName": "Picardy",
    "tgn": "7024273",
    "total": 4,
-   "wikidata": "Q13950"
+   "wikidata": ""
   },
   "place-piemonte": {
    "country": "Italy",
-   "geonames": "3170831",
+   "geonames": "",
    "historical": [
     "Piemonte",
     "Piemo̍te"
@@ -8919,13 +6560,13 @@
    "note": "",
    "scope": "",
    "sortName": "Piedmont",
-   "tgn": "7003120",
+   "tgn": "7002988",
    "total": 16,
-   "wikidata": "Q1216"
+   "wikidata": ""
   },
   "place-pinerolo": {
    "country": "Italy",
-   "geonames": "6540662",
+   "geonames": "",
    "historical": [
     "Pineruolo"
    ],
@@ -8953,13 +6594,13 @@
    "note": "",
    "scope": "",
    "sortName": "Pinerolo",
-   "tgn": "7005728",
+   "tgn": "7006116",
    "total": 3,
-   "wikidata": "Q9573"
+   "wikidata": ""
   },
   "place-pisa": {
    "country": "Italy",
-   "geonames": "6542122",
+   "geonames": "",
    "historical": [
     "Pisa"
    ],
@@ -8980,6 +6621,11 @@
      "date": "1570-07-29",
      "n": 1,
      "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     },
     {
      "date": "1570-11-02",
@@ -9007,19 +6653,19 @@
    "note": "",
    "scope": "",
    "sortName": "Pisa",
-   "tgn": "7006082",
-   "total": 9,
-   "wikidata": "Q13375"
+   "tgn": "7004080",
+   "total": 10,
+   "wikidata": ""
   },
   "place-poitou": {
    "country": "France",
-   "geonames": "2986493",
+   "geonames": "",
    "historical": [
     "Poitou",
     "poitou"
    ],
    "kind": "place",
-   "lat": "46.6486",
+   "lat": "",
    "letters": [
     {
      "date": "1570-10-13",
@@ -9027,90 +6673,18 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "-0.2478",
+   "lon": "",
    "name": "Poitou",
    "note": "",
    "scope": "",
    "sortName": "Poitou",
-   "tgn": "7002891",
+   "tgn": "7003945",
    "total": 1,
-   "wikidata": "Q954076"
-  },
-  "place-polonia": {
-   "country": "Poland",
-   "geonames": "798544",
-   "historical": [
-    "Polonia"
-   ],
-   "kind": "place",
-   "lat": "52.0000",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    }
-   ],
-   "lon": "19.0000",
-   "name": "Poland",
-   "note": "",
-   "scope": "country",
-   "sortName": "Poland",
-   "tgn": "7006366",
-   "total": 1,
-   "wikidata": "Q36"
-  },
-  "place-porto-ercole": {
-   "country": "Italy",
-   "geonames": "3170119",
-   "historical": [
-    "Portarcole"
-   ],
-   "kind": "place",
-   "lat": "42.3953",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "lon": "11.2053",
-   "name": "Porto Ercole",
-   "note": "",
-   "scope": "",
-   "sortName": "Porto Ercole",
-   "tgn": "1046135",
-   "total": 1,
-   "wikidata": "Q1394400"
-  },
-  "place-portugal": {
-   "country": "Portugal",
-   "geonames": "2264397",
-   "historical": [
-    "Portogallo"
-   ],
-   "kind": "place",
-   "lat": "38.7000",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 2,
-     "slug": "1572-05-12"
-    }
-   ],
-   "lon": "-9.1833",
-   "name": "Portugal",
-   "note": "",
-   "scope": "country",
-   "sortName": "Portugal",
-   "tgn": "1000090",
-   "total": 2,
-   "wikidata": "Q45"
+   "wikidata": ""
   },
   "place-pragelato": {
    "country": "Italy",
-   "geonames": "3169958",
+   "geonames": "",
    "historical": [
     "Prageli"
    ],
@@ -9128,61 +6702,13 @@
    "note": "",
    "scope": "",
    "sortName": "Pragelato",
-   "tgn": "1046177",
+   "tgn": "7264358",
    "total": 1,
-   "wikidata": "Q10201"
-  },
-  "place-provence": {
-   "country": "France",
-   "geonames": "2985246",
-   "historical": [
-    "Provenza"
-   ],
-   "kind": "place",
-   "lat": "43.7500",
-   "letters": [
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "lon": "5.5000",
-   "name": "Provence",
-   "note": "",
-   "scope": "",
-   "sortName": "Provence",
-   "tgn": "7012209",
-   "total": 1,
-   "wikidata": "Q101081"
-  },
-  "place-rez": {
-   "country": "France",
-   "geonames": "2984309",
-   "historical": [
-    "Rez"
-   ],
-   "kind": "place",
-   "lat": "46.2000",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "-1.4000",
-   "name": "Île de Ré",
-   "note": "",
-   "scope": "",
-   "sortName": "Île de Ré",
-   "tgn": "7012080",
-   "total": 1,
-   "wikidata": "Q292384"
+   "wikidata": ""
   },
   "place-rochelle": {
    "country": "France",
-   "geonames": "3006787",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "46.1603",
@@ -9253,13 +6779,13 @@
    "note": "",
    "scope": "",
    "sortName": "La Rochelle",
-   "tgn": "7009264",
+   "tgn": "7007228",
    "total": 17,
-   "wikidata": "Q82185"
+   "wikidata": ""
   },
   "place-roma": {
    "country": "Italy",
-   "geonames": "3169070",
+   "geonames": "",
    "historical": [
     "Roma"
    ],
@@ -9304,36 +6830,14 @@
    "sortName": "Rome",
    "tgn": "7000874",
    "total": 9,
-   "wikidata": "Q220"
-  },
-  "place-rouen": {
-   "country": "France",
-   "geonames": "2982652",
-   "historical": [
-    "Roano"
-   ],
-   "kind": "place",
-   "lat": "49.4432",
-   "letters": [
-    {
-     "date": "1571-03-31",
-     "n": 1,
-     "slug": "1571-03-31"
-    }
-   ],
-   "lon": "1.0993",
-   "name": "Rouen",
-   "note": "",
-   "scope": "",
-   "sortName": "Rouen",
-   "tgn": "7008929",
-   "total": 1,
-   "wikidata": "Q30974"
+   "wikidata": ""
   },
   "place-saint-germain-des-pres": {
    "country": "France",
    "geonames": "",
    "historical": [
+    "San Germano",
+    "San Girmano",
     "san Germano du prè",
     "san Germano di Pre"
    ],
@@ -9356,87 +6860,13 @@
    "note": "",
    "scope": "",
    "sortName": "Saint-Germain-des-Prés",
-   "tgn": "7607890",
+   "tgn": "7008147",
    "total": 2,
-   "wikidata": "Q604717"
-  },
-  "place-saint-germain-en-laye": {
-   "country": "France",
-   "geonames": "2979783",
-   "historical": [
-    "San Germano",
-    "San Girmano"
-   ],
-   "kind": "place",
-   "lat": "48.8986",
-   "letters": [
-    {
-     "date": "1570-07-15",
-     "n": 1,
-     "slug": "1570-07-15"
-    },
-    {
-     "date": "1570-07-29",
-     "n": 3,
-     "slug": "1570-07-29"
-    },
-    {
-     "date": "1570-07-29",
-     "n": 1,
-     "slug": "1570-07-29-b"
-    },
-    {
-     "date": "1570-08-08",
-     "n": 1,
-     "slug": "1570-08-08-c"
-    },
-    {
-     "date": "1570-08-17",
-     "n": 1,
-     "slug": "1570-08-17"
-    },
-    {
-     "date": "1574-03-06",
-     "n": 1,
-     "slug": "1574-03-06"
-    }
-   ],
-   "lon": "2.0936",
-   "name": "Saint-Germain-en-Laye",
-   "note": "",
-   "scope": "",
-   "sortName": "Saint-Germain-en-Laye",
-   "tgn": "8723310",
-   "total": 8,
-   "wikidata": "Q60847808"
-  },
-  "place-saint-jean-dangely": {
-   "country": "France",
-   "geonames": "6428080",
-   "historical": [
-    "S. Giovan d'Angeli"
-   ],
-   "kind": "place",
-   "lat": "45.9438",
-   "letters": [
-    {
-     "date": "1572-05-12",
-     "n": 1,
-     "slug": "1572-05-12"
-    }
-   ],
-   "lon": "-0.5197",
-   "name": "Saint-Jean-d'Angély",
-   "note": "",
-   "scope": "",
-   "sortName": "Saint-Jean-d'Angély",
-   "tgn": "7009634",
-   "total": 1,
-   "wikidata": "Q348807"
+   "wikidata": ""
   },
   "place-saluzzo": {
    "country": "Italy",
-   "geonames": "6539909",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "44.6421",
@@ -9457,13 +6887,13 @@
    "note": "",
    "scope": "",
    "sortName": "Saluzzo",
-   "tgn": "7005648",
+   "tgn": "7004675",
    "total": 2,
-   "wikidata": "Q20454"
+   "wikidata": ""
   },
   "place-sancerre": {
    "country": "France",
-   "geonames": "2976251",
+   "geonames": "",
    "historical": [
     "Sanserra"
    ],
@@ -9511,13 +6941,13 @@
    "note": "",
    "scope": "",
    "sortName": "Sancerre",
-   "tgn": "1035612",
+   "tgn": "7007290",
    "total": 8,
-   "wikidata": "Q459683"
+   "wikidata": ""
   },
   "place-saumur": {
    "country": "France",
-   "geonames": "2975758",
+   "geonames": "",
    "historical": [
     "Saumur"
    ],
@@ -9535,9 +6965,9 @@
    "note": "",
    "scope": "",
    "sortName": "Saumur",
-   "tgn": "7008492",
+   "tgn": "7007390",
    "total": 1,
-   "wikidata": "Q193821"
+   "wikidata": ""
   },
   "place-savoia": {
    "country": "France",
@@ -9579,9 +7009,9 @@
    "note": "",
    "scope": "",
    "sortName": "Savoy",
-   "tgn": "7024413",
+   "tgn": "7007817",
    "total": 6,
-   "wikidata": "Q14118"
+   "wikidata": ""
   },
   "place-saxony": {
    "country": "Germany",
@@ -9608,37 +7038,13 @@
    "note": "",
    "scope": "",
    "sortName": "Saxony",
-   "tgn": "7003685",
+   "tgn": "7003777",
    "total": 3,
-   "wikidata": "Q156199"
-  },
-  "place-sedana": {
-   "country": "France",
-   "geonames": "6426109",
-   "historical": [
-    "Sedana"
-   ],
-   "kind": "place",
-   "lat": "49.7019",
-   "letters": [
-    {
-     "date": "1572-12-01",
-     "n": 1,
-     "slug": "1572-12-01"
-    }
-   ],
-   "lon": "4.9400",
-   "name": "Sedan",
-   "note": "",
-   "scope": "",
-   "sortName": "Sedan",
-   "tgn": "7009674",
-   "total": 1,
-   "wikidata": "Q184371"
+   "wikidata": ""
   },
   "place-soissons": {
    "country": "France",
-   "geonames": "2974389",
+   "geonames": "",
    "historical": [
     "Soissons",
     "soissone"
@@ -9667,70 +7073,19 @@
    "note": "",
    "scope": "",
    "sortName": "Soissons",
-   "tgn": "7010563",
+   "tgn": "7007052",
    "total": 3,
-   "wikidata": "Q167152"
-  },
-  "place-svizzera": {
-   "asPeople": [
-    {
-     "date": "1569-01-03",
-     "n": 1,
-     "slug": "1569-01-03"
-    },
-    {
-     "date": "1570-08-17",
-     "n": 1,
-     "slug": "1570-08-17"
-    },
-    {
-     "date": "1570-10-13",
-     "n": 1,
-     "slug": "1570-10-13"
-    },
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    },
-    {
-     "date": "1572-11-27",
-     "n": 1,
-     "slug": "1572-11-27"
-    },
-    {
-     "date": "1572-12-07",
-     "n": 1,
-     "slug": "1572-12-07"
-    }
-   ],
-   "asPeopleTotal": 6,
-   "country": "Switzerland",
-   "geonames": "2658434",
-   "historical": [
-    "svizzeri"
-   ],
-   "kind": "place",
-   "lat": "46.7986",
-   "letters": [],
-   "lon": "8.2320",
-   "name": "Switzerland",
-   "note": "The Swiss Confederation. Cavriana names it through its soldiers, levied by the thousand from the cantons for French service.",
-   "scope": "country",
-   "sortName": "Switzerland",
-   "tgn": "7011731",
-   "total": 0,
-   "wikidata": "Q39"
+   "wikidata": ""
   },
   "place-toscana": {
    "country": "Italy",
-   "geonames": "3165361",
+   "geonames": "",
    "historical": [
     "Toscana",
     "Thoscana"
    ],
    "kind": "place",
-   "lat": "43.4500",
+   "lat": "",
    "letters": [
     {
      "date": "1570-08-08",
@@ -9768,42 +7123,18 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "11.2000",
+   "lon": "",
    "name": "Tuscany",
    "note": "",
    "scope": "",
    "sortName": "Tuscany",
-   "tgn": "7009760",
+   "tgn": "7003003",
    "total": 12,
-   "wikidata": "Q1273"
-  },
-  "place-trento": {
-   "country": "Italy",
-   "geonames": "6541469",
-   "historical": [
-    "Trento"
-   ],
-   "kind": "place",
-   "lat": "46.0748",
-   "letters": [
-    {
-     "date": "1572-11-21",
-     "n": 1,
-     "slug": "1572-11-21"
-    }
-   ],
-   "lon": "11.1217",
-   "name": "Trent",
-   "note": "",
-   "scope": "",
-   "sortName": "Trent",
-   "tgn": "7005128",
-   "total": 1,
-   "wikidata": "Q3376"
+   "wikidata": ""
   },
   "place-urbino": {
    "country": "Italy",
-   "geonames": "6541472",
+   "geonames": "",
    "historical": [
     "Urbino"
    ],
@@ -9823,48 +7154,11 @@
    "sortName": "Urbino",
    "tgn": "7003994",
    "total": 1,
-   "wikidata": "Q2759"
-  },
-  "place-venezia": {
-   "country": "Italy",
-   "geonames": "6542284",
-   "historical": [],
-   "kind": "place",
-   "lat": "45.4397",
-   "letters": [
-    {
-     "date": "1570-09-01",
-     "n": 1,
-     "slug": "1570-09-01"
-    },
-    {
-     "date": "1571-01-12",
-     "n": 1,
-     "slug": "1571-01-12"
-    },
-    {
-     "date": "1571-02-06",
-     "n": 1,
-     "slug": "1571-02-06"
-    },
-    {
-     "date": "1572-08-04",
-     "n": 1,
-     "slug": "1572-08-04"
-    }
-   ],
-   "lon": "12.3319",
-   "name": "Venice",
-   "note": "",
-   "scope": "",
-   "sortName": "Venice",
-   "tgn": "7018159",
-   "total": 4,
-   "wikidata": "Q641"
+   "wikidata": ""
   },
   "place-vienna": {
    "country": "Austria",
-   "geonames": "2761369",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "48.2082",
@@ -9880,13 +7174,13 @@
    "note": "",
    "scope": "",
    "sortName": "Vienna",
-   "tgn": "7003321",
+   "tgn": "7008039",
    "total": 2,
-   "wikidata": "Q1741"
+   "wikidata": ""
   },
   "place-vitry": {
    "country": "France",
-   "geonames": "2967856",
+   "geonames": "",
    "historical": [
     "Vitri Francese"
    ],
@@ -9904,9 +7198,9 @@
    "note": "",
    "scope": "",
    "sortName": "Vitry-le-François",
-   "tgn": "7009747",
+   "tgn": "7007196",
    "total": 1,
-   "wikidata": "Q623374"
+   "wikidata": ""
   }
  },
  "events": [
@@ -9940,6 +7234,11 @@
      "date": "1570-08-17",
      "days": 9,
      "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-08-30",
+     "days": 22,
+     "slug": "1570-08-30"
     },
     {
      "date": "1570-09-01",
