@@ -21,7 +21,7 @@ pers-birague-c,person,Charles de Birague,"Birague, Charles de",1527-01-01,1591-0
 pers-bobba-t,person,Traiano di Fabrizio Bobba,"Bobba, Traiano di Fabrizio",,1590,,,2569,,,,,,2,2
 pers-bourbon-conde,person,"Louis I de Bourbon, Prince of Condé","Bourbon, Louis I de (Prince of Condé)",1530,1569,54264210,Q316913,9791,,,,,,1,1
 pers-bourbon-conde-h,person,Henri I de Bourbon,"Bourbon, Henri I de (Prince of Condé)",1552-12-29,1588-03-05,66475488,Q430973,10611,,,,,,3,2
-pers-bourbon-h-nav,person,Henri de Bourbon,"Bourbon, Henri de (King of Navarre)",1553-12-23,1610-05-14,266965539,Q936976,311,,,,,,12,9
+pers-bourbon-h-nav,person,Henri de Bourbon,"Bourbon, Henri de (King of Navarre)",1553-12-13,1610-05-14,266965539,Q936976,311,,,,,,12,9
 pers-bourbonvendome-l3,person,Louis III de Bourbon-Vendôme,"Bourbon-Vendôme, Louis III de",,,15202389,Q927365,,,,,,,2,2
 pers-briquemault-f,person,François de Beauvais,"Beauvais, François de (Seigneur de Briquemault)",c. 1502,1572,,Q96244832,32914,,,,,,1,1
 pers-caan,person,Caan,Caan,,,,,,,,,,,1,1
@@ -29,7 +29,7 @@ pers-castellan-h,person,Honoré Castellan,"Castellan, Honoré",,,,,,,,,,,1,1
 pers-cavriana-f,person,Filippo Cavriana,"Cavriana, Filippo",,,,,,,,,,,57,54
 pers-charite-h,person,Hugues de La Charité,"La Charité, Hugues de",,,,,,,,,,,0,0
 pers-cleves-h,person,Henriette de Clèves,"Clèves, Henriette de",1542-10-31,1601-06-24,4552150203822803250006,Q289646,4802,,,,,,4,3
-pers-coligny-g,person,Gaspard de Coligny,"Coligny, Gaspard de",1519-02-26,1572-09-03,79105346,Q204975,1461,,,,,,26,13
+pers-coligny-g,person,Gaspard de Coligny,"Coligny, Gaspard de",1519-02-16,1572-08-24,79105346,Q204975,1461,,,,,,26,13
 pers-concini-b,person,Bartolomeo Concino di Conti della Penna,"Concino di Conti della Penna, Bartolomeo",1507-01-01,1578-01-01,1975149844995502960005,Q3635357,,,,,,,7,5
 pers-corso-a,person,Alfonso Corso,"Corso, Alfonso",1548,1610,8649946,Q2651115,33276,,,,,,2,2
 pers-cosse-renee,person,Renée de Cossé-Brissac,"Cossé-Brissac, Renée de",c. 1550,1622,,,,,,,,,1,1
@@ -40,8 +40,8 @@ pers-delamarck-d,person,Diane de la Marck,"La Marck, Diane de",1544-06-16,1622,,
 pers-deste-i,person,Ippolito d'Este,"Este, Ippolito d'",1509-08-25,1572-12-01,74104371,Q554296,429,,,,,,3,3
 pers-deteligny-c,person,Charles de Téligny,"Téligny, Charles de",1535,1572,314802260,Q1868249,,,,,,,5,4
 pers-epernon-jl,person,Jean-Louis de Nogaret de La Valette,"Nogaret de La Valette, Jean-Louis de",1554,1642,51679355,Q667104,16017,,,,,,0,0
-pers-este-a,person,Alfonso II d'Este,"Este, Alfonso II d'",1533-12-02,1597-10-27,27142287,Q1856074,427,,,,,,4,4
-pers-este-card,person,Luigi d'Este,"Este, Luigi d'",1539-01-04,1586-12-30,61353628,Q2527555,1918,,,,,,1,1
+pers-este-a,person,Alfonso II d'Este,"Este, Alfonso II d'",1533-11-22,1597-10-27,27142287,Q1856074,427,,,,,,4,4
+pers-este-card,person,Luigi d'Este,"Este, Luigi d'",1538-12-25,1586-12-30,61353628,Q2527555,1918,,,,,,1,1
 pers-este-r,person,Renée de France,"France, Renée de",,,47560739,Q235841,,,,,,,2,1
 pers-farnese-a-card,person,Alessandro Farnese,"Farnese, Alessandro",1520-10-07,1589-03-02,23504937,Q248459,474,,,,,,1,1
 pers-france-c,person,Claude de France,"France, Claude de",1547-11-12,1575-02-21,305115069,Q242336,3108,,,,,,2,2
@@ -50,13 +50,13 @@ pers-gondi-albert,person,Albert de Gondi,"Gondi, Albert de",1522-11-04,1602-04-1
 pers-gontaut-a,person,Armand de Gontaut,"Gontaut, Armand de",1524,1592,44293531,Q678012,17294,,,,,,3,2
 pers-gonzaga-gugl,person,Guglielmo Gonzaga,"Gonzaga, Guglielmo",1538,1587,,Q935424,826,,,,,,0,0
 pers-gonzaga-isa,person,Isabella Gonzaga,"Gonzaga, Isabella",1537,1579,,Q3802268,2879,,,,,,1,1
-pers-gonzaga-l-nev,person,Luigi Gonzaga,"Gonzaga, Luigi",1539-09-28,1595-10-23,66529198,Q969113,3851,,,,,,28,18
-pers-gregorio-xiii,person,Gregory XIII,Gregory XIII (Pope),1502-01-11,1585-04-10,316407579,Q83029,,,,,,,10,5
+pers-gonzaga-l-nev,person,Luigi Gonzaga,"Gonzaga, Luigi",1539-09-18,1595-10-23,66529198,Q969113,3851,,,,,,28,18
+pers-gregorio-xiii,person,Gregory XIII,Gregory XIII (Pope),1502-01-01,1585-04-10,316407579,Q83029,,,,,,,10,5
 pers-guadagni,person,Guadagni family member,Guadagni family member,,,,,,,,,,,1,1
-pers-guise-h,person,Henri de Guise,"Guise, Henri de",1551-01-10,1588-12-23,69048019,Q313700,10004,,,,,,22,12
+pers-guise-h,person,Henri de Guise,"Guise, Henri de",1550-12-31,1588-12-23,69048019,Q313700,10004,,,,,,22,12
 pers-habsburg-e,person,Elisabeth,"Habsburg, Elisabeth (Queen of France)",1554-06-05,1592-01-22,97794481,Q164512,3390,,,,,,14,7
 pers-habsburg-f,person,Philippe,"Habsburg, Philippe (King of Spain)",1527-05-21,1598-09-13,88973996,Q34417,182,,,,,,19,7
-pers-habsburg-j,person,Juan de Austria,"Habsburg, Juan de Austria",1547-03-06,1578-10-11,96139668,Q157107,,,,,,,2,2
+pers-habsburg-j,person,Juan de Austria,"Habsburg, Juan de Austria",1547-02-24,1578-10-01,96139668,Q157107,,,,,,,2,2
 pers-habsburg-m,person,Maxmilian II,"Habsburg, Maximilian II",1527-07-31,1576-10-12,27863609,Q150862,874,,,,,,18,5
 pers-joyeuse-a,person,Anne de Joyeuse,"Joyeuse, Anne de",1560,1587,45097317,Q565927,17269,,,,,,1,1
 pers-katarzyna-k,person,Katarzyna,Katarzyna (Queen of Poland),1533-09-15,1572-02-28,81319677,Q237737,,,,,,,0,0
@@ -66,15 +66,15 @@ pers-lhospital-m,person,Michel de L'Hospital,"L'Hospital, Michel de",1507,1573-0
 pers-loignac-j,person,Jacques de Loignac,"Loignac, Jacques de",,,,,,,,,,,0,0
 pers-lorraine-c,person,Charles III de Lorraine,"Lorraine, Charles III de",1543-02-18,1608-05-14,59905716,Q505040,608,,,,,,2,2
 pers-lorraine-ch-aum,person,Charles de Lorraine,"Lorraine, Charles de (Duke of Aumale)",,,120178357,,,,,,,,2,2
-pers-lorraine-ch-card,person,Charles de Lorraine,"Lorraine, Charles de (Cardinal of Lorraine)",1524-02-27,1575-01-05,46904834,Q712264,12450,,,,,,23,10
-pers-lorraine-chr,person,Christine de Lorraine,"Lorraine, Christine de",1565-08-26,1637-12-19,4230910,Q257579,324,,,,,,0,0
+pers-lorraine-ch-card,person,Charles de Lorraine,"Lorraine, Charles de (Cardinal of Lorraine)",1524-02-17,1574-12-26,46904834,Q712264,12450,,,,,,23,10
+pers-lorraine-chr,person,Christine de Lorraine,"Lorraine, Christine de",1565-08-16,1637-12-19,4230910,Q257579,324,,,,,,0,0
 pers-lorraine-h,person,Henry of Lorraine,"Lorraine, Henry of",,,,,,,,,,,1,1
 pers-lorraine-h2,person,Henri II de Lorraine,"Lorraine, Henri II de",1563-11-08,1624-07-31,37071898,Q704178,3234,,,,,,0,0
 pers-maldonado-j,person,Juan Maldonado,"Maldonado, Juan",1533,1583-01-05,44310930,Q352804,20786,,,,,,3,1
 pers-mauvissiere,person,Michel de Castelnau,"Castelnau, Michel de",1520,1592,7396729,Q599082,,,,,,,2,1
 pers-medici-cat,person,Caterina de' Medici,"Medici, Caterina de'",1519,1589,4936327,Q131552,348,,,,,,53,18
 pers-medici-cos-1,person,Cosimo I de' Medici,"Medici, Cosimo I de'",1519,1574,59259382,Q48547,203,,,,,,32,13
-pers-medici-fer,person,Ferdinando de' Medici,"Medici, Ferdinando de'",1549-08-09,1609-02-17,100212180,Q297483,325,,,,,,4,2
+pers-medici-fer,person,Ferdinando de' Medici,"Medici, Ferdinando de'",1549-07-30,1609-02-17,100212180,Q297483,325,,,,,,4,2
 pers-medici-giovanna,person,Giovanna d'Austria,"Habsburg, Giovanna d'Austria",1547-01-24,1578-04-11,43563321,Q84459,,,,,,,0,0
 pers-michiel-g,person,Giovanni Michiel,"Michiel, Giovanni",1516,1596,,Q110269977,23349,,,,,,1,1
 pers-montluc-b,person,Blaise de Montluc,"Montluc, Blaise de",,,7394560,Q378025,,,,,,,4,4
@@ -82,9 +82,9 @@ pers-montm-fr,person,François de Montmorency,"Montmorency, François de",1530,1
 pers-montmorency-charles,person,Charles de Montmorency,"Montmorency, Charles de",1537-03-31,1612-05-05,,Q1066589,22740,,,,,,3,2
 pers-montmorency-g-thore,person,Guillaume de Montmorency-Thoré,"Montmorency-Thoré, Guillaume de",c. 1543,1593,4231152025930103600001,Q997352,,,,,,,2,1
 pers-montmorency-h,person,Henri de Montmorency,"Montmorency, Henri de",,,68977937,Q1605895,,,,,,,3,2
-pers-nassau-l,person,Ludwig von Nassau,"Nassau, Ludwig von",1538-01-20,1574-04-24,37283577,Q700300,,,,,,,5,4
-pers-nassau-w,person,Willem van Oranje,"Nassau, Willem van",1533-05-04,1584-07-10,49260512,Q78454,,,,,,,8,6
-pers-orleans-l,person,Léonor d'Orléans,"Orléans, Léonor d'",1540-01-01,1573-08-17,55145003707261340813,Q2741365,,,,,,,5,3
+pers-nassau-l,person,Ludwig von Nassau,"Nassau, Ludwig von",1538-01-10,1574-04-14,37283577,Q700300,,,,,,,5,4
+pers-nassau-w,person,Willem van Oranje,"Nassau, Willem van",1533-04-24,1584-07-10,49260512,Q78454,,,,,,,8,6
+pers-orleans-l,person,Léonor d'Orléans,"Orléans, Léonor d'",1540-01-01,1573-08-07,55145003707261340813,Q2741365,,,,,,,5,3
 pers-orsini-card,person,Flavio Orsini,"Orsini, Flavio",1532,1581-05-16,,Q1135565,15452,,,,,,1,1
 pers-orsini-t,person,Troilo Orsini,"Orsini, Troilo",1547,1577-12-02,,Q18421538,1986,,,,,,8,5
 pers-osmanli-s2,person,Selim II,"Osmanlı, Selim II",1524-05-28,1574-12-15,44058182,Q161872,,,,,,,11,6
@@ -92,15 +92,15 @@ pers-ossonville,person,Monsignore d'Ossonville,"Ossonville, Monsignore d'",,,,,,
 pers-papazzone-g,person,Giulio Cesare Papazzone,"Papazzone, Giulio Cesare",,,,,,,,,,,1,1
 pers-pazzi-f,person,Filippino Pazzi,"Pazzi, Filippino",,,,,,,,,,,1,1
 pers-petrucci,person,Alessandro Petrucci,"Petrucci, Alessandro",,1628,,,19579,,,,,,16,10
-pers-pfalz-fr-3,person,Friedrich III von der Pfalz,"Pfalz, Friedrich III von der",1515-02-24,1576-11-05,47559178,Q62171,968,,,,,,5,3
+pers-pfalz-fr-3,person,Friedrich III von der Pfalz,"Pfalz, Friedrich III von der",1515-02-14,1576-10-26,47559178,Q62171,968,,,,,,5,3
 pers-pfalz-jc,person,Johann Casimir von der Pfalz,"Pfalz, Johann Casimir von der",1543-03-07,1592-01-16,53772122,Q62482,,,,,,,4,2
-pers-pius-v,person,Pius V,Pius V (Pope),1504-01-27,1572-05-11,262746497,Q131945,359,,,,,,5,3
+pers-pius-v,person,Pius V,Pius V (Pope),1504-01-17,1572-05-01,262746497,Q131945,359,,,,,,5,3
 pers-pontefice,person,The Pope,Pope (unidentified),,,,,,,,,,,1,1
 pers-riorikide-i-iv,person,Ivan IV,Ivan IV (Czar of Russia),1530-08-25,1584-03-18,89633898,Q7996,3118,,,,,,3,2
 pers-rosieres,person,Rosières,Rosières,,,,,,,,,,,3,1
 pers-sachsen-aug,person,August von Sachsen,"Sachsen, August von",1526-07-31,1586-02-11,37714053,Q435016,,,,,,,2,1
 pers-sachsen-wil,person,Wilhelm von Sachsen,"Sachsen, Wilhelm von",,,,,,,,,,,3,1
-pers-salviati-a,person,Antonio Maria Salviati,"Salviati, Antonio Maria",1537-01-31,1602-04-26,60171422,Q1079460,14437,,,,,,1,1
+pers-salviati-a,person,Antonio Maria Salviati,"Salviati, Antonio Maria",1537-01-21,1602-04-26,60171422,Q1079460,14437,,,,,,1,1
 pers-savoie-h-susa,person,Honorat de Savoie,"Savoie, Honorat de (Marquis of Susa)",,,,,,,,,,,1,1
 pers-savoie-h-ten,person,Honorat de Savoie,"Savoie, Honorat de (Count of Tende)",,,,,,,,,,,1,1
 pers-savoie-j-nem,person,Jacques de Savoie,"Savoie, Jacques de",1531,1585,29843872,Q2579854,17254,,,,,,12,5
