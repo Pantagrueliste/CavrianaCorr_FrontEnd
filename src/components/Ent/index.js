@@ -89,14 +89,16 @@ export default function Ent({ k, id, children }) {
             loading="lazy"
           />
         )}
-        <span className={styles.cardName}>
-          {lead}
-          {rec.name}
+        <span className={styles.cardBody}>
+          <span className={styles.cardName}>
+            {lead}
+            {rec.name}
+          </span>
+          {dates && <span className={styles.cardDates}>{dates}</span>}
+          {detail.length > 0 && (
+            <span className={styles.cardDetail}>{detail.join(" · ")}</span>
+          )}
         </span>
-        {dates && <span className={styles.cardDates}>{dates}</span>}
-        {detail.length > 0 && (
-          <span className={styles.cardDetail}>{detail.join(" · ")}</span>
-        )}
       </span>
     </span>
   );
