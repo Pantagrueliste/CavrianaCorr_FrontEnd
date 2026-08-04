@@ -148,6 +148,22 @@
   display: inline;
 }
 
+/* The ciphertext itself: a run of numerals, set apart from the words so it is
+   never mistaken for one. */
+.cipher {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.85em;
+  color: var(--ifm-color-primary-dark);
+  background: var(--ifm-color-emphasis-100);
+  padding: 0.05em 0.35em;
+  border-radius: 3px;
+  word-break: break-all;
+}
+[data-theme='dark'] .cipher {
+  color: var(--ifm-color-primary-light);
+  background: var(--ifm-color-emphasis-200);
+}
+
 /* Reading view: the words, and no sign of the digits. */
 .cipher-pair .cipher {
   display: none;
