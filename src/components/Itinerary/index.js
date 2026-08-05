@@ -11,29 +11,63 @@ const FULL = [
   'July', 'August', 'September', 'October', 'November', 'December',
 ];
 
-/* A place keeps one colour throughout, so the eye can follow it down the
-   years. Paris is given the quietest of them: it is where he is most of the
-   time, and the point of the band is what interrupts it. */
-const PALETTE = [
-  '#8c9bab', '#b4531f', '#2f6f4e', '#7d4f9c', '#b98900',
-  '#356fa8', '#a03d5f', '#4f7a1f', '#8a6a3d', '#6f4b8a',
-];
+/* Thirteen separate hues, several of them neighbours, told a reader nothing.
+   There are really two families here — the places in France and the places in
+   Italy — and that is the distinction the band exists to show, since every
+   Italian month is an absence from the French court.
 
+   So: one hue to a country, one shade of it to each place, darkest for the
+   place he wrote from most. France reads cool and Italy warm, and a season
+   spent in Italy stands out from a year of Paris without anyone having to
+   consult the legend. Which country a place belongs to is read from its
+   record, not from a list kept here. */
+const RAMPS = {
+  France: ['#1d3c66', '#2f5f9e', '#4b82c4', '#79a5d6', '#a6c5e6', '#cbdcf0'],
+  Italy: ['#7a2c10', '#a8481f', '#c8702f', '#dfa059', '#efc99b'],
+};
+const UNRECORDED = '#6b6f76';
+
+const keyOf = (r) => r.place || r.label || '?';
 const nameOf = (row) => entities[row.place]?.name || row.label || 'unrecorded';
+
+/** France, Italy, or neither — from the place's own record. */
+function familyOf(key) {
+  const country = entities[key]?.country;
+  return RAMPS[country] ? country : 'Unrecorded';
+}
 
 export default function Itinerary() {
   const [hover, setHover] = useState(null);
 
-  const {years, places} = useMemo(() => {
-    // One colour per place, in order of how much of the correspondence it
-    // accounts for, so the commonest reads first in the legend.
+  const {years, families, colours} = useMemo(() => {
     const tally = new Map();
     itinerary.forEach((r) => {
-      const key = r.place || r.label || '?';
-      tally.set(key, (tally.get(key) || 0) + 1);
+      const k = keyOf(r);
+      tally.set(k, (tally.get(k) || 0) + 1);
     });
-    const ordered = [...tally.entries()].sort((a, b) => b[1] - a[1]);
-    const colour = new Map(ordered.map(([key], i) => [key, PALETTE[i % PALETTE.length]]));
+
+    // Within a country, the place he wrote from most takes the darkest shade.
+    const grouped = new Map();
+    [...tally.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .forEach(([key, n]) => {
+        const fam = familyOf(key);
+        if (!grouped.has(fam)) grouped.set(fam, []);
+        grouped.get(fam).push({key, n});
+      });
+
+    const colours = new Map();
+    grouped.forEach((list, fam) => {
+      const ramp = RAMPS[fam];
+      list.forEach((p, i) => {
+        // More places than shades would wrap and repeat a colour; the last
+        // shade is reused rather than starting the ramp again, which would
+        // put the palest beside the darkest.
+        p.colour = ramp ? ramp[Math.min(i, ramp.length - 1)] : UNRECORDED;
+        p.name = entities[p.key]?.name || (p.key === '?' ? 'unrecorded' : p.key);
+        colours.set(p.key, p.colour);
+      });
+    });
 
     const byYear = new Map();
     itinerary.forEach((r) => {
@@ -43,30 +77,28 @@ export default function Itinerary() {
       if (m >= 0 && m < 12) byYear.get(y)[m].push(r);
     });
 
+    // France first, then Italy, then whatever has no record.
+    const order = ['France', 'Italy', 'Unrecorded'];
     return {
       years: [...byYear.entries()].sort((a, b) => a[0] - b[0]),
-      places: ordered.map(([key, n]) => ({
-        key,
-        n,
-        colour: colour.get(key),
-        name: entities[key]?.name || key,
-      })),
+      families: order.filter((f) => grouped.has(f)).map((f) => [f, grouped.get(f)]),
+      colours,
     };
   }, []);
 
   if (years.length === 0) return null;
-  const colourOf = (key) => places.find((p) => p.key === key)?.colour || '#ccc';
 
   return (
     <section className={styles.section} id="movements">
       <h2 className={styles.title}>Where he wrote from</h2>
       <p className={styles.intro}>
         One row to the year, one cell to the month, coloured by the place a letter was sent
-        from. Cavriana is not travelling a circuit: he is at Paris and the court for most of
-        nine years, and what the band shows is the absences — Nevers in 1568, the journey to
-        Italy at the end of 1569, the summer of 1571 at the baths above Lucca, and the winters
-        the court kept at Blois. A month with no letter is left blank, which is a gap in the
-        correspondence and not a claim about where he was.
+        from — blue for France, warm for Italy, the darkest shade in each for the place he
+        wrote from most. Cavriana is not travelling a circuit: he is at Paris and the court for
+        most of nine years, and what the band shows is the absences from it — Nevers in 1568,
+        the journey to Italy at the end of 1569, the summer of 1571 at the baths above Lucca,
+        and the winters the court kept at Blois. A month with no letter is left empty, which is
+        a gap in the correspondence and not a claim about where he was.
       </p>
 
       <div className={styles.band}>
@@ -78,7 +110,7 @@ export default function Itinerary() {
                 if (rows.length === 0) {
                   return <span key={m} className={styles.empty} />;
                 }
-                const keys = [...new Set(rows.map((r) => r.place || r.label || '?'))];
+                const keys = [...new Set(rows.map(keyOf))];
                 return (
                   <span
                     key={m}
@@ -97,7 +129,7 @@ export default function Itinerary() {
                       <span
                         key={k}
                         className={styles.slice}
-                        style={{background: colourOf(k), flexGrow: 1}}
+                        style={{background: colours.get(k) || UNRECORDED, flexGrow: 1}}
                       />
                     ))}
                   </span>
@@ -137,21 +169,22 @@ export default function Itinerary() {
         )}
       </p>
 
-      <ul className={styles.legend}>
-        {places.map((p) => (
-          <li key={p.key} className={styles.legendItem}>
-            <span className={styles.swatch} style={{background: p.colour}} />
-            {entities[p.key] ? (
-              <Link to={`/places#${p.key}`}>{p.name}</Link>
-            ) : (
-              <span className={styles.unplaced} title="no authority record yet">
-                {p.name}
-              </span>
-            )}
-            <span className={styles.count}>{p.n}</span>
-          </li>
-        ))}
-      </ul>
+      {families.map(([family, list]) => (
+        <ul key={family} className={styles.legend}>
+          <li className={styles.family}>{family === 'Unrecorded' ? 'No record' : family}</li>
+          {list.map((p) => (
+            <li key={p.key} className={styles.legendItem}>
+              <span className={styles.swatch} style={{background: p.colour}} />
+              {entities[p.key] ? (
+                <Link to={`/places#${p.key}`}>{p.name}</Link>
+              ) : (
+                <span className={styles.unplaced}>{p.name}</span>
+              )}
+              <span className={styles.count}>{p.n}</span>
+            </li>
+          ))}
+        </ul>
+      ))}
     </section>
   );
 }

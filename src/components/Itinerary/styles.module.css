@@ -62,12 +62,14 @@
   display: block;
 }
 
-/* A month with no letter. Left as a gap in the correspondence rather than
-   filled in with a guess about where he was. */
+/* A month with no letter. Drawn as an absence rather than a colour: filled,
+   it competed with the palest place in the ramp, and "he wrote from here" and
+   "nothing survives" are the two things this band must never confuse. */
 .empty {
   height: 1.1rem;
   border-radius: 2px;
-  background: var(--ifm-color-emphasis-200);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: none;
 }
 
 .tick {
@@ -93,6 +95,15 @@
   padding: 0;
   list-style: none;
   font-size: 0.8rem;
+}
+
+.family {
+  width: 100%;
+  margin: 0.35rem 0 0.1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
 }
 
 .legendItem {
