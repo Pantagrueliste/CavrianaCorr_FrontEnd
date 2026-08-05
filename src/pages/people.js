@@ -25,31 +25,35 @@ function archiveLine(a) {
 }
 
 /**
- * The link says where; the figures say how much, and only when asked.
+ * The identifier says where; the figures say how much, and only when asked.
  *
  * A person's standing in the archive at large is worth knowing and is not
  * worth a line of every entry — two hundred documents belonging to somebody
  * else's collection should not compete with the letters this edition holds.
- * As with the entity cards, the detail wants a pointer; without one the link
- * still reaches the archive, which is where the figures come from.
+ * The figures hang off the identifier that was already there rather than
+ * naming the archive a second time. As with the entity cards, the detail
+ * wants a pointer; without one the link still reaches the archive, which is
+ * where the figures come from.
  */
-function ArchiveNote({archive, map}) {
+function ArchiveLink({map, archive}) {
   const id = useId();
+  const href = `https://mia.medici.org/Mia/index.html#/mia/people/${map}`;
+  if (!archive) {
+    return (
+      <a href={href} rel="noopener noreferrer">
+        Medici Archive {map}
+      </a>
+    );
+  }
   return (
-    <p className={styles.archive}>
-      <span className={styles.archiveWrap}>
-        <a
-          href={`https://mia.medici.org/Mia/index.html#/mia/people/${map}`}
-          rel="noopener noreferrer"
-          aria-describedby={id}
-        >
-          Medici Archive
-        </a>
-        <span className={styles.archiveDetail} id={id} role="note">
-          {archiveLine(archive)}
-        </span>
+    <span className={styles.archiveWrap}>
+      <a href={href} rel="noopener noreferrer" aria-describedby={id}>
+        Medici Archive {map}
+      </a>
+      <span className={styles.archiveDetail} id={id} role="note">
+        {archiveLine(archive)}
       </span>
-    </p>
+    </span>
   );
 }
 
@@ -99,7 +103,6 @@ function detail(rec) {
         </p>
       )}
       {rec.note && <p className={styles.detail}>{rec.note}</p>}
-      {rec.archive && <ArchiveNote archive={rec.archive} map={rec.map} />}
       {(rec.wikidata || rec.map || rec.viaf) && (
         <p className={styles.authority}>
           {rec.wikidata && (
@@ -113,12 +116,7 @@ function detail(rec) {
           {rec.map && (
             <>
               {rec.wikidata && " · "}
-              <a
-                href={`https://mia.medici.org/Mia/index.html#/mia/people/${rec.map}`}
-                rel="noopener noreferrer"
-              >
-                Medici Archive {rec.map}
-              </a>
+              <ArchiveLink map={rec.map} archive={rec.archive} />
             </>
           )}
           {rec.viaf && (

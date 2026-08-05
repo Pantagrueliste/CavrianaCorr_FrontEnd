@@ -144,22 +144,6 @@
 }
 
 /* The person's presence in the Medici Archive beyond this correspondence. */
-.archive {
-  margin: 0.25rem 0 0;
-  font-size: 0.8rem;
-}
-
-.archive a {
-  color: var(--ifm-color-emphasis-700);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--ifm-color-emphasis-400);
-}
-
-.archive a:hover {
-  color: var(--ifm-color-primary);
-  border-bottom-color: var(--ifm-color-primary);
-}
-
 /* The figures behind the archive link, brought up only when asked for. */
 .archiveWrap {
   position: relative;
