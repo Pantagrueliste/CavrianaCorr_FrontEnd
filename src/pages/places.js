@@ -1,6 +1,7 @@
 import React from 'react';
 import EntityIndex from '@site/src/components/EntityIndex';
 import PlaceMap from '@site/src/components/PlaceMap';
+import Itinerary from '@site/src/components/Itinerary';
 import styles from '@site/src/components/EntityIndex/styles.module.css';
 
 const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
@@ -59,7 +60,8 @@ export default function Places() {
       kind="place"
       title="Places"
       description="Every place named in the correspondence, under the spellings Cavriana used and their modern forms, with the letters that mention them."
-      renderDetail={detail}>
+      renderDetail={detail}
+      after={<Itinerary />}>
       <PlaceMap />
     </EntityIndex>
   );
