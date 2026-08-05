@@ -2,6 +2,7 @@ import React, { useId } from "react";
 import EntityIndex from "@site/src/components/EntityIndex";
 import GroupList from "@site/src/components/GroupList";
 import styles from "@site/src/components/EntityIndex/styles.module.css";
+import { lifeSpan } from "@site/src/utils/dates";
 
 const commons = (file, width) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
@@ -58,7 +59,7 @@ function ArchiveLink({map, archive}) {
 }
 
 function detail(rec) {
-  const life = [rec.birth, rec.death].filter(Boolean).join("–");
+  const life = lifeSpan(rec.birth, rec.death);
   const facts = [rec.role, life].filter(Boolean).join(" · ");
   return (
     <>

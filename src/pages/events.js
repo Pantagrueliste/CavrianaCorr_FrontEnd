@@ -4,20 +4,9 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import authorities from '@site/src/data/authorities.json';
 import styles from './events.module.css';
+import { longDate } from '@site/src/utils/dates';
 
 const {events = []} = authorities;
-
-const MONTHS = [
-  'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December',
-];
-
-/** Format an ISO date without letting the browser shift it by a timezone. */
-function longDate(iso) {
-  if (!iso) return '';
-  const [y, m, d] = iso.split('-').map(Number);
-  return `${d} ${MONTHS[m - 1]} ${y}`;
-}
 
 function span(ev) {
   if (ev.when) return longDate(ev.when);

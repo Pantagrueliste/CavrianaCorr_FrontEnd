@@ -2,19 +2,9 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import authorities from '@site/src/data/authorities.json';
 import styles from './styles.module.css';
+import { longDate } from '@site/src/utils/dates';
 
 const {events = []} = authorities;
-
-const MONTHS = [
-  'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December',
-];
-
-function longDate(iso) {
-  if (!iso) return '';
-  const [y, m, d] = iso.split('-').map(Number);
-  return `${d} ${MONTHS[m - 1]} ${y}`;
-}
 
 const days = (a, b) => Math.round((Date.parse(a) - Date.parse(b)) / 86400000);
 
