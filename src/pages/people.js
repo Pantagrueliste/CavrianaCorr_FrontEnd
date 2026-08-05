@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useId } from "react";
 import EntityIndex from "@site/src/components/EntityIndex";
 import GroupList from "@site/src/components/GroupList";
 import styles from "@site/src/components/EntityIndex/styles.module.css";
@@ -18,10 +18,39 @@ function archiveLine(a) {
   const parts = [];
   if (a.sent) parts.push(`${a.sent} sent`);
   if (a.received) parts.push(`${a.received} received`);
-  const head = `${n(a.documents, "document", "documents")} in the Medici Archive`;
+  const head = n(a.documents, "document", "documents");
   return wrote > 0
     ? `${head} — ${parts.join(", ")}`
     : `${head}, never as sender or recipient`;
+}
+
+/**
+ * The link says where; the figures say how much, and only when asked.
+ *
+ * A person's standing in the archive at large is worth knowing and is not
+ * worth a line of every entry — two hundred documents belonging to somebody
+ * else's collection should not compete with the letters this edition holds.
+ * As with the entity cards, the detail wants a pointer; without one the link
+ * still reaches the archive, which is where the figures come from.
+ */
+function ArchiveNote({archive, map}) {
+  const id = useId();
+  return (
+    <p className={styles.archive}>
+      <span className={styles.archiveWrap}>
+        <a
+          href={`https://mia.medici.org/Mia/index.html#/mia/people/${map}`}
+          rel="noopener noreferrer"
+          aria-describedby={id}
+        >
+          Medici Archive
+        </a>
+        <span className={styles.archiveDetail} id={id} role="note">
+          {archiveLine(archive)}
+        </span>
+      </span>
+    </p>
+  );
 }
 
 function detail(rec) {
@@ -70,16 +99,7 @@ function detail(rec) {
         </p>
       )}
       {rec.note && <p className={styles.detail}>{rec.note}</p>}
-      {rec.archive && (
-        <p className={styles.archive}>
-          <a
-            href={`https://mia.medici.org/Mia/index.html#/mia/people/${rec.map}`}
-            rel="noopener noreferrer"
-          >
-            {archiveLine(rec.archive)}
-          </a>
-        </p>
-      )}
+      {rec.archive && <ArchiveNote archive={rec.archive} map={rec.map} />}
       {(rec.wikidata || rec.map || rec.viaf) && (
         <p className={styles.authority}>
           {rec.wikidata && (

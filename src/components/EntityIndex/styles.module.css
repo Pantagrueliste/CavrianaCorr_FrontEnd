@@ -160,6 +160,42 @@
   border-bottom-color: var(--ifm-color-primary);
 }
 
+/* The figures behind the archive link, brought up only when asked for. */
+.archiveWrap {
+  position: relative;
+  display: inline-block;
+}
+
+.archiveDetail {
+  position: absolute;
+  bottom: 1.7em;
+  left: 0;
+  z-index: 20;
+  display: none;
+  width: max-content;
+  max-width: 18rem;
+  padding: 0.3rem 0.55rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 12%);
+}
+
+.archiveWrap:hover .archiveDetail,
+.archiveWrap:focus-within .archiveDetail {
+  display: block;
+}
+
+/* Without a pointer there is no hover to ask with. The link still reaches the
+   archive, which is where the figures come from. */
+@media (hover: none) {
+  .archiveDetail {
+    display: none !important;
+  }
+}
+
 /* Narrow the index by the Medici Archive's classification of a person's offices. */
 .roles {
   display: flex;
