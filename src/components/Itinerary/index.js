@@ -22,8 +22,12 @@ const FULL = [
    consult the legend. Which country a place belongs to is read from its
    record, not from a list kept here. */
 const RAMPS = {
-  France: ['#1d3c66', '#2f5f9e', '#4b82c4', '#79a5d6', '#a6c5e6', '#cbdcf0'],
-  Italy: ['#7a2c10', '#a8481f', '#c8702f', '#dfa059', '#efc99b'],
+  // Seven places in France and only so much room between one blue and the
+  // next, so the ramp turns as it lightens — deep navy through blue to a cool
+  // slate — rather than fading along a single hue, where the middle steps
+  // become a coin toss.
+  France: ['#16345c', '#22558c', '#2f7fae', '#5aa3c4', '#8dbcd2', '#b6d2de', '#d7e6ec'],
+  Italy: ['#7a2c10', '#ab4a1c', '#cd7a2b', '#e0a862', '#eecfa4'],
 };
 const UNRECORDED = '#6b6f76';
 
