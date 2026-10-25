@@ -10559,12 +10559,6 @@
  ],
  "itinerary": [
   {
-   "date": "1566-12-31",
-   "label": "Mantua",
-   "place": "place-mantova",
-   "slug": "1566-12-31"
-  },
-  {
    "date": "1568-04-06",
    "label": "Nevers",
    "place": "place-nevers",
@@ -10635,12 +10629,6 @@
    "label": "Ancona",
    "place": "place-ancona",
    "slug": "1569-11-29"
-  },
-  {
-   "date": "1569-12-09",
-   "label": "Ancona",
-   "place": "place-ancona",
-   "slug": "1569-12-09"
   },
   {
    "date": "1569-12-21",
@@ -11250,11 +11238,11 @@
   }
  ],
  "stats": {
-  "catalogued": 115,
+  "catalogued": 113,
   "cipherGroups": 258,
-  "firstYear": 1566,
+  "firstYear": 1568,
   "lastYear": 1574,
   "transcribed": 62,
-  "words": 46383
+  "words": 46374
  }
 }
